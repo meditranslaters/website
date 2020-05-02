@@ -19,9 +19,6 @@ https://nodejs.org/en/download/
 
 ## Run
 
-```sh
-cd ui
-```
 
 ```sh
 npm install
