@@ -31,17 +31,4 @@ npm install
 npm run start
 ```
 
-## Run
-
-```sh
-cd server
-```
-
-```sh
-npm install
-```
-
-```sh
-node server
-```
 Open the browser at http://localhost:3000
