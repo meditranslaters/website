@@ -1,4 +1,4 @@
-[
+var data = [
  [
   "﻿Text",
   "Translation",
@@ -27864,3 +27864,5 @@
   "Basic Terms"
  ]
 ]
+
+export default data;
