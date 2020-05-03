@@ -167,20 +167,11 @@ class App extends React.Component {
 
     }
 
-    //below code finds out if the search results are null
-    //thereby displaying no results found
-    var undefined_count = 0;
-    if (this.state.search_input != "") {
-      for (var i = 0; i < cards_html.length; i++) {
-        if (cards_html[i] == undefined) {
-          undefined_count++
-        }
 
-      }
-    }
-    if (undefined_count == cards_html.length && this.state.search_input != "") {
+    // Display no result if applicable.
+    if (this.state.search_input !== "" && (!cards_html || cards_html.length === cards_html.filter(a => !a).length)) {
       cards_html =
-        <div class="card" style={{
+        <div className="card" style={{
           width: "228px",
           height: "100px",
           background: "white",
@@ -188,13 +179,11 @@ class App extends React.Component {
           marginLeft: "1vh"
         }}>
 
-          <div class="card-body" style={{ textAlign: "left" }}>
-            <span style={{ fontSize: "1.3em", fontSize: "16" }}>No Results Found</span>
-
+          <div className="card-body" style={{ textAlign: "left" }}>
+            <span style={{ fontSize: "16" }}>No Results Found</span>
           </div>
         </div>
     }
-
 
     if (this.state.page_number == 1) { //show the translations
       var menu_content = <span>
