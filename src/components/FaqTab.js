@@ -4,11 +4,14 @@ const FaqTab = () => {
   return (
     <div>
       <table style={{ width: "100%", overflowY: "auto", background: "white", }}
-             className="table table-striped header-fixed">
-        <tr>
-          <br /><br /><br />
-          <span style={{ fontFamily: "Roboto Light", fontSize: "25px" }}>Coming Soon</span>
-        </tr>
+             className="table table-striped">
+        <tbody>
+          <tr>
+            <td>
+              <div style={{ padding: '80px 0', fontFamily: "Roboto Light", fontSize: "25px" }}>Coming Soon</div>
+            </td>
+          </tr>
+        </tbody>
       </table>
     </div>
   )
