@@ -23,7 +23,6 @@ export function getLanguageData(lang_a, lang_b) {
 }
 
 function readLanguageData(language_a,language_b) {
-  let rows = data;
   const response_json = {
     "a_languagedata": [],
     "b_languagedata": [],
@@ -41,7 +40,7 @@ function readLanguageData(language_a,language_b) {
 
     const categories = [
       "All",
-      ...filteredData.map(item => item[3]),
+      ...Array.from(new Set(filteredData.map(item => item[3]))),
     ];
 
     return {
@@ -58,7 +57,7 @@ function readLanguageData(language_a,language_b) {
 
     const categories = [
       "All",
-      ...filteredData.map(item => item[3]),
+      ...Array.from(new Set(filteredData.map(item => item[3]))),
     ];
 
     return {
@@ -71,49 +70,45 @@ function readLanguageData(language_a,language_b) {
   if (language_a !== "English" && language_b !== "English") {
     //get the translations for language a,b
     //seperate them for language a and language a and b
-    var language_a_data = []
-    var language_b_data = []
-    var lang_dict= {}
-    var categories = {}
+    const language_a_data = []
+    const language_b_data = []
 
-        // Your CSV data is in an array of arrys passed to this callback as rows.
-    for(var i = 0 ; i < rows.length ; i++){
-          if(rows[i][2] == language_a){
-            lang_dict[rows[i][0]] = {}
-          }
-          if(rows[i][2] == language_b){
-            lang_dict[rows[i][0]] = {}
-          }
-    }
-    for(var i = 0 ; i < rows.length ; i++){
-          if(rows[i][2] == language_a){
-            lang_dict[rows[i][0]][language_a] = [rows[i][1],rows[i][3]]
-            categories[rows[i][3]] = ""
-          }
-          if(rows[i][2] == language_b){
-            lang_dict[rows[i][0]][language_b] = [rows[i][1],rows[i][3]]
-            categories[rows[i][3]] = ""
-          }
-    }
-    // console.log('Sepearted Translations',lang_dict)
-    var final_categories = ["All"]
-    // console.log('Category JSON',categories)
+    const filteredData = data.filter(item => item[2] === language_a || item[2] === language_b);
 
-    for(var i in categories){
-        final_categories.push(i)
-    }
-    for(var i in lang_dict){
-        if(lang_dict[i][language_a] != null && lang_dict[i][language_b]!= null ){
-          language_a_data.push(lang_dict[i][language_a])
-          language_b_data.push(lang_dict[i][language_b])
+    const lang_dict = filteredData.reduce((acc, curr) => {
+      const [translationKey, translatedText, language, category] = curr;
+
+      if (!acc[translationKey]) {
+        acc[translationKey] = {};
+      }
+
+      acc[translationKey][language] = [translatedText, category];
+
+      return acc;
+    }, {});
+
+    const categories = [
+      "All",
+      ...Array.from(new Set(filteredData.map(item => item[3]))),
+    ]
+
+    for (const prop in lang_dict) {
+      if (lang_dict.hasOwnProperty(prop)) {
+        const langAData = lang_dict[prop][language_a]
+        const langBData = lang_dict[prop][language_b]
+
+        if (langAData && langBData) {
+          language_a_data.push(langAData)
+          language_b_data.push(langBData)
         }
-
+      }
     }
 
-    response_json["a_languagedata"] = language_a_data.map((item, index) => ({ ...item, number: index + 1 }))
-    response_json["b_languagedata"] = language_b_data.map((item, index) => ({ ...item, number: index + 1 }))
-    response_json["categories"] = final_categories
-    return response_json
+    return {
+      a_languagedata: language_a_data.map((item, index) => ({ ...item, number: index + 1 })),
+      b_languagedata: language_b_data.map((item, index) => ({ ...item, number: index + 1 })),
+      categories,
+    }
   }
 
   return response_json;

@@ -22,7 +22,6 @@ import {
 } from './Methods/readSheet'
 
 const { a_language, a_languagedata, b_language, b_languagedata, categories } = getLanguageData("English", "Bengali / বাংলা");
-const final_categories = Array.from(new Set(categories))
 
 const App = () => {
   // pageNumber: 1 means the default will be master list
@@ -95,7 +94,7 @@ const App = () => {
                 placeholder="Search"
                 id="input-search"
                 onChange={(e) => setSearchInput(e.target.value)}
-                x-webkit-speech
+                x-webkit-speech={"true"}
               />
             </div>
             <div className="col-auto">
@@ -118,7 +117,7 @@ const App = () => {
                 <tr>
                   <td align="left">
                     <CategoryList
-                      categories={final_categories}
+                      categories={categories}
                       selectedCategory={selectedCategory}
                       onClickCategory={setSelectedCategory}
                     />
