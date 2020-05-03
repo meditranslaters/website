@@ -70,8 +70,8 @@ function readLanguageData(language_a,language_b,rows){
 
 
     for(var i = 0 ; i < rows.length ; i++){
-          console.log('language_b',language_b)
-          console.log('language_b',rows[i][2])
+          // console.log('language_b',language_b)
+          // console.log('language_b',rows[i][2])
           if(rows[i][2] == language_b){
 
             language_a_data.push([rows[i][0],rows[i][3]])
@@ -145,9 +145,9 @@ function readLanguageData(language_a,language_b,rows){
             categories[rows[i][3]] = ""
           }
     }
-    console.log('Sepearted Translations',lang_dict)
+    // console.log('Sepearted Translations',lang_dict)
     var final_categories = ["All"]
-    console.log('Category JSON',categories)
+    // console.log('Category JSON',categories)
 
     for(var i in categories){
         final_categories.push(i)

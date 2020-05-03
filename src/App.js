@@ -99,13 +99,13 @@ class App extends React.Component {
 
     //create html content for dropdowns using the array of all supported languages
     var options_language_a = this.state.supported_langs.map(function(item, idx) {
-      console.log(idx, item)
+      // console.log(idx, item)
       return (
         <option value={item}>{item}</option>
       )
     })
     var options_language_b = this.state.supported_langs.map(function(item, idx) {
-      console.log(idx, item)
+      // console.log(idx, item)
       return (
         <option value={item}>{item}</option>
       )
@@ -166,7 +166,7 @@ class App extends React.Component {
             this_.state.b_languagedata[idx][0].toLowerCase().indexOf(this_.state.search_input.toLowerCase()) >
             -1) {
             if (this_.state.category_selected == item[1] || this_.state.category_selected == "All") {
-              console.log('b_language_data', this_.state.b_languagedata[idx])
+              // console.log('b_language_data', this_.state.b_languagedata[idx])
 
               return (
                 <div class="card" style={{
