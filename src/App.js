@@ -12,7 +12,7 @@ import FaqTab from './components/FaqTab'
 import Footer from './components/Footer'
 import LanguageSelect from './components/LanguageSelect'
 import Header from './components/Header'
-import TabButton from './components/TabButton'
+import TabButtonList from './components/TabButtonList'
 
 //import methods from readSheet.js
 import {
@@ -284,26 +284,10 @@ class App extends React.Component {
           </div>
           <br />
 
-          <div className="container-fluid">
-            <div className="row">
-              <TabButton
-                isActive={this.state.page_number === 1}
-                onClick={() => this.changeMenu(1)}
-                label={"MASTER LIST"}
-              />
-              <TabButton
-                isActive={this.state.page_number === 2}
-                onClick={() => this.changeMenu(2)}
-                label={"FAQ"}
-                width={"30%"}
-              />
-              <TabButton
-                isActive={this.state.page_number === 3}
-                onClick={() => this.changeMenu(3)}
-                label={"DOWNLOAD"}
-              />
-            </div>
-          </div>
+          <TabButtonList
+            activeTabNumber={this.state.page_number}
+            onTabButtonClick={this.changeMenu}
+          />
         </div>
         {menu_content}
         <br /><br />
