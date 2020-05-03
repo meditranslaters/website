@@ -11,9 +11,9 @@ import CategoryList from './components/CategoryList'
 import DownloadTab from './components/DownloadTab'
 import FaqTab from './components/FaqTab'
 import Footer from './components/Footer'
-import LanguageSelect from './components/LanguageSelect'
 import Header from './components/Header'
 import TabButtonList from './components/TabButtonList'
+import TranslationCard from './components/TranslationCard'
 
 //import methods from readSheet.js
 import {
@@ -46,8 +46,8 @@ const App = () => {
     let cards;
 
     if (aLanguageData.length && bLanguageData.length && aLanguageData.length === bLanguageData.length) {
-      //loop through the language data
       const loweredCaseSearchInput = searchInput.toLowerCase();
+
       cards = aLanguageData
         .filter((item, idx) => {
           // filter out the input based on the search
@@ -59,26 +59,13 @@ const App = () => {
 
           return matchSearchInput && itemInSelectedCategory;
         })
-        .map((item, idx) => (
-            <div key={item.number} className="card" style={{
-              width: 228,
-              background: "#fff",
-              marginTop: "1em",
-              marginLeft: "1vh"
-            }}>
-              <div className="card-body" style={{ textAlign: "left" }}>
-                <p className="card-text" style={{
-                  color: "#8C8C8C",
-                  fontFamily: "Bebas Neue",
-                  height: 29,
-                  fontStyle: "bold",
-                  fontSize: 18,
-                }}><b>{item.number}</b></p>
-                <p className="card-text" style={{ color: "gray", fontSize: 14 }}>{item[0]}</p>
-                <p className="card-title" style={{ fontSize: 16 }}>{bLanguageData[idx][0]}</p>
-              </div>
-            </div>
-          )
+        .map((item, idx) =>
+          <TranslationCard
+            key={item.number}
+            number={item.number}
+            textLanguageFrom={item[0]}
+            textLanguageTo={bLanguageData[idx][0]}
+          />
         )
     }
 
