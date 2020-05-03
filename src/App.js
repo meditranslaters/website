@@ -6,10 +6,11 @@ import './Roboto-Black.ttf'
 import './App.css';
 
 //import components
-import Header from './components/Header'
+import CategoryList from './components/CategoryList'
 import DownloadTab from './components/DownloadTab'
 import FaqTab from './components/FaqTab'
 import Footer from './components/Footer'
+import Header from './components/Header'
 import TabButton from './components/TabButton'
 
 //import methods from readSheet.js
@@ -112,46 +113,7 @@ class App extends React.Component {
     })
 
     //retrieve categories
-    var categories = this.state.categories
-    let mySet = new Set(categories)
-    let final_categories = Array.from(mySet)
-
-    //prepare content for all the categories shown on the left menu
-    var cat_option_html = final_categories.map(function(item, idx) {
-      var all_button = ""
-      var highlight_color = this_.state.category_selected
-      var bg_color = ""
-      var color = ""
-      if (item == highlight_color) {
-        bg_color = "#4B6261"
-        color = "white"
-      } else {
-        bg_color = "lightgray"
-        color = "#373737"
-      }
-      return (
-        <span><button type="button" class="btn " onClick={() => {this_.onChangeCategory(item)}}
-                      style={{
-                        fontWeight: 3,
-                        padding: "0.3vh",
-                        textAlign: "center",
-                        marginLeft: "-1.5vh",
-                        fontFamily: "Bebas Neue",
-                        background: bg_color,
-                        color: color,
-                        width: "126px",
-                        height: "53px",
-                        fontSize: "1.1em",
-                        borderTopLeftRadius: "0em",
-                        marginTop: "1vh",
-                        fontSize: "1.1em",
-                        borderBottomLeftRadius: "0em",
-                        borderTopRightRadius: "1em",
-                        borderBottomRightRadius: "1em",
-                        textAlign: 'left'
-                      }}>&nbsp;{item}</button><br /></span>
-      )
-    })
+    const final_categories = Array.from(new Set(this.state.categories))
 
     //prepare the content for the translations
     var cards_html;
@@ -259,7 +221,11 @@ class App extends React.Component {
                                    class="table table-striped header-fixed">
                                 <tr>
                                   <td align="left">
-                                  {cat_option_html}
+                                    <CategoryList
+                                      categories={final_categories}
+                                      selectedCategory={this_.state.category_selected}
+                                      onClickCategory={this_.onChangeCategory}
+                                    />
                                   </td>
                                   <td>
                                     <div class="row" style={{
