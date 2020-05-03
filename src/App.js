@@ -205,7 +205,7 @@ class App extends React.Component {
            </div>
           <table
             style={{ width: "100%", overflowY: "auto", background: "white" }}
-            className="table table-striped header-fixed">
+            className="table table-striped">
               <tbody>
                 <tr>
                   <td align="left">
@@ -242,30 +242,34 @@ class App extends React.Component {
 
       <div className="App" style={{ width: "100%" }}>
         <Header />
-        <div style={{
-          boxShadow: "0px 3px lightgray",
-          align: "center",
-          textAlign: "center",
-          color: "white",
-          width: '100%'
-        }} id="banner">
-          <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-5" style={{
-              color: "white",
-              fontSize: "14",
-              fontFamily: "Roboto",
-              marginLeft: "3vh",
-              marginRight: "3vh"
-            }}><br />
+        <div
+          id="banner"
+          style={{
+            boxShadow: "0px 3px lightgray",
+            textAlign: "center",
+            color: "white",
+            width: '100%'
+          }}
+          className="container-fluid"
+        >
+          <div className="row justify-content-center">
+            <div
+              className="col-md-5"
+              style={{
+                color: "white",
+                fontSize: "14",
+                fontFamily: "Roboto",
+                marginTop: 12,
+                marginBottom: 12,
+                marginLeft: "3vh",
+                marginRight: "3vh"
+              }}>
               A Free Resource for Front-Line Health Workers and Patients to communicate with one
-              another, regardless of languages spoken <br /><br />
+              another, regardless of languages spoken
             </div>
-            <div class="col-md-3"></div>
           </div>
-          <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6" style={{
+          <div className="row justify-content-center">
+            <div className="col-md-6" style={{
               color: "#1A1A1A",
               fontSize: "12",
               marginLeft: "3vh",
@@ -293,9 +297,7 @@ class App extends React.Component {
                 value={this.state.b_language}
                 options={this.state.supported_langs}
               />
-
             </div>
-            <div class="col-md-3"></div>
           </div>
           <br />
 
