@@ -1,4 +1,3 @@
-import {props__export} from '../App.js'
 import data from './data.js'
 
 export function getSupportedLanguages() {
@@ -8,47 +7,19 @@ export function getSupportedLanguages() {
   ];
 
   // De-duplicate the language
-  // return Array.from(new Set(languagesSupported));
-  const arr = Array.from(new Set(languagesSupported));
-
-  props__export.setState({supported_langs:[]})
-
-  for( var i = 0 ; i < arr.length; i++) {
-    props__export.setState({supported_langs:props__export.state.supported_langs.push(arr[i])})
-  }
+  return Array.from(new Set(languagesSupported));
 }
 
 export function getLanguageData(lang_a, lang_b) {
   const lang_data = readLanguageData(lang_a, lang_b)
 
-  // return {
-  //   a_languagedata: lang_data["a_languagedata"],
-  //   a_language: lang_a,
-  //   b_languagedata: lang_data["b_languagedata"],
-  //   b_language: lang_b,
-  //   categories: lang_data["categories"],
-  // }
-
-  setTimeout(
-    function() {
-      props__export.setState({a_languagedata:lang_data["a_languagedata"]})
-      props__export.setState({a_language:lang_a})
-      props__export.setState({b_languagedata:lang_data["b_languagedata"]})
-      props__export.setState({b_language:lang_b})
-      props__export.setState({categories:lang_data["categories"]})
-    }
-    .bind(this),
-    100
-  );
-}
-
-
-export function onChangeCategory(item){
-  this.setState({category_selected:item})
-}
-
-export function onChangeSearch(e){
-  this.setState({search_input:e.target.value})
+  return {
+    a_languagedata: lang_data["a_languagedata"],
+    a_language: lang_a,
+    b_languagedata: lang_data["b_languagedata"],
+    b_language: lang_b,
+    categories: lang_data["categories"],
+  }
 }
 
 function readLanguageData(language_a,language_b) {

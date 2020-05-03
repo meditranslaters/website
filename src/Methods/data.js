@@ -1,11 +1,5 @@
 var data = [
  [
-  "﻿Text",
-  "Translation",
-  "Language",
-  "Category"
- ],
- [
   "I am a doctor. I do not speak your language. I will communicate with you using this website. Answer me in English as much as possible. Thank you.",
   "Saya adalah seorang dokter. Saya tidak bisa berbicara dalam bahasa Indonesia. Saya akan berkomunikasi dengan anda menggunakan website ini. Tolong jawab saya dalam bahasa Inggris sebanyak mungkin sebisa anda. Terima kasih.",
   "Bahasa Indonesia",
