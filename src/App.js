@@ -245,10 +245,8 @@ class App extends React.Component {
         <div
           id="banner"
           style={{
-            boxShadow: "0px 3px lightgray",
-            textAlign: "center",
-            color: "white",
-            width: '100%'
+            width: '100%',
+            paddingBottom: 16,
           }}
           className="container-fluid"
         >
@@ -299,13 +297,13 @@ class App extends React.Component {
               />
             </div>
           </div>
-          <br />
-
-          <TabButtonList
-            activeTabNumber={this.state.page_number}
-            onTabButtonClick={this.changeMenu}
-          />
         </div>
+
+        <TabButtonList
+          activeTabNumber={this.state.page_number}
+          onTabButtonClick={this.changeMenu}
+        />
+
         {tabContent}
         <br /><br />
         <Footer />

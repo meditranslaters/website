@@ -3,7 +3,7 @@ import TabButton from './TabButton'
 
 const TabButtonList = ({ activeTabNumber, onTabButtonClick }) => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" style={{ boxShadow: "0px 3px lightgray" }}>
       <div className="row">
         <TabButton
           isActive={activeTabNumber === 1}
