@@ -10,6 +10,7 @@ import CategoryList from './components/CategoryList'
 import DownloadTab from './components/DownloadTab'
 import FaqTab from './components/FaqTab'
 import Footer from './components/Footer'
+import LanguageSelect from './components/LanguageSelect'
 import Header from './components/Header'
 import TabButton from './components/TabButton'
 
@@ -94,23 +95,7 @@ class App extends React.Component {
 
 
   render() {
-
-
     var this_ = this;
-
-    //create html content for dropdowns using the array of all supported languages
-    var options_language_a = this.state.supported_langs.map(function(item, idx) {
-      // console.log(idx, item)
-      return (
-        <option value={item}>{item}</option>
-      )
-    })
-    var options_language_b = this.state.supported_langs.map(function(item, idx) {
-      // console.log(idx, item)
-      return (
-        <option value={item}>{item}</option>
-      )
-    })
 
     //retrieve categories
     const final_categories = Array.from(new Set(this.state.categories))
@@ -271,32 +256,29 @@ class App extends React.Component {
               marginLeft: "3vh",
               marginRight: "3vh"
             }}>
-              <select id="English" name="English"
-                      onChange={(e) => {this.getLanguageData(e.target.value, this.state.b_language)}}
-                      value={this.state.a_language} style={{
-                color: "black",
-                background: "white",
-                border: "2px solid black",
-                width: "43%"
-              }} class="dropdown_language_selection">
-                &nbsp;&nbsp;{options_language_a}
-              </select>
+              <LanguageSelect
+                id={"select-language-from"}
+                name={"select-language-from"}
+                onChange={(e) => {this.getLanguageData(e.target.value, this.state.b_language)}}
+                value={this.state.a_language}
+                options={this.state.supported_langs}
+              />
+
               <span style={{
                 width: "5%",
                 marginLeft: "1vh",
                 marginRight: '1vh',
                 color: 'white'
               }}>TO</span>
-              <select id="Bengali / বাংলা" name="Bengali / বাংলা"
-                      onChange={(e) => {this.getLanguageData(this.state.a_language, e.target.value)}}
-                      value={this.state.b_language} style={{
-                color: "black",
-                background: "white",
-                border: "2px solid black",
-                width: "43%"
-              }} class="dropdown_language_selection">
-                &nbsp;&nbsp;{options_language_b}
-              </select>
+
+              <LanguageSelect
+                id={"select-language-to"}
+                name={"select-language-to"}
+                onChange={(e) => {this.getLanguageData(this.state.a_language, e.target.value)}}
+                value={this.state.b_language}
+                options={this.state.supported_langs}
+              />
+
             </div>
             <div class="col-md-3"></div>
           </div>
