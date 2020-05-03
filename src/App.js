@@ -7,6 +7,8 @@ import './App.css';
 
 //import components
 import Header from './components/Header'
+import DownloadTab from './components/DownloadTab'
+import FaqTab from './components/FaqTab'
 import Footer from './components/Footer'
 
 //import methods from readSheet.js
@@ -206,21 +208,10 @@ class App extends React.Component{
                             </span>
     }
     else if(this.state.page_number == 2){ //show faq content
-      var menu_content =         <table style={{width:"100%",overflowY:"auto",background:"white",}}  class="table table-striped header-fixed">
-                                    <tr>
-                                      <br /><br /><br />
-                                      <span style={{fontFamily:"Roboto Light",fontSize:"25px"}}>Coming Soon</span>
-                                    </tr>
-                                  </table>
+      var menu_content = <FaqTab />
 
     }else if(this.state.page_number == 3){//show the download content
-      var menu_content =         <table style={{width:"100%",overflowY:"auto",background:"white"}}  class="table table-striped header-fixed">
-                                    <tr>
-                                      <br /><br /><br />
-                                      <span style={{fontFamily:"Roboto Light",fontSize:"25px"}}>Coming Soon</span>
-                                    </tr>
-                                  </table>
-
+      var menu_content = <DownloadTab />
     }
 
 
