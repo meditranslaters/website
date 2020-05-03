@@ -12,6 +12,7 @@ import DownloadTab from './components/DownloadTab'
 import FaqTab from './components/FaqTab'
 import Footer from './components/Footer'
 import Header from './components/Header'
+import NoResult from './components/NoResult'
 import TabButtonList from './components/TabButtonList'
 import TranslationCard from './components/TranslationCard'
 
@@ -71,19 +72,7 @@ const App = () => {
 
     // Display no result if applicable
     if (searchInput !== "" && (!cards || !cards.length)) {
-      return (
-        <div className="card" style={{
-          width: 228,
-          height: 100,
-          background: "#fff",
-          marginTop: "1em",
-          marginLeft: "1vh"
-        }}>
-          <div className="card-body" style={{ textAlign: "left" }}>
-            <span style={{ fontSize: 16 }}>No Results Found</span>
-          </div>
-        </div>
-      )
+      return <NoResult />
     }
 
     return cards;
