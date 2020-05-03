@@ -84,8 +84,8 @@ function readLanguageData(language_a,language_b,rows){
     for(var i = 0 ; i < rows_sort.length ; i++){
           categories.push(rows_sort[i][3])
     }
-    response_json["a_languagedata"] = language_a_data
-    response_json["b_languagedata"] = language_b_data
+    response_json["a_languagedata"] = language_a_data.map((item, index) => ({ ...item, number: index + 1 }))
+    response_json["b_languagedata"] = language_b_data.map((item, index) => ({ ...item, number: index + 1 }))
     response_json["categories"] = categories
     return response_json
 
@@ -110,8 +110,8 @@ function readLanguageData(language_a,language_b,rows){
     for(var i = 0 ; i < rows_sort.length ; i++){
           categories.push(rows_sort[i][3])
     }
-    response_json["a_languagedata"] = language_a_data
-    response_json["b_languagedata"] = language_b_data
+    response_json["a_languagedata"] = language_a_data.map((item, index) => ({ ...item, number: index + 1 }))
+    response_json["b_languagedata"] = language_b_data.map((item, index) => ({ ...item, number: index + 1 }))
     response_json["categories"] = categories
     return response_json
 
@@ -160,8 +160,8 @@ function readLanguageData(language_a,language_b,rows){
 
    }
 
-  response_json["a_languagedata"] = language_a_data
-  response_json["b_languagedata"] = language_b_data
+  response_json["a_languagedata"] = language_a_data.map((item, index) => ({ ...item, number: index + 1 }))
+  response_json["b_languagedata"] = language_b_data.map((item, index) => ({ ...item, number: index + 1 }))
   response_json["categories"] = final_categories
   return response_json
 

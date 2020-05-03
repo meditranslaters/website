@@ -102,71 +102,61 @@ class App extends React.Component {
     const final_categories = Array.from(new Set(this.state.categories))
 
     //prepare the content for the translations
-    var cards_html;
+    let cards_html;
+
     //check if the data retrieved from the server is not null
-    if (this.state.b_languagedata.length != 0 && this.state.b_languagedata.length != 0 &&
-      this.state.a_languagedata.length == this.state.b_languagedata.length) {
+    if (
+      this.state.b_languagedata.length
+      && this.state.b_languagedata.length
+      && this.state.a_languagedata.length === this.state.b_languagedata.length
+    ) {
       //loop through the language data
-      cards_html = this.state.a_languagedata.map(function(item, idx) {
-          //filter out the input based on the search
-          if (this_.state.search_input == idx + 1 ||
-            item[0].toLowerCase().indexOf(this_.state.search_input.toLowerCase()) > -1 ||
-            this_.state.b_languagedata[idx][0].toLowerCase().indexOf(this_.state.search_input.toLowerCase()) >
-            -1) {
-            if (this_.state.category_selected == item[1] || this_.state.category_selected == "All") {
-              // console.log('b_language_data', this_.state.b_languagedata[idx])
+      cards_html = this.state.a_languagedata
+        .filter((item, idx) => {
+          // filter out the input based on the search
+          const matchSearchInput = this_.state.search_input === item.number
+            || item[0].toLowerCase().indexOf(this_.state.search_input.toLowerCase()) > -1
+            || this_.state.b_languagedata[idx][0].toLowerCase().indexOf(this_.state.search_input.toLowerCase()) > -1;
 
-              return (
-                <div class="card" style={{
-                  width: "228px",
-                  background: "white",
-                  marginTop: "1em",
-                  marginLeft: "1vh"
-                }}>
-                  <div class="card-body" style={{ textAlign: "left" }}>
-                    <p class="card-text" style={{
-                      color: "#8C8C8C",
-                      fontFamily: "Bebas Neue",
-                      height: "29px",
-                      fontStyle: "bold",
-                      fontSize: "18"
-                    }}><b>{idx + 1}</b></p>
-                    <p class="card-text" style={{ color: "gray", fontSize: "14" }}>{item[0]}</p>
-                    <p class="card-title" style={{
-                      fontSize: "1.3em",
-                      fontSize: "16"
-                    }}>{this_.state.b_languagedata[idx][0]}</p>
-                  </div>
-                </div>
-              )
-            }
-          }
+          const itemInSelectedCategory = this_.state.category_selected === item[1] || this_.state.category_selected === "All";
 
-
-        }
-      )
-
-    } else {
-
-      cards_html = ""
-
-
+          return matchSearchInput && itemInSelectedCategory;
+        })
+        .map((item, idx) => (
+            <div className="card" style={{
+              width: 228,
+              background: "#fff",
+              marginTop: "1em",
+              marginLeft: "1vh"
+            }}>
+              <div className="card-body" style={{ textAlign: "left" }}>
+                <p className="card-text" style={{
+                  color: "#8C8C8C",
+                  fontFamily: "Bebas Neue",
+                  height: 29,
+                  fontStyle: "bold",
+                  fontSize: 18,
+                }}><b>{item.number}</b></p>
+                <p className="card-text" style={{ color: "gray", fontSize: 14 }}>{item[0]}</p>
+                <p className="card-title" style={{ fontSize: 16 }}>{this_.state.b_languagedata[idx][0]}</p>
+              </div>
+            </div>
+          )
+        )
     }
 
-
     // Display no result if applicable.
-    if (this.state.search_input !== "" && (!cards_html || cards_html.length === cards_html.filter(a => !a).length)) {
+    if (this.state.search_input !== "" && (!cards_html || !cards_html.length)) {
       cards_html =
         <div className="card" style={{
-          width: "228px",
-          height: "100px",
-          background: "white",
+          width: 228,
+          height: 100,
+          background: "#fff",
           marginTop: "1em",
           marginLeft: "1vh"
         }}>
-
           <div className="card-body" style={{ textAlign: "left" }}>
-            <span style={{ fontSize: "16" }}>No Results Found</span>
+            <span style={{ fontSize: 16 }}>No Results Found</span>
           </div>
         </div>
     }
