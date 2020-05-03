@@ -1,5 +1,4 @@
 import React from 'react';
-import LanguageSelect from './LanguageSelect'
 
 const Banner = ({ languageSelectFrom, languageSelectTo }) => {
   return (
