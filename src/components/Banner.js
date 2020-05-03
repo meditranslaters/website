@@ -1,6 +1,26 @@
 import React from 'react';
+import { getLanguageData, getSupportedLanguages } from '../Methods/readSheet'
+import LanguageSelect from './LanguageSelect'
 
-const Banner = ({ languageSelectFrom, languageSelectTo }) => {
+const supportedLanguages = getSupportedLanguages();
+
+const Banner = ({ aLanguage, bLanguage, setALanguage, setALanguageData, setBLanguage, setBLanguageData }) => {
+  const onChangeLanguageFrom = (e) => {
+    const { a_language, a_languagedata, b_language, b_languagedata } = getLanguageData(e.target.value, bLanguage);
+    setALanguage(a_language);
+    setALanguageData(a_languagedata);
+    setBLanguage(b_language);
+    setBLanguageData(b_languagedata);
+  }
+
+  const onChangeLanguageTo = (e) => {
+    const { a_language, a_languagedata, b_language, b_languagedata } = getLanguageData(aLanguage, e.target.value);
+    setALanguage(a_language);
+    setALanguageData(a_languagedata);
+    setBLanguage(b_language);
+    setBLanguageData(b_languagedata);
+  }
+
   return (
     <div
       id="banner"
@@ -33,7 +53,13 @@ const Banner = ({ languageSelectFrom, languageSelectTo }) => {
           marginLeft: "3vh",
           marginRight: "3vh"
         }}>
-          { languageSelectFrom }
+          <LanguageSelect
+            id={"select-language-from"}
+            name={"select-language-from"}
+            onChange={onChangeLanguageFrom}
+            value={aLanguage}
+            options={supportedLanguages}
+          />
 
           <span style={{
             width: "5%",
@@ -42,7 +68,13 @@ const Banner = ({ languageSelectFrom, languageSelectTo }) => {
             color: 'white'
           }}>TO</span>
 
-          { languageSelectTo }
+          <LanguageSelect
+            id={"select-language-to"}
+            name={"select-language-to"}
+            onChange={onChangeLanguageTo}
+            value={bLanguage}
+            options={supportedLanguages}
+          />
         </div>
       </div>
     </div>
