@@ -6,6 +6,7 @@ import './Roboto-Black.ttf'
 import './App.css';
 
 //import components
+import Banner from './components/Banner'
 import CategoryList from './components/CategoryList'
 import DownloadTab from './components/DownloadTab'
 import FaqTab from './components/FaqTab'
@@ -238,66 +239,32 @@ class App extends React.Component {
       tabContent = <DownloadTab />
     }
 
+    const languageSelectFrom = (
+      <LanguageSelect
+        id={"select-language-from"}
+        name={"select-language-from"}
+        onChange={(e) => {this.getLanguageData(e.target.value, this.state.b_language)}}
+        value={this.state.a_language}
+        options={this.state.supported_langs}
+      />
+    )
+
+    const languageSelectTo = (
+      <LanguageSelect
+        id={"select-language-to"}
+        name={"select-language-to"}
+        onChange={(e) => {this.getLanguageData(this.state.a_language, e.target.value)}}
+        value={this.state.b_language}
+        options={this.state.supported_langs}
+      />
+    )
+
     return (
 
       <div className="App" style={{ width: "100%" }}>
         <Header />
-        <div
-          id="banner"
-          style={{
-            width: '100%',
-            paddingBottom: 16,
-          }}
-          className="container-fluid"
-        >
-          <div className="row justify-content-center">
-            <div
-              className="col-md-5"
-              style={{
-                color: "white",
-                fontSize: "14",
-                fontFamily: "Roboto",
-                marginTop: 12,
-                marginBottom: 12,
-                marginLeft: "3vh",
-                marginRight: "3vh"
-              }}>
-              A Free Resource for Front-Line Health Workers and Patients to communicate with one
-              another, regardless of languages spoken
-            </div>
-          </div>
-          <div className="row justify-content-center">
-            <div className="col-md-6" style={{
-              color: "#1A1A1A",
-              fontSize: "12",
-              marginLeft: "3vh",
-              marginRight: "3vh"
-            }}>
-              <LanguageSelect
-                id={"select-language-from"}
-                name={"select-language-from"}
-                onChange={(e) => {this.getLanguageData(e.target.value, this.state.b_language)}}
-                value={this.state.a_language}
-                options={this.state.supported_langs}
-              />
 
-              <span style={{
-                width: "5%",
-                marginLeft: "1vh",
-                marginRight: '1vh',
-                color: 'white'
-              }}>TO</span>
-
-              <LanguageSelect
-                id={"select-language-to"}
-                name={"select-language-to"}
-                onChange={(e) => {this.getLanguageData(this.state.a_language, e.target.value)}}
-                value={this.state.b_language}
-                options={this.state.supported_langs}
-              />
-            </div>
-          </div>
-        </div>
+        <Banner languageSelectFrom={languageSelectFrom} languageSelectTo={languageSelectTo} />
 
         <TabButtonList
           activeTabNumber={this.state.page_number}
@@ -305,15 +272,11 @@ class App extends React.Component {
         />
 
         {tabContent}
-        <br /><br />
+
         <Footer />
-
       </div>
-
-
     );
   }
-
 }
 
 export default App;
