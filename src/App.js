@@ -10,6 +10,7 @@ import Header from './components/Header'
 import DownloadTab from './components/DownloadTab'
 import FaqTab from './components/FaqTab'
 import Footer from './components/Footer'
+import TabButton from './components/TabButton'
 
 //import methods from readSheet.js
 import {
@@ -345,33 +346,26 @@ class App extends React.Component {
             <div class="col-md-3"></div>
           </div>
           <br />
-          <div class="row" style={{ align: "center" }}>
-            <button type="button" class="btn" onClick={() => this.changeMenu(1)} style={{
-              borderRight: "3px solid #373533",
-              padding: "1vh",
-              background: this.state.page_number == 1 ? "#4B6261" : '#5B6268',
-              color: "white",
-              width: "35%"
-            }}>&nbsp;MASTER LIST
-            </button>
-            <button type="button" onClick={() => this.changeMenu(2)} style={{
-              borderRight: "3px solid #373533",
-              padding: "1vh",
-              cursor: "pointer",
-              color: "white",
-              width: "30%",
-              background: this.state.page_number == 2 ? "#4B6261" : "#5B6268"
-            }} class="btn btn-secondary">FAQ
-            </button>
-            <button type="button" onClick={() => this.changeMenu(3)} style={{
-              border: 0,
-              padding: "1vh",
-              cursor: "pointer",
-              color: "white",
-              width: "35%",
-              background: this.state.page_number == 3 ? "#4B6261" : "#5B6268"
-            }} class="btn btn-secondary">DOWNLOAD
-            </button>
+
+          <div className="container-fluid">
+            <div className="row">
+              <TabButton
+                isActive={this.state.page_number === 1}
+                onClick={() => this.changeMenu(1)}
+                label={"MASTER LIST"}
+              />
+              <TabButton
+                isActive={this.state.page_number === 2}
+                onClick={() => this.changeMenu(2)}
+                label={"FAQ"}
+                width={"30%"}
+              />
+              <TabButton
+                isActive={this.state.page_number === 3}
+                onClick={() => this.changeMenu(3)}
+                label={"DOWNLOAD"}
+              />
+            </div>
           </div>
         </div>
         {menu_content}
