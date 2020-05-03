@@ -170,58 +170,73 @@ class App extends React.Component {
         </div>
     }
 
-    if (this.state.page_number == 1) { //show the translations
-      var menu_content = <span>
-                            <div class="row no-gutters" style={{ width: "95%", margin: "2vh", }}>
-                              <div class="col">
-                                <input type="text" class="form-control border-secondary " style={{
-                                  borderTopLeftRadius: "100px",
-                                  borderBottomLeftRadius: "100px",
-                                  borderRight: "0"
-                                }} type="search" placeholder="Search" id="example-search-input4"
-                                       onChange={(e) => this.onChangeSearch(e)} x-webkit-speech />
-                              </div>
-                              <div class="col-auto">
-                                <button class="btn btn-outline-secondary " style={{
-                                  borderTopRightRadius: "100px",
-                                  borderBottomRightRadius: "100px",
-                                  borderLeft: "0px"
-                                }} type="button">
-                                  <i class="fa fa-search" style={{ color: "lightgray" }}></i>
-                                </button>
-                              </div>
-                             </div>
-                            <table style={{ width: "100%", overflowY: "auto", background: "white" }}
-                                   class="table table-striped header-fixed">
-                                <tr>
-                                  <td align="left">
-                                    <CategoryList
-                                      categories={final_categories}
-                                      selectedCategory={this_.state.category_selected}
-                                      onClickCategory={this_.onChangeCategory}
-                                    />
-                                  </td>
-                                  <td>
-                                    <div class="row" style={{
-                                      height: "90vh",
-                                      width: "95%",
-                                      overflowY: "auto",
-                                      background: "white"
-                                    }} id="translation_cards">
-                                      {cards_html}
-                                    </div>
-
-                                  </td>
-                                </tr>
-                             </table>
-                            </span>
-    } else if (this.state.page_number == 2) { //show faq content
-      var menu_content = <FaqTab />
-
-    } else if (this.state.page_number == 3) {//show the download content
-      var menu_content = <DownloadTab />
+    let tabContent = null;
+    if (this.state.page_number === 1) {
+      tabContent =
+        <span>
+          <div className="row no-gutters" style={{ width: "95%", margin: "2vh", }}>
+            <div className="col">
+              <input
+                className="form-control border-secondary"
+                style={{
+                  borderTopLeftRadius: "100px",
+                  borderBottomLeftRadius: "100px",
+                  borderRight: "0"
+                }}
+                type="search"
+                placeholder="Search"
+                id="input-search"
+                onChange={(e) => this.onChangeSearch(e)}
+                x-webkit-speech
+              />
+            </div>
+            <div className="col-auto">
+              <button
+                className="btn btn-outline-secondary"
+                style={{
+                  borderTopRightRadius: "100px",
+                  borderBottomRightRadius: "100px",
+                  borderLeft: "0px"
+                }}
+                type="button">
+                <i className="fa fa-search" style={{ color: "lightgray" }}></i>
+              </button>
+            </div>
+           </div>
+          <table
+            style={{ width: "100%", overflowY: "auto", background: "white" }}
+            className="table table-striped header-fixed">
+              <tbody>
+                <tr>
+                  <td align="left">
+                    <CategoryList
+                      categories={final_categories}
+                      selectedCategory={this_.state.category_selected}
+                      onClickCategory={this_.onChangeCategory}
+                    />
+                  </td>
+                  <td>
+                    <div
+                      className="row"
+                      style={{
+                        height: "90vh",
+                        width: "95%",
+                        overflowY: "auto",
+                        background: "white"
+                      }}
+                      id="translation_cards">
+                      {cards_html}
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+           </table>
+        </span>
+    } else if (this.state.page_number === 2) {
+      tabContent = <FaqTab />
+    } else if (this.state.page_number === 3) {
+      tabContent = <DownloadTab />
     }
-
 
     return (
 
@@ -289,7 +304,7 @@ class App extends React.Component {
             onTabButtonClick={this.changeMenu}
           />
         </div>
-        {menu_content}
+        {tabContent}
         <br /><br />
         <Footer />
 
