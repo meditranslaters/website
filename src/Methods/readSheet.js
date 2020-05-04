@@ -1,115 +1,139 @@
 import data from './data.js'
 
+const transformedData = data.map(d => ({
+  translationKey: d[0],
+  translatedText: d[1],
+  language: d[2],
+  category: d[3],
+}))
+
 export function getSupportedLanguages() {
   const languagesSupported = [
     "English",
-    ...data.map(d => d[2]),
+    ...transformedData.map(d => d.language),
   ];
 
   // De-duplicate the language
   return Array.from(new Set(languagesSupported));
 }
 
-export function getLanguageData(lang_a, lang_b) {
-  const lang_data = readLanguageData(lang_a, lang_b)
+export function getLanguageData(languageFrom, languageTo) {
+  const { languageFromData, languageToData, categories } = readLanguageData(languageFrom, languageTo)
 
   return {
-    a_languagedata: lang_data["a_languagedata"],
-    a_language: lang_a,
-    b_languagedata: lang_data["b_languagedata"],
-    b_language: lang_b,
-    categories: lang_data["categories"],
+    languageFromData,
+    languageFrom,
+    languageToData,
+    languageTo,
+    categories,
   }
 }
 
-function readLanguageData(language_a,language_b) {
-  const response_json = {
-    "a_languagedata": [],
-    "b_languagedata": [],
+function readLanguageData(languageFrom,languageTo) {
+  const output = {
+    "languageFromData": [],
+    "languageToData": [],
     "categories": []
   };
 
-  if (language_a === "English" && language_b === "English") {
-    return response_json;
+  if (languageFrom === "English" && languageTo === "English") {
+    return output;
   }
 
-  if (language_a === "English" && language_b !== "English") {
-    const filteredData = data.filter(item => item[2] === language_b);
-    const language_a_data = filteredData.map(item => [item[0], item[3]]);
-    const language_b_data = filteredData.map(item => [item[1], item[3]]);
+  if (languageFrom === "English" && languageTo !== "English") {
+    const filteredData = transformedData.filter(item => item.language === languageTo);
+    const languageFromData = filteredData.map((item, index) => ({
+      text: item.translationKey,
+      category: item.category,
+      number: index + 1,
+    }));
+    const languageToData = filteredData.map((item, index) => ({
+      text: item.translatedText,
+      category: item.category,
+      number: index + 1,
+    }));
 
     const categories = [
       "All",
-      ...Array.from(new Set(filteredData.map(item => item[3]))),
+      ...Array.from(new Set(filteredData.map(item => item.category))),
     ];
 
     return {
-      a_languagedata: language_a_data.map((item, index) => ({ ...item, number: index + 1 })),
-      b_languagedata: language_b_data.map((item, index) => ({ ...item, number: index + 1 })),
+      languageFromData,
+      languageToData,
       categories,
     }
   }
 
-  if (language_a !== "English" && language_b === "English") {
-    const filteredData = data.filter(item => item[2] === language_a);
-    const language_a_data = filteredData.map(item => [item[1], item[3]]);
-    const language_b_data = filteredData.map(item => [item[0], item[3]]);
+  if (languageFrom !== "English" && languageTo === "English") {
+    const filteredData = transformedData.filter(item => item.language === languageFrom);
+    const languageFromData = filteredData.map((item, index) => ({
+      text: item.translatedText,
+      category: item.category,
+      number: index + 1,
+    }));
+    const languageToData = filteredData.map((item, index) => ({
+      text: item.translationKey,
+      category: item.category,
+      number: index + 1,
+    }));
 
     const categories = [
       "All",
-      ...Array.from(new Set(filteredData.map(item => item[3]))),
+      ...Array.from(new Set(filteredData.map(item => item.category))),
     ];
 
     return {
-      a_languagedata: language_a_data.map((item, index) => ({ ...item, number: index + 1 })),
-      b_languagedata: language_b_data.map((item, index) => ({ ...item, number: index + 1 })),
+      languageFromData,
+      languageToData,
       categories,
     }
   }
 
-  if (language_a !== "English" && language_b !== "English") {
-    //get the translations for language a,b
-    //seperate them for language a and language a and b
-    const language_a_data = []
-    const language_b_data = []
+  if (languageFrom !== "English" && languageTo !== "English") {
+    const languageFromData = []
+    const languageToData = []
 
-    const filteredData = data.filter(item => item[2] === language_a || item[2] === language_b);
+    const filteredData = transformedData.filter(item => item.language === languageFrom || item.language === languageTo);
 
-    const lang_dict = filteredData.reduce((acc, curr) => {
-      const [translationKey, translatedText, language, category] = curr;
+    const langDict = filteredData.reduce((acc, curr) => {
+      const { translationKey, translatedText, language, category } = curr;
 
       if (!acc[translationKey]) {
         acc[translationKey] = {};
       }
 
-      acc[translationKey][language] = [translatedText, category];
+      acc[translationKey][language] = {
+        text: translatedText,
+        category,
+      };
 
       return acc;
     }, {});
 
     const categories = [
       "All",
-      ...Array.from(new Set(filteredData.map(item => item[3]))),
+      ...Array.from(new Set(filteredData.map(item => item.category))),
     ]
 
-    for (const prop in lang_dict) {
-      if (lang_dict.hasOwnProperty(prop)) {
-        const langAData = lang_dict[prop][language_a]
-        const langBData = lang_dict[prop][language_b]
+    for (const prop in langDict) {
+      if (langDict.hasOwnProperty(prop)) {
+        const langFromData = langDict[prop][languageFrom]
+        const langToData = langDict[prop][languageTo]
 
-        if (langAData && langBData) {
-          language_a_data.push(langAData)
-          language_b_data.push(langBData)
+        if (langFromData && langToData) {
+          languageFromData.push(langFromData)
+          languageToData.push(langToData)
         }
       }
     }
 
     return {
-      a_languagedata: language_a_data.map((item, index) => ({ ...item, number: index + 1 })),
-      b_languagedata: language_b_data.map((item, index) => ({ ...item, number: index + 1 })),
+      languageFromData: languageFromData.map((item, index) => ({ ...item, number: index + 1 })),
+      languageToData: languageToData.map((item, index) => ({ ...item, number: index + 1 })),
       categories,
     }
   }
 
-  return response_json;
+  return output;
 }

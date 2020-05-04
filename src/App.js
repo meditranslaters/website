@@ -21,21 +21,27 @@ import {
   getLanguageData,
 } from './Methods/readSheet'
 
-const { a_language, a_languagedata, b_language, b_languagedata, categories } = getLanguageData("English", "Bengali / বাংলা");
+const {
+  languageFrom: initialLanguageFrom,
+  languageFromData: initialLanguageFromData,
+  languageTo: initialLanguageTo,
+  languageToData: initialLanguageToData,
+  categories
+} = getLanguageData("English", "Bengali / বাংলা");
 
 const App = () => {
   // pageNumber: 1 means the default will be master list
   // pageNumber: 2 means faq page will be selected
   // pageNumber: 3 means download
   const [pageNumber, setPageNumber] = useState(1);
-  // aLanguage is the language selected in the first dropdown. Defaults to English
-  const [aLanguage, setALanguage] = useState(a_language);
-  // aLanguageData stores the translations for the language selected in the first dropdown
-  const [aLanguageData, setALanguageData] = useState(a_languagedata);
-  // bLanguage is the language selected in the second dropdown. Defaults to Bengali
-  const [bLanguage, setBLanguage] = useState(b_language);
-  // aLanguageData stores the translations for the language selected in the second dropdown
-  const [bLanguageData, setBLanguageData] = useState(b_languagedata);
+  // languageFrom is the language selected in the first dropdown. Defaults to English
+  const [languageFrom, setLanguageFrom] = useState(initialLanguageFrom);
+  // languageFromData stores the translations for the language selected in the first dropdown
+  const [languageFromData, setLanguageFromData] = useState(initialLanguageFromData);
+  // languageTo is the language selected in the second dropdown. Defaults to Bengali
+  const [languageTo, setLanguageTo] = useState(initialLanguageTo);
+  // languageToData stores the translations for the language selected in the second dropdown
+  const [languageToData, setLanguageToData] = useState(initialLanguageToData);
   // searchInput stores the text user input for search
   const [searchInput, setSearchInput] = useState("");
   // selectedCategory is the currently selected category
@@ -45,17 +51,17 @@ const App = () => {
   const renderCards = () => {
     let cards;
 
-    if (aLanguageData.length && bLanguageData.length && aLanguageData.length === bLanguageData.length) {
-      const loweredCaseSearchInput = searchInput.toLowerCase();
+    if (languageFromData.length && languageToData.length && languageFromData.length === languageToData.length) {
+      const lowerCaseSearchInput = searchInput.toLowerCase();
 
-      cards = aLanguageData
+      cards = languageFromData
         .filter((item, idx) => {
           // filter out the input based on the search
           const matchSearchInput = searchInput === item.number
-            || item[0].toLowerCase().indexOf(loweredCaseSearchInput) > -1
-            || bLanguageData[idx][0].toLowerCase().indexOf(loweredCaseSearchInput) > -1;
+            || item.text.toLowerCase().indexOf(lowerCaseSearchInput) > -1
+            || languageToData[idx].text.toLowerCase().indexOf(lowerCaseSearchInput) > -1;
 
-          const itemInSelectedCategory = selectedCategory === item[1] || selectedCategory === "All";
+          const itemInSelectedCategory = selectedCategory === item.category || selectedCategory === "All";
 
           return matchSearchInput && itemInSelectedCategory;
         })
@@ -63,8 +69,8 @@ const App = () => {
           <TranslationCard
             key={item.number}
             number={item.number}
-            textLanguageFrom={item[0]}
-            textLanguageTo={bLanguageData[idx][0]}
+            textLanguageFrom={item.text}
+            textLanguageTo={languageToData.find(a => a.number === item.number).text}
           />
         )
     }
@@ -115,7 +121,7 @@ const App = () => {
             className="table table-striped">
               <tbody>
                 <tr>
-                  <td align="left">
+                  <td align="left" width={126}>
                     <CategoryList
                       categories={categories}
                       selectedCategory={selectedCategory}
@@ -158,12 +164,12 @@ const App = () => {
       <Header />
 
       <Banner
-        aLanguage={aLanguage}
-        bLanguage={bLanguage}
-        setALanguage={setALanguage}
-        setALanguageData={setALanguageData}
-        setBLanguage={setBLanguage}
-        setBLanguageData={setBLanguageData}
+        languageFrom={languageFrom}
+        languageTo={languageTo}
+        setLanguageFrom={setLanguageFrom}
+        setLanguageFromData={setLanguageFromData}
+        setLanguageTo={setLanguageTo}
+        setLanguageToData={setLanguageToData}
       />
 
       <TabButtonList

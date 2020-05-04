@@ -4,21 +4,31 @@ import LanguageSelect from './LanguageSelect'
 
 const supportedLanguages = getSupportedLanguages();
 
-const Banner = ({ aLanguage, bLanguage, setALanguage, setALanguageData, setBLanguage, setBLanguageData }) => {
+const Banner = ({ languageFrom, languageTo, setLanguageFrom, setLanguageFromData, setLanguageTo, setLanguageToData }) => {
   const onChangeLanguageFrom = (e) => {
-    const { a_language, a_languagedata, b_language, b_languagedata } = getLanguageData(e.target.value, bLanguage);
-    setALanguage(a_language);
-    setALanguageData(a_languagedata);
-    setBLanguage(b_language);
-    setBLanguageData(b_languagedata);
+    const {
+      languageFrom: newLanguageFrom,
+      languageFromData,
+      languageTo: newLanguageTo,
+      languageToData
+    } = getLanguageData(e.target.value, languageTo);
+    setLanguageFrom(newLanguageFrom);
+    setLanguageFromData(languageFromData);
+    setLanguageTo(newLanguageTo);
+    setLanguageToData(languageToData);
   }
 
   const onChangeLanguageTo = (e) => {
-    const { a_language, a_languagedata, b_language, b_languagedata } = getLanguageData(aLanguage, e.target.value);
-    setALanguage(a_language);
-    setALanguageData(a_languagedata);
-    setBLanguage(b_language);
-    setBLanguageData(b_languagedata);
+    const {
+      languageFrom: newLanguageFrom,
+      languageFromData,
+      languageTo: newLanguageTo,
+      languageToData,
+    } = getLanguageData(languageFrom, e.target.value);
+    setLanguageFrom(newLanguageFrom);
+    setLanguageFromData(languageFromData);
+    setLanguageTo(newLanguageTo);
+    setLanguageToData(languageToData);
   }
 
   return (
@@ -57,7 +67,7 @@ const Banner = ({ aLanguage, bLanguage, setALanguage, setALanguageData, setBLang
             id={"select-language-from"}
             name={"select-language-from"}
             onChange={onChangeLanguageFrom}
-            value={aLanguage}
+            value={languageFrom}
             options={supportedLanguages}
           />
 
@@ -72,7 +82,7 @@ const Banner = ({ aLanguage, bLanguage, setALanguage, setALanguageData, setBLang
             id={"select-language-to"}
             name={"select-language-to"}
             onChange={onChangeLanguageTo}
-            value={bLanguage}
+            value={languageTo}
             options={supportedLanguages}
           />
         </div>
