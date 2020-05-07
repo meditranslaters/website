@@ -7,7 +7,7 @@ const MasterListTab = ({ searchInput, setSearchInput, selectedCategory, setSelec
   // prepare the content for the translations
   const renderCards = () => {
     if (!searchInput && hasBookmarkList && showBookmarkList && !filteredLanguageData.length) {
-      return <NoResult text="You have not bookmarked anything yet! Start bookmark frequently used translation by clicking on the star icon and you will be able to access them here :)" />
+      return <NoResult text="You have not bookmarked anything yet! Start bookmark frequently-used phrases by clicking on the star icon and you will be able to access your bookmarked list here :)" />
     }
 
     // Display no result if applicable
