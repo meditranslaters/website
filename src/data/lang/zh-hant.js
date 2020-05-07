@@ -13,7 +13,7 @@ export default {
   "Runny nose?": "流鼻涕   ",
   "Cough?": "咳嗽",
   "Sore throat?": "喉嚨痛",
-  "Difficulty breathing?": "",
+  "Difficulty breathing?": "呼吸困難",
   "Do you have diarrhoea? How many times a day?": "您最近有沒有拉肚子?一天拉幾次?",
   "Rash?": "皮膚 出紅疹/ 身體發癢    ",
   "Any pain? Specifically, any chest pain?": "您身體哪裡有痛嗎?特別是胸口,會覺得痛或緊悶嗎?",

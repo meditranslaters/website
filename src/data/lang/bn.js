@@ -13,7 +13,7 @@ export default {
   "Runny nose?": "আপনি কোন কোমপানিতে কাজ করেন?",
   "Cough?": "আপনার সুপারভাইজারের নাম এবং ফোন নাম্বার কি?",
   "Sore throat?": "ধন্যবাদ, dhonnobad",
-  "Difficulty breathing?": "",
+  "Difficulty breathing?": "আঙ্গুল দিয়ে দেখান কোথায়।",
   "Do you have diarrhoea? How many times a day?": "আপনার কি আগের থেকে কোনো শারীরিক সমস্যা আছে?",
   "Rash?": "আঙ্গুল দিয়ে দেখান কোনটা। হাঁপানি/অ্যাজমা নিউমোনিয়া ব্লাড প্রেসার কল্সেটেরোল সুগার হার্টের সমস্যা কিডনির সমস্যা",
   "Any pain? Specifically, any chest pain?": "আপনার কি কোনো ওষুধের অ্যালার্জি আছে?",
