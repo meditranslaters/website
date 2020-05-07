@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="footer container-fluid" style={{ paddingBottom: 12 }}>
+    <footer className="footer container-fluid" style={{ marginTop: 24, paddingBottom: 12 }}>
       <div className="row justify-content-center">
         <div className="col-md-4 text-muted" style={{
           textAlign: 'center',

@@ -2,12 +2,7 @@ import React from 'react';
 
 const TranslationCard = ({ number, textLanguageFrom, textLanguageTo }) => {
   return (
-    <div className="card" style={{
-      width: 228,
-      background: "#fff",
-      marginTop: "1em",
-      marginLeft: "1vh"
-    }}>
+    <div className="card">
       <div className="card-body" style={{ textAlign: "left" }}>
         <p className="card-text" style={{
           color: "#8C8C8C",

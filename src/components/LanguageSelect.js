@@ -7,13 +7,7 @@ const LanguageSelect = ({ id, name, onChange, value, options }) => {
       name={name}
       onChange={(e) => onChange(e)}
       value={value}
-      style={{
-        color: "black",
-        background: "white",
-        border: "2px solid black",
-        width: "43%"
-      }}
-      className="dropdown_language_selection">
+      className="dropdown-language-selection">
       { options.map(item => <option key={item.code} value={item.code}>{item.displayName}</option>) }
     </select>
   )

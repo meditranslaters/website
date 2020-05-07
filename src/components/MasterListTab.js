@@ -23,64 +23,46 @@ const MasterListTab = ({ searchInput, setSearchInput, selectedCategory, setSelec
   }
 
   return (
-    <span>
-      <div className="row no-gutters" style={{ width: "95%", margin: "2vh", }}>
+    <div className="container-fluid">
+      <div className="row">
         <div className="col">
-          <input
-            className="form-control border-secondary"
-            style={{
-              borderTopLeftRadius: "100px",
-              borderBottomLeftRadius: "100px",
-              borderRight: "0"
-            }}
-            type="search"
-            placeholder="Search"
-            id="input-search"
-            onChange={(e) => setSearchInput(e.target.value)}
-            x-webkit-speech={"true"}
-          />
+          <div className="input-group my-3">
+            <input
+              type="search"
+              className="form-control"
+              placeholder="Search"
+              aria-label="Search"
+              aria-describedby="button-search"
+              id="input-search"
+              onChange={(e) => setSearchInput(e.target.value)}
+              x-webkit-speech={"true"}
+            />
+            <div className="input-group-append">
+              <button
+                className="btn btn-outline-secondary"
+                type="button"
+                id="button-search"
+              >
+                <i className="fa fa-search"></i>
+              </button>
+            </div>
+          </div>
         </div>
-        <div className="col-auto">
-          <button
-            className="btn btn-outline-secondary"
-            style={{
-              borderTopRightRadius: "100px",
-              borderBottomRightRadius: "100px",
-              borderLeft: "0px"
-            }}
-            type="button">
-            <i className="fa fa-search" style={{ color: "lightgray" }}></i>
-          </button>
+      </div>
+      <div className="row">
+        <CategoryList
+          selectedCategory={selectedCategory}
+          onClickCategory={setSelectedCategory}
+        />
+
+        <div className="col" id="translation-cards" style={{
+          display: 'flex',
+          flexWrap: 'wrap',
+        }}>
+          {renderCards()}
         </div>
-       </div>
-      <table
-        style={{ width: "100%", overflowY: "auto", background: "white" }}
-        className="table table-striped">
-          <tbody>
-            <tr>
-              <td align="left" width={126}>
-                <CategoryList
-                  selectedCategory={selectedCategory}
-                  onClickCategory={setSelectedCategory}
-                />
-              </td>
-              <td>
-                <div
-                  className="row"
-                  style={{
-                    height: "90vh",
-                    width: "95%",
-                    overflowY: "auto",
-                    background: "white"
-                  }}
-                  id="translation_cards">
-                  {renderCards()}
-                </div>
-              </td>
-            </tr>
-          </tbody>
-       </table>
-    </span>
+      </div>
+    </div>
   );
 }
 
