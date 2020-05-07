@@ -29,9 +29,9 @@ const App = () => {
   // pageNumber: 3 means download
   const [pageNumber, setPageNumber] = useState(1);
   // languageFrom is the language selected in the first dropdown. Defaults to English
-  const [languageFrom, setLanguageFrom] = useState(initialLanguageCodeFrom);
+  const [languageFrom, setLanguageFrom] = useLocalStorage("languageFrom", initialLanguageCodeFrom);
   // languageTo is the language selected in the second dropdown. Defaults to Bengali
-  const [languageTo, setLanguageTo] = useState(initialLanguageCodeTo);
+  const [languageTo, setLanguageTo] = useLocalStorage("languageTo", initialLanguageCodeTo);
   // searchInput stores the text user input for search
   const [searchInput, setSearchInput] = useState("");
   // selectedCategory is the currently selected category
