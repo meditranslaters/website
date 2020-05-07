@@ -14,7 +14,7 @@ const LanguageSelect = ({ id, name, onChange, value, options }) => {
         width: "43%"
       }}
       className="dropdown_language_selection">
-      { options.map(item => <option key={item} value={item}>{item}</option>) }
+      { options.map(item => <option key={item.code} value={item.code}>{item.displayName}</option>) }
     </select>
   )
 }

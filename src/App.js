@@ -20,14 +20,10 @@ import TranslationCard from './components/TranslationCard'
 import {
   getLanguageData,
 } from './Methods/readSheet'
+import categories from './data/categories'
 
-const {
-  languageFrom: initialLanguageFrom,
-  languageFromData: initialLanguageFromData,
-  languageTo: initialLanguageTo,
-  languageToData: initialLanguageToData,
-  categories
-} = getLanguageData("English", "Bengali / বাংলা");
+const initialLanguageCodeFrom = 'en';
+const initialLanguageCodeTo = 'bn';
 
 const App = () => {
   // pageNumber: 1 means the default will be master list
@@ -35,45 +31,36 @@ const App = () => {
   // pageNumber: 3 means download
   const [pageNumber, setPageNumber] = useState(1);
   // languageFrom is the language selected in the first dropdown. Defaults to English
-  const [languageFrom, setLanguageFrom] = useState(initialLanguageFrom);
-  // languageFromData stores the translations for the language selected in the first dropdown
-  const [languageFromData, setLanguageFromData] = useState(initialLanguageFromData);
+  const [languageFrom, setLanguageFrom] = useState(initialLanguageCodeFrom);
   // languageTo is the language selected in the second dropdown. Defaults to Bengali
-  const [languageTo, setLanguageTo] = useState(initialLanguageTo);
-  // languageToData stores the translations for the language selected in the second dropdown
-  const [languageToData, setLanguageToData] = useState(initialLanguageToData);
+  const [languageTo, setLanguageTo] = useState(initialLanguageCodeTo);
   // searchInput stores the text user input for search
   const [searchInput, setSearchInput] = useState("");
   // selectedCategory is the currently selected category
   const [selectedCategory, setSelectedCategory] = useState("All");
 
+  const languageData = useMemo(() => getLanguageData(languageFrom, languageTo, selectedCategory), [
+    languageFrom, languageTo, selectedCategory
+  ]) || [];
+
   //prepare the content for the translations
   const renderCards = () => {
-    let cards;
-
-    if (languageFromData.length && languageToData.length && languageFromData.length === languageToData.length) {
-      const lowerCaseSearchInput = searchInput.toLowerCase();
-
-      cards = languageFromData
-        .filter((item, idx) => {
-          // filter out the input based on the search
-          const matchSearchInput = searchInput === item.number
-            || item.text.toLowerCase().indexOf(lowerCaseSearchInput) > -1
-            || languageToData[idx].text.toLowerCase().indexOf(lowerCaseSearchInput) > -1;
-
-          const itemInSelectedCategory = selectedCategory === item.category || selectedCategory === "All";
-
-          return matchSearchInput && itemInSelectedCategory;
-        })
-        .map((item, idx) =>
-          <TranslationCard
-            key={item.number}
-            number={item.number}
-            textLanguageFrom={item.text}
-            textLanguageTo={languageToData.find(a => a.number === item.number).text}
-          />
-        )
-    }
+    const lowerCaseSearchInput = searchInput && searchInput.toLowerCase();
+    const cards = languageData
+    // filter data based on search input
+      .filter(item =>
+        (searchInput === item.id)
+        || (item.from && item.from.toLowerCase().indexOf(lowerCaseSearchInput) > -1)
+        || (item.to && item.to.toLowerCase().indexOf(lowerCaseSearchInput) > -1)
+      )
+      .map(item =>
+        <TranslationCard
+          key={item.id}
+          number={item.id}
+          textLanguageFrom={item.from}
+          textLanguageTo={item.to}
+        />
+      )
 
     // Display no result if applicable
     if (searchInput !== "" && (!cards || !cards.length)) {
@@ -167,9 +154,7 @@ const App = () => {
         languageFrom={languageFrom}
         languageTo={languageTo}
         setLanguageFrom={setLanguageFrom}
-        setLanguageFromData={setLanguageFromData}
         setLanguageTo={setLanguageTo}
-        setLanguageToData={setLanguageToData}
       />
 
       <TabButtonList

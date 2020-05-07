@@ -1,34 +1,14 @@
 import React from 'react';
-import { getLanguageData, getSupportedLanguages } from '../Methods/readSheet'
 import LanguageSelect from './LanguageSelect'
+import supportedLanguages from '../data/supportedLanguages'
 
-const supportedLanguages = getSupportedLanguages();
-
-const Banner = ({ languageFrom, languageTo, setLanguageFrom, setLanguageFromData, setLanguageTo, setLanguageToData }) => {
+const Banner = ({ languageFrom, languageTo, setLanguageFrom, setLanguageTo }) => {
   const onChangeLanguageFrom = (e) => {
-    const {
-      languageFrom: newLanguageFrom,
-      languageFromData,
-      languageTo: newLanguageTo,
-      languageToData
-    } = getLanguageData(e.target.value, languageTo);
-    setLanguageFrom(newLanguageFrom);
-    setLanguageFromData(languageFromData);
-    setLanguageTo(newLanguageTo);
-    setLanguageToData(languageToData);
+    setLanguageFrom(e.target.value);
   }
 
   const onChangeLanguageTo = (e) => {
-    const {
-      languageFrom: newLanguageFrom,
-      languageFromData,
-      languageTo: newLanguageTo,
-      languageToData,
-    } = getLanguageData(languageFrom, e.target.value);
-    setLanguageFrom(newLanguageFrom);
-    setLanguageFromData(languageFromData);
-    setLanguageTo(newLanguageTo);
-    setLanguageToData(languageToData);
+    setLanguageTo(e.target.value);
   }
 
   return (
