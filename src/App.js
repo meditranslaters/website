@@ -1,5 +1,5 @@
 //react
-import React, { useState } from 'react';
+import React, { useMemo, useState } from 'react';
 
 //import css
 import './Roboto-Black.ttf'
@@ -43,35 +43,37 @@ const App = () => {
     languageFrom, languageTo, selectedCategory
   ]) || [];
 
-  //prepare the content for the translations
-  const renderCards = () => {
+  const filteredLanguageData = useMemo(() => {
     const lowerCaseSearchInput = searchInput && searchInput.toLowerCase();
-    const cards = languageData
-    // filter data based on search input
+    return languageData
+      // filter data based on search input
       .filter(item =>
         (searchInput === item.id)
         || (item.from && item.from.toLowerCase().indexOf(lowerCaseSearchInput) > -1)
         || (item.to && item.to.toLowerCase().indexOf(lowerCaseSearchInput) > -1)
       )
-      .map(item =>
-        <TranslationCard
-          key={item.id}
-          number={item.id}
-          textLanguageFrom={item.from}
-          textLanguageTo={item.to}
-        />
-      )
-
-    // Display no result if applicable
-    if (searchInput !== "" && (!cards || !cards.length)) {
-      return <NoResult />
-    }
-
-    return cards;
-  }
+  }, [searchInput, languageData])
 
   const renderTabContent = () => {
     if (pageNumber === 1) {
+      // prepare the content for the translations
+      const renderCards = () => {
+        // Display no result if applicable
+        if (searchInput !== "" && !filteredLanguageData.length) {
+          return <NoResult />
+        }
+
+        return filteredLanguageData
+          .map(item =>
+            <TranslationCard
+              key={item.id}
+              number={item.id}
+              textLanguageFrom={item.from}
+              textLanguageTo={item.to}
+            />
+          )
+      }
+
       return (
         <span>
           <div className="row no-gutters" style={{ width: "95%", margin: "2vh", }}>
