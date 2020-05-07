@@ -18,7 +18,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "Tolong berikan saya Work Permit atau izin bekerja anda",
     "Bahasa Indonesia",
     "Greetings"
@@ -93,7 +93,7 @@ export default [
     "Difficulty breathing?",
     "Kesulitan bernafas?",
     "Bahasa Indonesia",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -235,7 +235,7 @@ export default [
   ],
   [
     "Say \"99\" when I listen with my stethoscope.",
-    "Katakan “sembilan puluh sembilan” ketika saya mendengarkan dengan stetoskop.",
+    "Katakan \"sembilan puluh sembilan\" ketika saya mendengarkan dengan stetoskop.",
     "Bahasa Indonesia",
     "Medical Instructions"
   ],
@@ -342,12 +342,6 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
-    " Selamat pagi / siang / malam",
-    "Bahasa Indonesia",
-    "Greetings"
-  ],
-  [
     "I am the nurse",
     "Saya adalah suster anda",
     "Bahasa Indonesia",
@@ -432,7 +426,7 @@ export default [
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Give me a big cough",
     "Coba batuk untuk saya",
     "Bahasa Indonesia",
     "Medical Instructions"
@@ -654,67 +648,67 @@ export default [
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Eyes",
     "Mata",
     "Bahasa Indonesia",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Ears",
     "Telinga",
     "Bahasa Indonesia",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Nose",
     "Hidung",
     "Bahasa Indonesia",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Mouth",
     "Mulut",
     "Bahasa Indonesia",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Throat",
     "Tenggorokan",
     "Bahasa Indonesia",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Chest",
     "Dada",
     "Bahasa Indonesia",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Abdomen",
     "Perut",
     "Bahasa Indonesia",
     "Basic Terms"
   ],
   [
-    "back",
+    "Back",
     "Punggung",
     "Bahasa Indonesia",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Arms",
     "Lengan",
     "Bahasa Indonesia",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Legs",
     "Kaki",
     "Bahasa Indonesia",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Feet",
     "Kaki bawah ",
     "Bahasa Indonesia",
     "Basic Terms"
@@ -792,7 +786,7 @@ export default [
     "Basic Terms"
   ],
   [
-    "Feb",
+    "February",
     "Februari",
     "Bahasa Indonesia",
     "Basic Terms"
@@ -858,6 +852,24 @@ export default [
     "Basic Terms"
   ],
   [
+    "Good morning",
+    "Selamat pagi",
+    "Bahasa Indonesia",
+    "Greetings"
+  ],
+  [
+    "Good afternoon",
+    "Selamat siang",
+    "Bahasa Indonesia",
+    "Greetings"
+  ],
+  [
+    "Good evening",
+    "Selamat malam",
+    "Bahasa Indonesia",
+    "Greetings"
+  ],
+  [
     "I am a doctor. I do not speak your language. I will communicate with you using this website. Answer me in English as much as possible. Thank you.",
     "আপনি সিঙ্গাপুরে যে জায়গাতে থাকেন, তার নাম কি?",
     "Bengali / বাংলা",
@@ -870,7 +882,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "আপনারা কতজন মিলে এক রুমে থাকেন?",
     "Bengali / বাংলা",
     "Greetings"
@@ -945,7 +957,7 @@ export default [
     "Difficulty breathing?",
     "আঙ্গুল দিয়ে দেখান কোথায়।",
     "Bengali / বাংলা",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -1009,7 +1021,7 @@ export default [
   ],
   [
     "Diabetes",
-    "স্টেথো যখনই বুকে দিব তখন “৯, ৯” বলবেন।\n\n\n",
+    "স্টেথো যখনই বুকে দিব তখন \"৯, ৯\" বলবেন।\n\n\n",
     "Bengali / বাংলা",
     "Medical Conditions"
   ],
@@ -1039,7 +1051,7 @@ export default [
   ],
   [
     "Do you have a drug allergy?",
-    "যদি করোনভাইরাস টেস্ট নেগেটিভ হয়, তবে আমরা আপনাকে তিন দিনের মধ্যে “স এম স” (SMS) করব।",
+    "যদি করোনভাইরাস টেস্ট নেগেটিভ হয়, তবে আমরা আপনাকে তিন দিনের মধ্যে \"স এম স\" (SMS) করব।",
     "Bengali / বাংলা",
     "Medical Conditions"
   ],
@@ -1206,7 +1218,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "Identitification Card / Work Permit ‌‌ပြောပါ။",
     "Burmese / ဗမာ",
     "Greetings"
@@ -1281,7 +1293,7 @@ export default [
     "Difficulty breathing?",
     "အသက်ရှူကြပ်‌နေပါသလား။",
     "Burmese / ဗမာ",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -1530,12 +1542,6 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
-    "မင်္ဂလာပါ။",
-    "Burmese / ဗမာ",
-    "Greetings"
-  ],
-  [
     "I am the nurse",
     "ကျွန်ုပ်သူနာပြုတစ်ယောက်ပါ။",
     "Burmese / ဗမာ",
@@ -1620,7 +1626,7 @@ export default [
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Give me a big cough",
     "ချောင်းပြင်းပြင်းတစ်ချက်ဆိုး‌ပေးပါ။",
     "Burmese / ဗမာ",
     "Medical Instructions"
@@ -1842,67 +1848,67 @@ export default [
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Eyes",
     "မျက်စိ",
     "Burmese / ဗမာ",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Ears",
     "နားရွက်",
     "Burmese / ဗမာ",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Nose",
     "နှာခေါင်း",
     "Burmese / ဗမာ",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Mouth",
     "ပါးစပ်",
     "Burmese / ဗမာ",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Throat",
     "လည်ချောင်း",
     "Burmese / ဗမာ",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Chest",
     "သေတ္တာ",
     "Burmese / ဗမာ",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Abdomen",
     "ဝမ်း",
     "Burmese / ဗမာ",
     "Basic Terms"
   ],
   [
-    "back",
+    "Back",
     "ပြန်.",
     "Burmese / ဗမာ",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Arms",
     "လက်နက်",
     "Burmese / ဗမာ",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Legs",
     "ခြေထောက်",
     "Burmese / ဗမာ",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Feet",
     "ခြေဘဝါး",
     "Burmese / ဗမာ",
     "Basic Terms"
@@ -1980,8 +1986,8 @@ export default [
     "Basic Terms"
   ],
   [
-    "Feb",
-    "ဖေဖော်ဝါရီ",
+    "February",
+    "ဖေဖေါ်ဝါရီလ",
     "Burmese / ဗမာ",
     "Basic Terms"
   ],
@@ -2058,7 +2064,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "Моля, дайте ми лична карта, паспорт или разрешително за работа.",
     "Bulgarian / български",
     "Greetings"
@@ -2133,7 +2139,7 @@ export default [
     "Difficulty breathing?",
     "Имате ли затруднено дишане?",
     "Bulgarian / български",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -2382,12 +2388,6 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
-    "Добро утро / Добър ден / Добър вечер.",
-    "Bulgarian / български",
-    "Greetings"
-  ],
-  [
     "I am the nurse",
     "Аз съм медицинската сестра. ",
     "Bulgarian / български",
@@ -2472,7 +2472,7 @@ export default [
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Give me a big cough",
     "Отворете уста. ",
     "Bulgarian / български",
     "Medical Instructions"
@@ -2694,67 +2694,67 @@ export default [
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Eyes",
     "очи",
     "Bulgarian / български",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Ears",
     "уши",
     "Bulgarian / български",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Nose",
     "нос",
     "Bulgarian / български",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Mouth",
     "уста",
     "Bulgarian / български",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Throat",
     "гърло",
     "Bulgarian / български",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Chest",
     "гръден кош",
     "Bulgarian / български",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Abdomen",
     "корем",
     "Bulgarian / български",
     "Basic Terms"
   ],
   [
-    "back",
+    "Back",
     "гръб",
     "Bulgarian / български",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Arms",
     "ръце",
     "Bulgarian / български",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Legs",
     "крака",
     "Bulgarian / български",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Feet",
     "стъпала",
     "Bulgarian / български",
     "Basic Terms"
@@ -2832,7 +2832,7 @@ export default [
     "Basic Terms"
   ],
   [
-    "Feb",
+    "February",
     "февруари",
     "Bulgarian / български",
     "Basic Terms"
@@ -2898,6 +2898,24 @@ export default [
     "Basic Terms"
   ],
   [
+    "Good afternoon",
+    "Добро утро",
+    "Bulgarian / български",
+    "Greetings"
+  ],
+  [
+    "Good evening",
+    "Добър ден",
+    "Bulgarian / български",
+    "Greetings"
+  ],
+  [
+    "You are in ICU",
+    "Добър вечер",
+    "Bulgarian / български",
+    "Greetings"
+  ],
+  [
     "I am a doctor. I do not speak your language. I will communicate with you using this website. Answer me in English as much as possible. Thank you.",
     "我是医生。我不会讲中语。我会用这个网站跟你沟通。你尽量用英语回答。谢谢",
     "Simplified Chinese / 简体中文",
@@ -2910,1396 +2928,1192 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "请给我你的身份证或工作准证",
     "Simplified Chinese / 简体中文",
     "Greetings"
   ],
   [
     "In the last 14 days, did you meet anyone who has coronavirus?",
-    "请问您在哪间公司做工/上班？",
+    "过去十四天, 你有跟疫情病患者接触吗？",
     "Simplified Chinese / 简体中文",
     "Contact with Others"
   ],
   [
     "Who? What is your relationship with them?",
-    "您的主管的名字和联系方式是什么？",
+    "谁？你跟他们是什么关系？",
     "Simplified Chinese / 简体中文",
     "Contact with Others"
   ],
   [
     "How many days ago did you meet them? (There is a number chart in the sidebar if they cannot answer)",
-    "请问您宿舍的名字是什么？",
+    "你在几天前遇见他们？",
     "Simplified Chinese / 简体中文",
     "Contact with Others"
   ],
   [
     "How long were you with him/her?",
-    "那里是一个感染社群吗？",
+    "你跟他们见面多久？",
     "Simplified Chinese / 简体中文",
     "Contact with Others"
   ],
   [
     "In the last 14 days, did you travel out of this country? If yes, tell us the countries in English.",
-    "有几个人和您住在同一个房间？",
+    "过去十四天你有离开新加坡吗？你去哪个国家（英文）？",
     "Simplified Chinese / 简体中文",
     "Contact with Others"
   ],
   [
     "Do you have a fever?",
-    "过去十四天, 你有跟疫情病患者接触吗？",
-    "Simplified Chinese / 简体中文",
-    "Symptoms"
-  ],
-  [
-    "How many days?\n(You may use this for multiple symptoms)",
-    "谁？你跟他们是什么关系？",
-    "Simplified Chinese / 简体中文",
-    "Symptoms"
-  ],
-  [
-    "Did you measure it with a thermometer? If you did, what was the highest reading?",
-    "你在几天前遇见他们？",
-    "Simplified Chinese / 简体中文",
-    "Symptoms"
-  ],
-  [
-    "Runny nose?",
-    "你跟他们见面多久？",
-    "Simplified Chinese / 简体中文",
-    "Symptoms"
-  ],
-  [
-    "Cough?",
-    "过去十四天你有离开新加坡吗？你去哪个国家（英文）？",
-    "Simplified Chinese / 简体中文",
-    "Symptoms"
-  ],
-  [
-    "Sore throat?",
     "你有发烧吗？",
     "Simplified Chinese / 简体中文",
     "Symptoms"
   ],
   [
-    "Difficulty breathing?",
+    "How many days?\n(You may use this for multiple symptoms)",
     "几天了？",
     "Simplified Chinese / 简体中文",
     "Symptoms"
   ],
   [
-    "Do you have diarrhoea? How many times a day?",
+    "Did you measure it with a thermometer? If you did, what was the highest reading?",
     "你有用温度器量吗？你最高的温度时是什么？",
     "Simplified Chinese / 简体中文",
     "Symptoms"
   ],
   [
-    "Rash?",
+    "Runny nose?",
     "流鼻涕？",
     "Simplified Chinese / 简体中文",
     "Symptoms"
   ],
   [
-    "Any pain? Specifically, any chest pain?",
+    "Cough?",
     "咳嗽？",
     "Simplified Chinese / 简体中文",
     "Symptoms"
   ],
   [
-    "Point to the place.",
+    "Sore throat?",
     "喉咙痛？",
     "Simplified Chinese / 简体中文",
     "Symptoms"
   ],
   [
-    "Do you have any past medical history?",
+    "Difficulty breathing?",
     "呼吸困难？",
     "Simplified Chinese / 简体中文",
-    "Medical Conditions"
+    "Pharmacist Phrases"
   ],
   [
-    "Please point to which ones.",
-    "闻不到任何气味",
-    "Simplified Chinese / 简体中文",
-    "Medical Conditions"
-  ],
-  [
-    "Asthma",
-    "不能尝到任何味道",
-    "Simplified Chinese / 简体中文",
-    "Medical Conditions"
-  ],
-  [
-    "Pneumonia",
+    "Do you have diarrhoea? How many times a day?",
     "有泻肚子吗？一天几次？",
     "Simplified Chinese / 简体中文",
-    "Medical Conditions"
+    "Symptoms"
   ],
   [
-    "Hypertension",
+    "Rash?",
     "皮肤炎？",
     "Simplified Chinese / 简体中文",
-    "Medical Conditions"
+    "Symptoms"
   ],
   [
-    "Hyperlipidemia",
+    "Any pain? Specifically, any chest pain?",
     "任何疼痛？胸部疼痛？",
     "Simplified Chinese / 简体中文",
-    "Medical Conditions"
+    "Symptoms"
   ],
   [
-    "Diabetes",
+    "Point to the place.",
     "请指痛的地方",
     "Simplified Chinese / 简体中文",
-    "Medical Conditions"
+    "Symptoms"
   ],
   [
-    "Heart problems",
+    "Do you have any past medical history?",
     "你有任何历史病状吗？",
     "Simplified Chinese / 简体中文",
     "Medical Conditions"
   ],
   [
-    "Kidney problems",
+    "Please point to which ones.",
     "请指出来",
     "Simplified Chinese / 简体中文",
     "Medical Conditions"
   ],
   [
-    "Loss of taste",
+    "Asthma",
     "气喘",
     "Simplified Chinese / 简体中文",
-    "Symptoms"
+    "Medical Conditions"
   ],
   [
-    "Lost of Smell",
+    "Pneumonia",
     "肺炎",
     "Simplified Chinese / 简体中文",
-    "Symptoms"
+    "Medical Conditions"
   ],
   [
-    "Do you have a drug allergy?",
+    "Hypertension",
     "高血压",
     "Simplified Chinese / 简体中文",
     "Medical Conditions"
   ],
   [
-    "Do you smoke? If yes, how many cigarettes a day?",
+    "Hyperlipidemia",
     "高脂血症",
     "Simplified Chinese / 简体中文",
     "Medical Conditions"
   ],
   [
-    "Do you drink? If yes, how much (number of bottles a week, type of alcohol)?",
+    "Diabetes",
     "糖尿病",
     "Simplified Chinese / 简体中文",
     "Medical Conditions"
   ],
   [
-    "If you have any other problems, you can tell me in English.",
+    "Heart problems",
     "心脏病",
     "Simplified Chinese / 简体中文",
     "Medical Conditions"
   ],
   [
-    "I'm going to examine you. ",
+    "Kidney problems",
     "肾病",
     "Simplified Chinese / 简体中文",
-    "Medical Instructions"
+    "Medical Conditions"
   ],
   [
-    "Tell me if you feel more pain.",
-    "肝脏衰竭",
-    "Simplified Chinese / 简体中文",
-    "Medical Instructions"
-  ],
-  [
-    "Please remove your shirt.",
-    "癌症",
-    "Simplified Chinese / 简体中文",
-    "Medical Instructions"
-  ],
-  [
-    "Keep taking deep breaths through your mouth.",
+    "Do you have a drug allergy?",
     "你有药物敏感吗？",
     "Simplified Chinese / 简体中文",
-    "Medical Instructions"
+    "Medical Conditions"
   ],
   [
-    "Say \"99\" when I listen with my stethoscope.",
+    "Do you smoke? If yes, how many cigarettes a day?",
     "你有吸烟吗？抽几根？",
     "Simplified Chinese / 简体中文",
-    "Medical Instructions"
+    "Medical Conditions"
   ],
   [
-    "I'm going to put this cotton bud into your nostril. You will feel strange but it is not painful",
+    "Do you drink? If yes, how much (number of bottles a week, type of alcohol)?",
     "您有喝酒吗？\n喝什么样的酒？\n每个星期喝几次？一次喝几杯/几瓶？",
     "Simplified Chinese / 简体中文",
-    "Medical Instructions"
+    "Medical Conditions"
   ],
   [
-    "This is to test for coronavirus",
-    "最近心情如何？”好“的话，大拇指向上，“不好”的话，大拇指向下",
-    "Simplified Chinese / 简体中文",
-    "Medical Instructions"
-  ],
-  [
-    "Tilt your head back",
-    "会不会觉得人生没有意义，想要伤害自己/ 想结束自己的生命",
-    "Simplified Chinese / 简体中文",
-    "Medical Instructions"
-  ],
-  [
-    "If coronavirus positive, we call your phone by tomorrow.",
+    "If you have any other problems, you can tell me in English.",
     "你还有其他问题吗？可以用英语跟我说。",
     "Simplified Chinese / 简体中文",
-    "Medical Instructions"
+    "Medical Conditions"
   ],
   [
-    "If coronavirus negative, we send you SMS (text) after 3 days",
+    "I'm going to examine you. ",
     "我现在检查你的身体",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "Later, you will do an X-ray",
+    "Tell me if you feel more pain.",
     "请让我知道如果痛",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "There is no sign of infection on your X-ray",
+    "Please remove your shirt.",
     "请把衣服脱掉",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "You can go back soon.",
+    "Keep taking deep breaths through your mouth.",
     "继续用口深呼吸",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "Wait here, do not leave this area",
-    "请你当我用听诊器的时候说‘eee’",
+    "Say \"99\" when I listen with my stethoscope.",
+    "请你当我用听诊器的时候说‘eee'",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "You have to stay in the hospital for a few days",
+    "I'm going to put this cotton bud into your nostril. You will feel strange but it is not painful",
     "我会把棉花放进你的鼻子。有点不舒服但不会痛",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "We need to transfer you to another location.",
+    "This is to test for coronavirus",
     "这是疫情感染测试",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "I'll give you medicine to make you feel better",
+    "Tilt your head back",
     "把头向后移",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "You must not work for next 5 days.",
+    "If coronavirus positive, we call your phone by tomorrow.",
     "如果检查结果证实受感染，明天我们会打电话通知你",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "You must come back if you have problems with breathing.",
+    "If coronavirus negative, we send you SMS (text) after 3 days",
     "如果检查结果没有受感染，我们会在三天后发简讯给你",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "You must come back if you do not recover completely after 5 days",
+    "Later, you will do an X-ray",
     "待会要做x-ray检查",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "Read the handout carefully",
+    "There is no sign of infection on your X-ray",
     "幻灯片显示你没有受感染",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "Thank you",
+    "You can go back soon.",
     "你很快可以回去了",
     "Simplified Chinese / 简体中文",
-    "Greetings"
+    "Medical Instructions"
   ],
   [
-    "Good morning / afternoon / evening",
+    "Wait here, do not leave this area",
     "在这里等候，别离开",
     "Simplified Chinese / 简体中文",
-    "Greetings"
+    "Medical Instructions"
   ],
   [
-    "I am the nurse",
+    "You have to stay in the hospital for a few days",
     "你必须住院几天",
     "Simplified Chinese / 简体中文",
-    "Greetings"
+    "Medical Instructions"
   ],
   [
-    "I am the doctor",
+    "I'll give you medicine to make you feel better",
     "我会开药让你好转",
     "Simplified Chinese / 简体中文",
-    "Greetings"
+    "Medical Instructions"
   ],
   [
-    "You are in the intensive care unit.",
+    "You must not work for next 5 days.",
     "接下来五天不能工作",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "Today is Monday",
+    "You must come back if you have problems with breathing.",
     "如遇到呼吸有困难必须回来",
     "Simplified Chinese / 简体中文",
-    "Greetings"
+    "Medical Instructions"
   ],
   [
-    "Today is Tuesday",
+    "You must come back if you do not recover completely after 5 days",
     "五天后如果没有完全康复，请回来复诊",
     "Simplified Chinese / 简体中文",
-    "Greetings"
+    "Medical Instructions"
   ],
   [
-    "Today is Wednesday",
+    "Read the handout carefully",
     "请仔细阅读",
     "Simplified Chinese / 简体中文",
-    "Greetings"
+    "Medical Instructions"
   ],
   [
-    "Today is Thursday",
+    "Thank you",
     "谢谢",
     "Simplified Chinese / 简体中文",
     "Greetings"
   ],
   [
-    "Today is Friday",
-    "您的冠状病毒的测试结果是阳性（positive) 的",
-    "Simplified Chinese / 简体中文",
-    "Greetings"
-  ],
-  [
-    "Today is Saturday",
-    "我们需要带您去医院",
-    "Simplified Chinese / 简体中文",
-    "Greetings"
-  ],
-  [
-    "Today is Sunday",
-    "我们会把您转去隔离设施",
-    "Simplified Chinese / 简体中文",
-    "Greetings"
-  ],
-  [
-    "You are getting better",
-    "早上好，下午好，晚上好",
-    "Simplified Chinese / 简体中文",
-    "Greetings"
-  ],
-  [
-    "We will remove the breathing tube when you are better",
+    "I am the nurse",
     "我是护士",
     "Simplified Chinese / 简体中文",
-    "Medical Instructions"
+    "Greetings"
   ],
   [
-    "You can talk after we remove the breathing tube",
+    "I am the doctor",
     "我是医生",
     "Simplified Chinese / 简体中文",
-    "Medical Instructions"
+    "Greetings"
   ],
   [
-    "Take a deep breath",
+    "You are in the intensive care unit.",
     "你在加护病房",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
-    "您知道今天是 [星期几]/[拜几] 吗",
+    "Today is Monday",
+    "今天是星期一",
     "Simplified Chinese / 简体中文",
-    "Medical Instructions"
+    "Greetings"
   ],
   [
-    "Don't struggle",
-    "今天是星期一，二，三，四，五，六，星期天",
+    "Today is Tuesday",
+    "今天是星期二",
     "Simplified Chinese / 简体中文",
-    "Medical Instructions"
+    "Greetings"
   ],
   [
-    "Don't move",
+    "Today is Wednesday",
+    "今天是星期三",
+    "Simplified Chinese / 简体中文",
+    "Greetings"
+  ],
+  [
+    "Today is Thursday",
+    "今天是星期四",
+    "Simplified Chinese / 简体中文",
+    "Greetings"
+  ],
+  [
+    "Today is Friday",
+    "今天是星期五",
+    "Simplified Chinese / 简体中文",
+    "Greetings"
+  ],
+  [
+    "Today is Saturday",
+    "今天是星期六",
+    "Simplified Chinese / 简体中文",
+    "Greetings"
+  ],
+  [
+    "Today is Sunday",
+    "今天是星期天",
+    "Simplified Chinese / 简体中文",
+    "Greetings"
+  ],
+  [
+    "You are getting better",
     "你好了一些",
     "Simplified Chinese / 简体中文",
-    "Medical Instructions"
+    "Greetings"
   ],
   [
-    "Lift up your arm",
+    "We will remove the breathing tube when you are better",
     "等你好些才把呼吸管拿掉",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "Lift up your leg",
+    "You can talk after we remove the breathing tube",
     "等我拿掉呼吸管你才讲话",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "Squeeze my hand",
+    "Take a deep breath",
     "深呼吸",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "Show me two fingers",
+    "Give me a big cough",
     "大声咳嗽",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Don't struggle",
     "不要挣扎",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "Stick out your tongue",
+    "Don't move",
     "不要动",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "Open your eyes",
+    "Lift up your arm",
     "提高你的手",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "I'm going to shine a light into your eyes. It will be bright.",
+    "Lift up your leg",
     "提高你的脚",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "Your lungs are weak. We are going to insert a breathing tube to help you breathe",
+    "Squeeze my hand",
     "挤我的手",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "You are going to sleep now",
+    "Show me two fingers",
     "给我看两根手指",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "We are turning you onto your belly to help your lungs expand",
+    "Open your mouth",
     "开嘴巴",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "We are inserting a tube to help you pass urine",
+    "Stick out your tongue",
     "伸舌头",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "We are inserting a tube through your nose",
+    "Open your eyes",
     "开眼睛",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "We are going to give you an injection in your neck to give you medications",
+    "I'm going to shine a light into your eyes. It will be bright.",
     "我要照灯检查你的眼睛。会很亮。",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "We are going to give you an injection in your arm to measure your blood pressure",
+    "Your lungs are weak. We are going to insert a breathing tube to help you breathe",
     "你的肺很弱。我们要放一条呼吸管帮你呼吸",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "We will give you sleeping medications.",
+    "You are going to sleep now",
     "你睡觉吧",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "We will give you painkillers.",
+    "We are turning you onto your belly to help your lungs expand",
     "我们把你倒反让你的肺扩张",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "We are giving you medication to keep your blood pressure up.",
+    "We are inserting a tube to help you pass urine",
     "我们要装一条管道让你小便",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "We are going to remove the breathing tube.",
+    "We are inserting a tube through your nose",
     "我们要在你的鼻子放一条管道",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "We are going to suck out your phlegm",
+    "We are going to give you an injection in your neck to give you medications",
     "我们要在你的颈项的部位部位打针来给你药物",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "We are going to clean you with a sponge",
+    "We are going to give you an injection in your arm to measure your blood pressure",
     "我们要帮你打针在手的部位来量你的体温",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "Turn left",
+    "We will give you sleeping medications.",
     "我们给你睡觉的药",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "Turn right",
+    "We will give you painkillers.",
     "我们给你止痛药",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "We will change your diapers",
+    "We are giving you medication to keep your blood pressure up.",
     "我们给你药物让你的血压提高",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "Lift up your leg",
+    "We are going to remove the breathing tube.",
     "我们帮你拿掉呼吸管",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "We are going to sit you up",
+    "We are going to suck out your phlegm",
     "我们帮你抽谈",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "We are going to shift you up the bed",
+    "We are going to clean you with a sponge",
     "我们帮你清洗",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "We are going to clean your mouth",
+    "Turn left",
     "转左",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "Do not swallow the gargle",
+    "Turn right",
     "转右",
     "Simplified Chinese / 简体中文",
     "Medical Instructions"
   ],
   [
-    "Are you in pain?",
+    "We will change your diapers",
     "我们要帮你换尿布",
     "Simplified Chinese / 简体中文",
-    "Basic Terms"
+    "Medical Instructions"
   ],
   [
-    "Where is the pain?",
+    "Lift up your leg",
     "把脚提起来",
     "Simplified Chinese / 简体中文",
-    "Basic Terms"
+    "Medical Instructions"
   ],
   [
-    "Is it mild, moderate or severe?",
+    "We are going to sit you up",
     "我们要让你坐起来",
     "Simplified Chinese / 简体中文",
-    "Basic Terms"
+    "Medical Instructions"
   ],
   [
-    "Can you point to the pain?",
+    "We are going to shift you up the bed",
     "我们要扶你上床",
     "Simplified Chinese / 简体中文",
-    "Basic Terms"
+    "Medical Instructions"
   ],
   [
-    "Head",
+    "We are going to clean your mouth",
     "我帮你清洗口",
     "Simplified Chinese / 简体中文",
-    "Basic Terms"
+    "Medical Instructions"
   ],
   [
-    "eyes",
+    "Do not swallow the gargle",
     "不要把液体吞下去",
     "Simplified Chinese / 简体中文",
-    "Basic Terms"
+    "Medical Instructions"
   ],
   [
-    "ears",
+    "Are you in pain?",
     "您现在哪里有痛吗？",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Where is the pain?",
     "痛在哪里？",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Is it mild, moderate or severe?",
     "您的痛，是轻微的痛，中等的痛，还是非常痛？",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Can you point to the pain?",
     "您能指一下给我看痛在哪里吗？",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Head",
     "头",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Eyes",
     "眼睛",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "back",
+    "Ears",
     "耳朵",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Nose",
     "鼻子",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Mouth",
     "嘴巴/口",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Throat",
     "喉咙",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "1 - one",
+    "Chest",
     "胸口",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "2 - two",
+    "Abdomen",
     "腹部",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "3 - three",
+    "Back",
     "背",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "4 - four",
+    "Arms",
     "手",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "5 - five",
+    "Legs",
     "腿",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "6 - six",
+    "Feet",
     "脚",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "7 - seven",
+    "1 - one",
     "一",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "8 - eight",
+    "2 - two",
     "二",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "9 - nine",
+    "3 - three",
     "三",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "10 - ten",
+    "4 - four",
     "四",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "0 - zero",
+    "5 - five",
     "五",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "January",
+    "6 - six",
     "六",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "Feb",
+    "7 - seven",
     "七",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "March",
+    "8 - eight",
     "八",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "April",
+    "9 - nine",
     "九",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "May",
+    "10 - ten",
     "十",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "June",
+    "0 - zero",
     "零",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "July",
+    "January",
     "一月 ",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "August",
+    "February",
     "二月",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "September",
+    "March",
     "三月",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "October",
+    "April",
     "四月",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "November",
+    "May",
     "五月",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "December",
+    "June",
     "六月",
     "Simplified Chinese / 简体中文",
     "Basic Terms"
   ],
   [
-    "PART 2 ",
+    "July",
     "七月",
     "Simplified Chinese / 简体中文",
-    ""
+    "Basic Terms"
   ],
   [
-    "1. What is COVID-19? ",
+    "August",
     "八月",
     "Simplified Chinese / 简体中文",
-    "FAQ"
+    "Basic Terms"
   ],
   [
-    "COVID-19 (more specifically, a coronavirus) is the disease identified as the cause of an outbreak of respiratory illness first detected in Wuhan, China",
+    "September",
     "九月",
     "Simplified Chinese / 简体中文",
-    "FAQ"
+    "Basic Terms"
   ],
   [
-    "2. What are the symptoms of COVID-19?",
+    "October",
     "十月",
     "Simplified Chinese / 简体中文",
-    "FAQ"
+    "Basic Terms"
   ],
   [
-    "The most common symptoms are fever, tiredness and dry cough. Some patients also have runny nose, sore throat or diarrhoea. These symptoms are usually mild and begin gradually.\nSome people become infected but remain asymptomatic.\nIt can however, also cause lung infection, or pneumonia.",
+    "November",
     "十一月",
     "Simplified Chinese / 简体中文",
-    "FAQ"
+    "Basic Terms"
   ],
   [
-    "3. How does COVID-19 spread?",
+    "December",
     "十二月",
     "Simplified Chinese / 简体中文",
-    "FAQ"
-  ],
-  [
-    "4. What is the test for COVID-19 like?",
-    "看诊后，要注意什么",
-    "Simplified Chinese / 简体中文",
-    "FAQ"
-  ],
-  [
-    "It is a swab test inserted in your nostril or at the back of your throat. It will last about 10 seconds. There might be a slight discomfort, however it is not significantly painful.",
-    "请避免使用公共交通",
-    "Simplified Chinese / 简体中文",
-    "FAQ"
-  ],
-  [
-    "5. What happens if I am tested positive for COVID-19?",
-    "您可以乘坐私人交通工具或者乘坐德士（出租车）/私召车",
-    "Simplified Chinese / 简体中文",
-    "FAQ"
-  ],
-  [
-    "Arrangements will be made for you to be warded or sent to a community isolation facility, to be placed under observation. You will be observed for deterioration. You might require X-Rays and blood tests as well. Repeated testing of your respiratory samples (via nose or throat) will be done on a regular basis, usually 24 hours apart. If you test negative twice consecutively, you can be discharged back to your home/dorm to continue 2 weeks of isolation at home.",
-    "上车时请戴上口罩，并独自坐在车后",
-    "Simplified Chinese / 简体中文",
-    "FAQ"
-  ],
-  [
-    "6. Will I die from COVID-19?",
-    "打开车窗并关掉冷气/空调",
-    "Simplified Chinese / 简体中文",
-    "FAQ"
-  ],
-  [
-    "It is normal to worry about how COVID-19 might affect you or your loved ones. In 80% of cases, infections from COVID-19 are usually mild and do not even need any treatment. There is a chance of deterioration due to the virus, which happens more commonly in the elderly population or in those with significant pre-existing medical conditions. Only 5% of patients will require ICU care including breathing support or medications to support their blood pressure.",
-    "请向您的德士或私召车司机索取收据。如果您的冠状病毒测试结果是阳性的，我们必须追踪所有和您接触过的人。收据会对我们有帮助",
-    "Simplified Chinese / 简体中文",
-    "FAQ"
-  ],
-  [
-    "7. Is there a treatment for COVID-19?",
-    "您自己要实行居家隔离。法律规定：除非是要处理与医疗相关的事, 这整个病假期间您不能离开家。",
-    "Simplified Chinese / 简体中文",
-    "FAQ"
-  ],
-  [
-    "Most cases of COVID-19 infections do not require any treatment, and only require medications to alleviate symptoms. There is currently no established treatment for the 5% of patients with severe disease, however there are many clinical trials ongoing which have shown variable success. Even though there is no established treatment, if you do develop severe disease, you will still receive breathing support and will be given medications to support your blood pressure.",
-    "在还没获得您的冠状病毒测试结果之前，如果您需要去看医生或复诊，请通知医护人员您近期验过冠状病毒，而且有什么症状。在预约日期前，您也应该拨打6344 8222 通知人民协会。",
-    "Simplified Chinese / 简体中文",
-    "FAQ"
-  ],
-  [
-    "8. How much do I have to pay for my treatment?",
-    "请您叮嘱您的家人留意自己的身体状况。若他们有发烧或呼吸道症状，例如咳嗽、喉咙痛或呼吸困难，请吩咐他们戴上外科口罩，并立刻前往诊所求诊。 若他们之前有出国，或与您有近距离的接触，也请他们通知医生。",
-    "Simplified Chinese / 简体中文",
-    "FAQ"
-  ],
-  [
-    "9. I am worried about missing so much work. Will my boss fire me?",
-    "当您在自我隔离时",
-    "Simplified Chinese / 简体中文",
-    "FAQ"
-  ],
-  [
-    "Your employer is legally mandated to allow your quarantine/treatment. Your employer is also legally bound to continue to pay your salaries even if you are not allowed to leave your dormitory during this Circuit Breaker period. If your employer does not pay your salary within 7 days of the end of the salary period, he can be prosecuted by the Singapore Government.",
-    "在家里时，请独自住在一个房间内，在条件允许的情况下，请单独使用一个卫生间来减少与其他人的接触。如果您和其他人共用同一个卫生间，您接触过的表面需要在使用前后擦拭，清洁。",
-    "Simplified Chinese / 简体中文",
-    "FAQ"
-  ],
-  [
-    "10. I am scared and I want to go home.",
-    "请要求他人为您定时准备食物、水和其他日常用品，将它们放置在您的房门外，好让您可以把它们带进房内",
-    "Simplified Chinese / 简体中文",
-    "FAQ"
-  ],
-  [
-    "It is natural to be scared and anxious during this period. For the safety of your family, it is imperative that you follow the instructions given to you by your doctors and the Government. The Singapore Government has made arrangements for you so that we can safely treat you, if you test positive for COVID-19, while protecting others. Singapore has good hospitals and treatment here and will endeavour to give you the best medical care possible.",
-    "直到您的检测结果为阴性前，请减少您与其他家人（尤其是年幼和年长人士）的近距离接触。",
-    "Simplified Chinese / 简体中文",
-    "FAQ"
-  ],
-  [
-    "Fortunately, there are some preventive measures you can take to minimise the risk of infection. They are:\n1. Thoroughly washing your hands with soap and water for at least 20 seconds.\n2. Avoid touching eyes, nose and mouth.\n3. Covering your mouth and nose with your elbow or tissue when you cough or sneeze.\n4. Maintaining at least 1 metre distance between yourself and anyone else.\n5. Staying indoors if you feel unwell and keep isolated from others. If you develop fever, cough or breathlessness, please seek medical attention early.",
-    "自己的健康，自己把握",
-    "Simplified Chinese / 简体中文",
-    "FAQ"
+    "Basic Terms"
   ],
   [
     "I am a doctor. I do not speak your language. I will communicate with you using this website. Answer me in English as much as possible. Thank you.",
     "我是一名醫生。 我不會說華語。 我會用這網頁來與您溝通。 希望您能盡量用英語回答。 謝謝",
-    "Traidtional Chinese / 繁體中文",
+    "Traditional Chinese / 繁體中文",
     "Greetings"
   ],
   [
     "What's your name?",
     "請問您姓名是?/ 請問我要如何稱呼您呢?",
-    "Traidtional Chinese / 繁體中文",
+    "Traditional Chinese / 繁體中文",
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "請把您的身份證或工作准證交給我。",
-    "Traidtional Chinese / 繁體中文",
+    "Traditional Chinese / 繁體中文",
     "Greetings"
   ],
   [
     "In the last 14 days, did you meet anyone who has coronavirus?",
-    "請問您在哪間公司做工/上班? ",
-    "Traidtional Chinese / 繁體中文",
+    "在過去的十四天內,您是否與患有冠狀型病毒的病人接觸過?",
+    "Traditional Chinese / 繁體中文",
     "Contact with Others"
   ],
   [
     "Who? What is your relationship with them?",
-    "您的主管的名字和聯繫方式是什麼?",
-    "Traidtional Chinese / 繁體中文",
+    "如果有的話,請問您與病人是什麼關係呢?",
+    "Traditional Chinese / 繁體中文",
     "Contact with Others"
   ],
   [
     "How many days ago did you meet them? (There is a number chart in the sidebar if they cannot answer)",
-    "請問您宿舍的名字是什麼?     ",
-    "Traidtional Chinese / 繁體中文",
+    "您是在幾天前與病人接觸的呢? ",
+    "Traditional Chinese / 繁體中文",
     "Contact with Others"
   ],
   [
     "How long were you with him/her?",
-    "那裡是一個感染社群嗎?",
-    "Traidtional Chinese / 繁體中文",
+    "您與病人接觸的時間有多久?",
+    "Traditional Chinese / 繁體中文",
     "Contact with Others"
   ],
   [
     "In the last 14 days, did you travel out of this country? If yes, tell us the countries in English.",
-    "有幾個人和您住在同一個房間?",
-    "Traidtional Chinese / 繁體中文",
+    "在過去的十四天內,您是否出過國/從其他國家來到新加坡?如果有的話, 請問您去了哪些國家呢?    ",
+    "Traditional Chinese / 繁體中文",
     "Contact with Others"
   ],
   [
     "Do you have a fever?",
-    "在過去的十四天內,您是否與患有冠狀型病毒的病人接觸過?",
-    "Traidtional Chinese / 繁體中文",
+    "您目前有沒有發燒呢?",
+    "Traditional Chinese / 繁體中文",
     "Symptoms"
   ],
   [
     "How many days?\n(You may use this for multiple symptoms)",
-    "如果有的話,請問您與病人是什麼關係呢?",
-    "Traidtional Chinese / 繁體中文",
+    "發燒多久了/幾天?",
+    "Traditional Chinese / 繁體中文",
     "Symptoms"
   ],
   [
     "Did you measure it with a thermometer? If you did, what was the highest reading?",
-    "您是在幾天前與病人接觸的呢? ",
-    "Traidtional Chinese / 繁體中文",
+    "您有用溫度計測量體溫嗎?如果有的話,您的最高體溫是多少?",
+    "Traditional Chinese / 繁體中文",
     "Symptoms"
   ],
   [
     "Runny nose?",
-    "您與病人接觸的時間有多久?",
-    "Traidtional Chinese / 繁體中文",
+    "流鼻涕   ",
+    "Traditional Chinese / 繁體中文",
     "Symptoms"
   ],
   [
     "Cough?",
-    "在過去的十四天內,您是否出過國/從其他國家來到新加坡?如果有的話, 請問您去了哪些國家呢?    ",
-    "Traidtional Chinese / 繁體中文",
+    "咳嗽",
+    "Traditional Chinese / 繁體中文",
     "Symptoms"
   ],
   [
     "Sore throat?",
-    "您目前有沒有發燒呢?",
-    "Traidtional Chinese / 繁體中文",
+    "喉嚨痛",
+    "Traditional Chinese / 繁體中文",
     "Symptoms"
   ],
   [
     "Difficulty breathing?",
-    "發燒多久了/幾天?",
-    "Traidtional Chinese / 繁體中文",
-    "Symptoms"
+    "呼吸困難",
+    "Traditional Chinese / 繁體中文",
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
-    "您有用溫度計測量體溫嗎?如果有的話,您的最高體溫是多少?",
-    "Traidtional Chinese / 繁體中文",
+    "您最近有沒有拉肚子?一天拉幾次?",
+    "Traditional Chinese / 繁體中文",
     "Symptoms"
   ],
   [
     "Rash?",
-    "流鼻涕   ",
-    "Traidtional Chinese / 繁體中文",
+    "皮膚 出紅疹/ 身體發癢    ",
+    "Traditional Chinese / 繁體中文",
     "Symptoms"
   ],
   [
     "Any pain? Specifically, any chest pain?",
-    "咳嗽",
-    "Traidtional Chinese / 繁體中文",
+    "您身體哪裡有痛嗎?特別是胸口,會覺得痛或緊悶嗎?",
+    "Traditional Chinese / 繁體中文",
     "Symptoms"
   ],
   [
     "Point to the place.",
-    "喉嚨痛",
-    "Traidtional Chinese / 繁體中文",
+    "可以指出您的痛/不舒服在哪裡嗎?",
+    "Traditional Chinese / 繁體中文",
     "Symptoms"
   ],
   [
     "Do you have any past medical history?",
-    "呼吸困難",
-    "Traidtional Chinese / 繁體中文",
+    "您有什麼長期慢性疾病,或其他病歷嗎?",
+    "Traditional Chinese / 繁體中文",
     "Medical Conditions"
   ],
   [
     "Please point to which ones.",
-    "您的嗅覺有變差嗎?",
-    "Traidtional Chinese / 繁體中文",
+    "可以指給我 您有哪個疾病嗎",
+    "Traditional Chinese / 繁體中文",
     "Medical Conditions"
   ],
   [
     "Asthma",
-    "您的味覺有變差嗎?/您最近吃的食物都沒味道?",
-    "Traidtional Chinese / 繁體中文",
+    "哮喘",
+    "Traditional Chinese / 繁體中文",
     "Medical Conditions"
   ],
   [
     "Pneumonia",
-    "您最近有沒有拉肚子?一天拉幾次?",
-    "Traidtional Chinese / 繁體中文",
+    "肺炎  ",
+    "Traditional Chinese / 繁體中文",
     "Medical Conditions"
   ],
   [
     "Hypertension",
-    "皮膚 出紅疹/ 身體發癢    ",
-    "Traidtional Chinese / 繁體中文",
+    "高血壓",
+    "Traditional Chinese / 繁體中文",
     "Medical Conditions"
   ],
   [
     "Hyperlipidemia",
-    "您身體哪裡有痛嗎?特別是胸口,會覺得痛或緊悶嗎?",
-    "Traidtional Chinese / 繁體中文",
+    "高膽固醇",
+    "Traditional Chinese / 繁體中文",
     "Medical Conditions"
   ],
   [
     "Diabetes",
-    "可以指出您的痛/不舒服在哪裡嗎?",
-    "Traidtional Chinese / 繁體中文",
+    "糖尿病",
+    "Traditional Chinese / 繁體中文",
     "Medical Conditions"
   ],
   [
     "Heart problems",
-    "您有什麼長期慢性疾病,或其他病歷嗎?",
-    "Traidtional Chinese / 繁體中文",
+    "心臟問題 / 心臟衰竭",
+    "Traditional Chinese / 繁體中文",
     "Medical Conditions"
   ],
   [
     "Kidney problems",
-    "可以指給我 您有哪個疾病嗎",
-    "Traidtional Chinese / 繁體中文",
+    "腎衰竭 您有洗腎嗎?",
+    "Traditional Chinese / 繁體中文",
     "Medical Conditions"
   ],
   [
-    "Loss of taste",
-    "哮喘",
-    "Traidtional Chinese / 繁體中文",
-    "Symptoms"
-  ],
-  [
-    "Lost of Smell",
-    "肺炎  ",
-    "Traidtional Chinese / 繁體中文",
-    "Symptoms"
-  ],
-  [
     "Do you have a drug allergy?",
-    "高血壓",
-    "Traidtional Chinese / 繁體中文",
+    "您有對藥物敏感嗎?",
+    "Traditional Chinese / 繁體中文",
     "Medical Conditions"
   ],
   [
     "Do you smoke? If yes, how many cigarettes a day?",
-    "高膽固醇",
-    "Traidtional Chinese / 繁體中文",
+    "您有抽煙嗎? 一天抽幾支 / 幾包?",
+    "Traditional Chinese / 繁體中文",
     "Medical Conditions"
   ],
   [
     "Do you drink? If yes, how much (number of bottles a week, type of alcohol)?",
-    "糖尿病",
-    "Traidtional Chinese / 繁體中文",
+    "您有喝酒嗎? 喝什麼樣的酒? 每個星期喝幾次?一次喝幾杯/幾瓶?",
+    "Traditional Chinese / 繁體中文",
     "Medical Conditions"
   ],
   [
     "If you have any other problems, you can tell me in English.",
-    "心臟問題 / 心臟衰竭",
-    "Traidtional Chinese / 繁體中文",
+    "如果您有其他問題和擔憂,可以用英語問我",
+    "Traditional Chinese / 繁體中文",
     "Medical Conditions"
   ],
   [
     "I'm going to examine you. ",
-    "腎衰竭 您有洗腎嗎?",
-    "Traidtional Chinese / 繁體中文",
+    "我現在需要檢查您的身體 ",
+    "Traditional Chinese / 繁體中文",
     "Medical Instructions"
   ],
   [
     "Tell me if you feel more pain.",
-    "肝臟衰竭 ",
-    "Traidtional Chinese / 繁體中文",
+    "如果有痛要告訴我",
+    "Traditional Chinese / 繁體中文",
     "Medical Instructions"
   ],
   [
     "Please remove your shirt.",
-    "癌症",
-    "Traidtional Chinese / 繁體中文",
+    "請脫掉上衣",
+    "Traditional Chinese / 繁體中文",
     "Medical Instructions"
   ],
   [
     "Keep taking deep breaths through your mouth.",
-    "您有對藥物敏感嗎?",
-    "Traidtional Chinese / 繁體中文",
+    "用嘴巴深呼吸",
+    "Traditional Chinese / 繁體中文",
     "Medical Instructions"
   ],
   [
     "Say \"99\" when I listen with my stethoscope.",
-    "您有抽煙嗎? 一天抽幾支 / 幾包?",
-    "Traidtional Chinese / 繁體中文",
+    "當我把聽筒放在您身上時,說\"EEEEEEE\"",
+    "Traditional Chinese / 繁體中文",
     "Medical Instructions"
   ],
   [
     "I'm going to put this cotton bud into your nostril. You will feel strange but it is not painful",
-    "您有喝酒嗎? 喝什麼樣的酒? 每個星期喝幾次?一次喝幾杯/幾瓶?",
-    "Traidtional Chinese / 繁體中文",
+    "我會把這個棉花棒放進您的鼻子。 您會感到不舒服,請見諒",
+    "Traditional Chinese / 繁體中文",
     "Medical Instructions"
   ],
   [
     "This is to test for coronavirus",
-    "最近心情如何?\" 好\"的話,大拇指向上,\"不好\"的話,大拇指向下",
-    "Traidtional Chinese / 繁體中文",
+    "這是用來檢測冠狀病毒的鼻涕樣本",
+    "Traditional Chinese / 繁體中文",
     "Medical Instructions"
   ],
   [
     "Tilt your head back",
-    "會不會覺得人生沒有意義,想要傷害自己/ 想結束自己的生命  ",
-    "Traidtional Chinese / 繁體中文",
+    "請把頭往後仰",
+    "Traditional Chinese / 繁體中文",
     "Medical Instructions"
   ],
   [
     "If coronavirus positive, we call your phone by tomorrow.",
-    "如果您有其他問題和擔憂,可以用英語問我",
-    "Traidtional Chinese / 繁體中文",
+    "如果您的冠狀病毒測試結果是陽性,我們會在明天打電話給您。 ",
+    "Traditional Chinese / 繁體中文",
     "Medical Instructions"
   ],
   [
     "If coronavirus negative, we send you SMS (text) after 3 days",
-    "我現在需要檢查您的身體 ",
-    "Traidtional Chinese / 繁體中文",
+    "如果您的冠狀病毒測試結果是陰性,三天過後我們會發簡訊給您。",
+    "Traditional Chinese / 繁體中文",
     "Medical Instructions"
   ],
   [
     "Later, you will do an X-ray",
-    "如果有痛要告訴我",
-    "Traidtional Chinese / 繁體中文",
+    "待會兒給您照X光     ",
+    "Traditional Chinese / 繁體中文",
     "Medical Instructions"
   ],
   [
     "There is no sign of infection on your X-ray",
-    "請脫掉上衣",
-    "Traidtional Chinese / 繁體中文",
+    "您的X光報告顯示肺部沒有發炎的跡象。",
+    "Traditional Chinese / 繁體中文",
     "Medical Instructions"
   ],
   [
     "You can go back soon.",
-    "用嘴巴深呼吸",
-    "Traidtional Chinese / 繁體中文",
+    "您應該很快就可以回家了。",
+    "Traditional Chinese / 繁體中文",
     "Medical Instructions"
   ],
   [
     "Wait here, do not leave this area",
-    "當我把聽筒放在您身上時,說\"EEEEEEE\"",
-    "Traidtional Chinese / 繁體中文",
+    "請在這邊稍等,不要離開這裡。",
+    "Traditional Chinese / 繁體中文",
     "Medical Instructions"
   ],
   [
     "You have to stay in the hospital for a few days",
-    "我會把這個棉花棒放進您的鼻子。 您會感到不舒服,請見諒",
-    "Traidtional Chinese / 繁體中文",
-    "Medical Instructions"
-  ],
-  [
-    "We need to transfer you to another location.",
-    "這是用來檢測冠狀病毒的鼻涕樣本",
-    "Traidtional Chinese / 繁體中文",
+    "您需要住院幾天, 讓我們觀察。",
+    "Traditional Chinese / 繁體中文",
     "Medical Instructions"
   ],
   [
     "I'll give you medicine to make you feel better",
-    "請把頭往後仰",
-    "Traidtional Chinese / 繁體中文",
+    "我現在讓您吃點藥,吃了會舒服一點。",
+    "Traditional Chinese / 繁體中文",
     "Medical Instructions"
   ],
   [
     "You must not work for next 5 days.",
-    "如果您的冠狀病毒測試結果是陽性,我們會在明天打電話給您。 ",
-    "Traidtional Chinese / 繁體中文",
+    "接下來的五天不能回去上班。",
+    "Traditional Chinese / 繁體中文",
     "Medical Instructions"
   ],
   [
     "You must come back if you have problems with breathing.",
-    "如果您的冠狀病毒測試結果是陰性,三天過後我們會發簡訊給您。",
-    "Traidtional Chinese / 繁體中文",
+    "如果有呼吸困難,一定要回來緊急部門",
+    "Traditional Chinese / 繁體中文",
     "Medical Instructions"
   ],
   [
     "You must come back if you do not recover completely after 5 days",
-    "待會兒給您照X光     ",
-    "Traidtional Chinese / 繁體中文",
+    "如果五天過後您還沒痊癒,一定要回來緊急部門",
+    "Traditional Chinese / 繁體中文",
     "Medical Instructions"
   ],
   [
     "Read the handout carefully",
-    "您的X光報告顯示肺部沒有發炎的跡象。",
-    "Traidtional Chinese / 繁體中文",
+    "請仔細參考這份冊子。",
+    "Traditional Chinese / 繁體中文",
     "Medical Instructions"
   ],
   [
     "Thank you",
-    "您應該很快就可以回家了。",
-    "Traidtional Chinese / 繁體中文",
-    "Greetings"
-  ],
-  [
-    "Good morning / afternoon / evening",
-    "請在這邊稍等,不要離開這裡。",
-    "Traidtional Chinese / 繁體中文",
+    "謝謝您     ",
+    "Traditional Chinese / 繁體中文",
     "Greetings"
   ],
   [
     "I am the nurse",
-    "您需要住院幾天, 讓我們觀察。",
-    "Traidtional Chinese / 繁體中文",
+    "我是照顧您的護士",
+    "Traditional Chinese / 繁體中文",
     "Greetings"
   ],
   [
     "I am the doctor",
-    "我現在讓您吃點藥,吃了會舒服一點。",
-    "Traidtional Chinese / 繁體中文",
+    " 我是照顧您的醫生",
+    "Traditional Chinese / 繁體中文",
     "Greetings"
   ],
   [
     "You are in the intensive care unit.",
-    "接下來的五天不能回去上班。",
-    "Traidtional Chinese / 繁體中文",
+    "您現在在加護病房",
+    "Traditional Chinese / 繁體中文",
     "Medical Instructions"
   ],
   [
-    "Today is Monday",
-    "如果有呼吸困難,一定要回來緊急部門",
-    "Traidtional Chinese / 繁體中文",
-    "Greetings"
-  ],
-  [
     "Today is Tuesday",
-    "如果五天過後您還沒痊癒,一定要回來緊急部門",
-    "Traidtional Chinese / 繁體中文",
+    "今天是星期二",
+    "Traditional Chinese / 繁體中文",
     "Greetings"
   ],
   [
     "Today is Wednesday",
-    "請仔細參考這份冊子。",
-    "Traidtional Chinese / 繁體中文",
+    "今天是星期三",
+    "Traditional Chinese / 繁體中文",
     "Greetings"
   ],
   [
     "Today is Thursday",
-    "謝謝您     ",
-    "Traidtional Chinese / 繁體中文",
+    "今天是星期四",
+    "Traditional Chinese / 繁體中文",
     "Greetings"
   ],
   [
     "Today is Friday",
-    "您的冠狀病毒的測試結果是陽性(positive) 的",
-    "Traidtional Chinese / 繁體中文",
+    "今天是星期五",
+    "Traditional Chinese / 繁體中文",
     "Greetings"
   ],
   [
     "Today is Saturday",
-    "我們需要帶您去醫院",
-    "Traidtional Chinese / 繁體中文",
+    "今天是星期六",
+    "Traditional Chinese / 繁體中文",
     "Greetings"
   ],
   [
     "Today is Sunday",
-    "我們會把您轉去隔離設施",
-    "Traidtional Chinese / 繁體中文",
+    "今天是星期天",
+    "Traditional Chinese / 繁體中文",
     "Greetings"
-  ],
-  [
-    "You are getting better",
-    "早安/ 傍晚好",
-    "Traidtional Chinese / 繁體中文",
-    "Greetings"
-  ],
-  [
-    "We will remove the breathing tube when you are better",
-    "我是照顧您的護士",
-    "Traidtional Chinese / 繁體中文",
-    "Medical Instructions"
-  ],
-  [
-    "You can talk after we remove the breathing tube",
-    " 我是照顧您的醫生",
-    "Traidtional Chinese / 繁體中文",
-    "Medical Instructions"
-  ],
-  [
-    "Take a deep breath",
-    "您現在在加護病房",
-    "Traidtional Chinese / 繁體中文",
-    "Medical Instructions"
-  ],
-  [
-    "Open your mouth",
-    "您知道今天是星期幾/拜幾嗎",
-    "Traidtional Chinese / 繁體中文",
-    "Medical Instructions"
   ],
   [
     "I am a doctor. I do not speak your language. I will communicate with you using this website. Answer me in English as much as possible. Thank you.",
@@ -4314,7 +4128,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "Maaari mo bang ibigay sa akin ang iyong Identification Card o Work Permit?",
     "Filipino / filipino",
     "Greetings"
@@ -4389,7 +4203,7 @@ export default [
     "Difficulty breathing?",
     "Mayroon ka bang sore throat?",
     "Filipino / filipino",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -4638,91 +4452,127 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
+    "I am the nurse",
     "Ako ang nars.",
     "Filipino / filipino",
     "Greetings"
   ],
   [
-    "I am the nurse",
+    "I am the doctor",
     "Ako ang doktor.",
     "Filipino / filipino",
     "Greetings"
   ],
   [
-    "I am the doctor",
-    "Ikaw ay nasa ICU o intensive care unit.",
-    "Filipino / filipino",
-    "Greetings"
-  ],
-  [
     "You are in the intensive care unit.",
-    "Lunes/Martes/Miyerkules/Huwebes/Biyernes/Sabado/Linggo na ngayon.",
+    "Ikaw ay nasa ICU o intensive care unit.",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
     "Today is Monday",
-    "Bumubuti na ang iyong kalagayan.",
+    "Lunes na ngayon",
     "Filipino / filipino",
     "Greetings"
   ],
   [
     "Today is Tuesday",
-    "Aalisin namin ang tubo kapag bumuti na ang iyong kalagayan",
+    "Martes na ngayon",
     "Filipino / filipino",
     "Greetings"
   ],
   [
     "Today is Wednesday",
-    "Maaari ka nang magsalita pagkatapos alisin ang tubo",
+    "Miyerkules na ngayon",
     "Filipino / filipino",
     "Greetings"
   ],
   [
     "Today is Thursday",
-    "Huminga nang malalim",
+    "Huwebes na ngayon",
     "Filipino / filipino",
     "Greetings"
   ],
   [
     "Today is Friday",
-    "Umubo nang may puwersa",
+    "Biyernes na ngayon",
     "Filipino / filipino",
     "Greetings"
   ],
   [
     "Today is Saturday",
-    "Huwag labanan",
+    "Sabado na ngayon",
     "Filipino / filipino",
     "Greetings"
   ],
   [
     "Today is Sunday",
-    "Huwag gagalaw",
+    "Linggo na ngayon",
     "Filipino / filipino",
     "Greetings"
   ],
   [
     "You are getting better",
-    "Itaas ang kamay",
+    "Bumubuti na ang iyong kalagayan.",
     "Filipino / filipino",
     "Greetings"
   ],
   [
     "We will remove the breathing tube when you are better",
-    "Itaas ang paa",
+    "Aalisin namin ang tubo kapag bumuti na ang iyong kalagayan",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
     "You can talk after we remove the breathing tube",
-    "Pisilin ang kamay ko",
+    "Maaari ka nang magsalita pagkatapos alisin ang tubo",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
     "Take a deep breath",
+    "Huminga nang malalim",
+    "Filipino / filipino",
+    "Medical Instructions"
+  ],
+  [
+    "Give me a big cough",
+    "Umubo nang may puwersa",
+    "Filipino / filipino",
+    "Medical Instructions"
+  ],
+  [
+    "Don't struggle",
+    "Huwag labanan",
+    "Filipino / filipino",
+    "Medical Instructions"
+  ],
+  [
+    "Don't move",
+    "Huwag gagalaw",
+    "Filipino / filipino",
+    "Medical Instructions"
+  ],
+  [
+    "Lift up your arm",
+    "Itaas ang kamay",
+    "Filipino / filipino",
+    "Medical Instructions"
+  ],
+  [
+    "Lift up your leg",
+    "Itaas ang paa",
+    "Filipino / filipino",
+    "Medical Instructions"
+  ],
+  [
+    "Squeeze my hand",
+    "Pisilin ang kamay ko",
+    "Filipino / filipino",
+    "Medical Instructions"
+  ],
+  [
+    "Show me two fingers",
     "Itaas ang dalawang daliri sa kamay",
     "Filipino / filipino",
     "Medical Instructions"
@@ -4734,406 +4584,406 @@ export default [
     "Medical Instructions"
   ],
   [
-    "Don't struggle",
+    "Stick out your tongue",
     "Labas ang dila",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
-    "Don't move",
+    "Open your eyes",
     "Buksan ang mga mata",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
-    "Lift up your arm",
+    "I'm going to shine a light into your eyes. It will be bright.",
     "Iilawan ko lang ang iyong mga mata. Makakasilaw lang saglit. ",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
-    "Lift up your leg",
+    "Your lungs are weak. We are going to insert a breathing tube to help you breathe",
     "Mahina na ang iyong baga. Kailangan naming magpasok ng tubo para tulungan kang huminga",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
-    "Squeeze my hand",
+    "You are going to sleep now",
     "Makakatulog ka na",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
-    "Show me two fingers",
+    "We are turning you onto your belly to help your lungs expand",
     "Ipapadapa ka lang namin para tulungang lumuwag ang iyong baga",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "We are inserting a tube to help you pass urine",
     "Magpapasok lang kami ng sonda/tubo sa pantog para tulungan kang maka-ihi",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
-    "Stick out your tongue",
+    "We are inserting a tube through your nose",
     "Magpapasok lang kami ng tubo sa loob ng ilong",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
-    "Open your eyes",
+    "We are going to give you an injection in your neck to give you medications",
     "Mag-injeksyon lang kami sa leeg para magbigay ng gamot",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
-    "I'm going to shine a light into your eyes. It will be bright.",
+    "We are going to give you an injection in your arm to measure your blood pressure",
     "(Injection for giving medication) Tutusok lang kami sa braso para magbigay ng gamot",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
-    "Your lungs are weak. We are going to insert a breathing tube to help you breathe",
+    "We will give you sleeping medications.",
     "(Injection for drawing blood) Tutusok lang kami sa braso para kumuha ng dugo",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
-    "You are going to sleep now",
+    "We will give you painkillers.",
     "Bibigyan ka namin ng gamot pampatulog",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
-    "We are turning you onto your belly to help your lungs expand",
+    "We are giving you medication to keep your blood pressure up.",
     "Bibigyan ka namin ng gamot para sa kirot",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
-    "We are inserting a tube to help you pass urine",
+    "We are going to remove the breathing tube.",
     "Binibigyan ka namin ng gamot para mapataas ang blood pressure",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
-    "We are inserting a tube through your nose",
+    "We are going to suck out your phlegm",
     "Tatanggalin na namin ang tubo sa baga",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
-    "We are going to give you an injection in your neck to give you medications",
+    "We are going to clean you with a sponge",
     "I-suction lang namin ang iyong plema ",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
-    "We are going to give you an injection in your arm to measure your blood pressure",
+    "Turn left",
     "Papaliguan ka namin",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
-    "We will give you sleeping medications.",
+    "Turn right",
     "Harap sa kaliwa",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
-    "We will give you painkillers.",
+    "We will change your diapers",
     "Higa patagilid sa kaliwa",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
-    "We are giving you medication to keep your blood pressure up.",
+    "Lift up your leg",
     "Harap sa kanan",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
-    "We are going to remove the breathing tube.",
+    "We are going to sit you up",
     "Higa patagilid sa kanan",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
-    "We are going to suck out your phlegm",
+    "We are going to shift you up the bed",
     "Papalitan namin ang iyong diaper",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
-    "We are going to clean you with a sponge",
+    "We are going to clean your mouth",
     "Itaas ang hita",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
-    "Turn left",
+    "Do not swallow the gargle",
     "I-uupo ka namin",
     "Filipino / filipino",
     "Medical Instructions"
   ],
   [
-    "Turn right",
-    "I-aangat lang namin ang kama",
-    "Filipino / filipino",
-    "Medical Instructions"
-  ],
-  [
-    "We will change your diapers",
-    "I-aangat ka lang namin sa kama",
-    "Filipino / filipino",
-    "Medical Instructions"
-  ],
-  [
-    "Lift up your leg",
-    "Lilinisin namin ang iyong bibig",
-    "Filipino / filipino",
-    "Medical Instructions"
-  ],
-  [
-    "We are going to sit you up",
-    "Huwag lunukin ang solusyong gamit sa pagmumog",
-    "Filipino / filipino",
-    "Medical Instructions"
-  ],
-  [
-    "We are going to shift you up the bed",
-    "Mayroon ka bang nararamdaman na masakit ngayon?",
-    "Filipino / filipino",
-    "Medical Instructions"
-  ],
-  [
-    "We are going to clean your mouth",
-    "Saang banda ang masakit?",
-    "Filipino / filipino",
-    "Medical Instructions"
-  ],
-  [
-    "Do not swallow the gargle",
-    "Ang sakit na nararamdaman ba ay banayad, katamtaman o malubha?",
-    "Filipino / filipino",
-    "Medical Instructions"
-  ],
-  [
     "Are you in pain?",
-    "Maaring ituro mo kung anung parte ng katawan ang masakit?",
+    "I-aangat lang namin ang kama",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
     "Where is the pain?",
-    "Ulo",
+    "I-aangat ka lang namin sa kama",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
     "Is it mild, moderate or severe?",
-    "Mata",
+    "Lilinisin namin ang iyong bibig",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
     "Can you point to the pain?",
-    "Tenga",
+    "Huwag lunukin ang solusyong gamit sa pagmumog",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
     "Head",
+    "Mayroon ka bang nararamdaman na masakit ngayon?",
+    "Filipino / filipino",
+    "Basic Terms"
+  ],
+  [
+    "Eyes",
+    "Saang banda ang masakit?",
+    "Filipino / filipino",
+    "Basic Terms"
+  ],
+  [
+    "Ears",
+    "Ang sakit na nararamdaman ba ay banayad, katamtaman o malubha?",
+    "Filipino / filipino",
+    "Basic Terms"
+  ],
+  [
+    "Nose",
+    "Maaring ituro mo kung anung parte ng katawan ang masakit?",
+    "Filipino / filipino",
+    "Basic Terms"
+  ],
+  [
+    "Mouth",
+    "Ulo",
+    "Filipino / filipino",
+    "Basic Terms"
+  ],
+  [
+    "Throat",
+    "Mata",
+    "Filipino / filipino",
+    "Basic Terms"
+  ],
+  [
+    "Chest",
+    "Tenga",
+    "Filipino / filipino",
+    "Basic Terms"
+  ],
+  [
+    "Abdomen",
     "Ilong",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Back",
     "Bibig",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Arms",
     "Lalamunan",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Legs",
     "Dibdib",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Feet",
     "Tiyan",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "1 - one",
     "Likod",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "chest",
+    "2 - two",
     "Braso",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "3 - three",
     "Hita",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "back",
+    "4 - four",
     "Paa",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "arms",
+    "5 - five",
     "Isa",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "legs",
+    "6 - six",
     "Dalawa",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "feet",
+    "7 - seven",
     "Tatlo",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "1 - one",
+    "8 - eight",
     "Apat",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "2 - two",
+    "9 - nine",
     "Lima",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "3 - three",
+    "10 - ten",
     "Anim",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "4 - four",
+    "0 - zero",
     "Pito",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "5 - five",
+    "January",
     "Walo",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "6 - six",
+    "February",
     "Siyam",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "7 - seven",
+    "March",
     "Sampu",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "8 - eight",
+    "April",
     "Zero",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "9 - nine",
+    "May",
     "Enero",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "10 - ten",
+    "June",
     "Pebrero",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "0 - zero",
+    "July",
     "Marso",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "January",
+    "August",
     "Abril",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "Feb",
+    "September",
     "Mayo",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "March",
+    "October",
     "Hunyo",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "April",
+    "November",
     "Hulyo",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "May",
+    "December",
     "Agosto",
     "Filipino / filipino",
     "Basic Terms"
   ],
   [
-    "June",
+    "You have tested positive for coronavirus.",
     "Setyembre",
     "Filipino / filipino",
-    "Basic Terms"
+    "Medical Instructions"
   ],
   [
-    "July",
+    "We will take you to the hospital.",
     "Oktubre",
     "Filipino / filipino",
-    "Basic Terms"
+    "Medical Instructions"
   ],
   [
-    "August",
+    "We will transfer to you an isolation facility.",
     "Nobyembre",
     "Filipino / filipino",
-    "Basic Terms"
+    "Medical Instructions"
   ],
   [
-    "September",
+    "How do you feel emotionally? (Use thumbs up and down)",
     "Disyembre",
     "Filipino / filipino",
-    "Basic Terms"
+    "Medical Conditions"
   ],
   [
     "I am a doctor. I do not speak your language. I will communicate with you using this website. Answer me in English as much as possible. Thank you.",
@@ -5148,7 +4998,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "Veuillez me remettre votre carte d'identité/permis de travail s'il vous plaît.",
     "French / Français",
     "Greetings"
@@ -5223,7 +5073,7 @@ export default [
     "Difficulty breathing?",
     "Difficulté à respirer ?",
     "French / Français",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -5472,12 +5322,6 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
-    "Bonjour / Bonsoir",
-    "French / Français",
-    "Greetings"
-  ],
-  [
     "I am the nurse",
     "Je suis l'infirmière",
     "French / Français",
@@ -5562,7 +5406,7 @@ export default [
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Give me a big cough",
     "Ouvrez la bouche",
     "French / Français",
     "Medical Instructions"
@@ -5784,67 +5628,67 @@ export default [
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Eyes",
     "Les yeux",
     "French / Français",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Ears",
     "Les oreilles",
     "French / Français",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Nose",
     "Le nez",
     "French / Français",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Mouth",
     "La bouche",
     "French / Français",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Throat",
     "La gorge",
     "French / Français",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Chest",
     "Le poitrine",
     "French / Français",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Abdomen",
     "L'abodomen",
     "French / Français",
     "Basic Terms"
   ],
   [
-    "back",
+    "Back",
     "Le dos",
     "French / Français",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Arms",
     "Les bras",
     "French / Français",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Legs",
     "Les jambes",
     "French / Français",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Feet",
     "Les pieds",
     "French / Français",
     "Basic Terms"
@@ -5922,7 +5766,7 @@ export default [
     "Basic Terms"
   ],
   [
-    "Feb",
+    "February",
     "Février",
     "French / Français",
     "Basic Terms"
@@ -6000,7 +5844,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "身分証・労働許可証を見せてください。",
     "Japanese / 日本語",
     "Greetings"
@@ -6075,7 +5919,7 @@ export default [
     "Difficulty breathing?",
     "息苦しさはありますか？",
     "Japanese / 日本語",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -6324,12 +6168,6 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
-    "こんにちは",
-    "Japanese / 日本語",
-    "Greetings"
-  ],
-  [
     "I am the nurse",
     "看護師です。",
     "Japanese / 日本語",
@@ -6414,7 +6252,7 @@ export default [
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Give me a big cough",
     "口を開けてください。",
     "Japanese / 日本語",
     "Medical Instructions"
@@ -6636,67 +6474,67 @@ export default [
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Eyes",
     "目",
     "Japanese / 日本語",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Ears",
     "耳",
     "Japanese / 日本語",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Nose",
     "鼻",
     "Japanese / 日本語",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Mouth",
     "口",
     "Japanese / 日本語",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Throat",
     "喉",
     "Japanese / 日本語",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Chest",
     "胸",
     "Japanese / 日本語",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Abdomen",
     "腹部",
     "Japanese / 日本語",
     "Basic Terms"
   ],
   [
-    "back",
+    "Back",
     "背中",
     "Japanese / 日本語",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Arms",
     "腕",
     "Japanese / 日本語",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Legs",
     "脚",
     "Japanese / 日本語",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Feet",
     "足",
     "Japanese / 日本語",
     "Basic Terms"
@@ -6774,7 +6612,7 @@ export default [
     "Basic Terms"
   ],
   [
-    "Feb",
+    "February",
     "二月",
     "Japanese / 日本語",
     "Basic Terms"
@@ -6852,7 +6690,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "សូមផ្តល់អត្តសញ្ញាណប័ណ្ណ​​ /ប័ណ្ណការងារ របស់លោកអ្នក ",
     "Khmer / ភាសាខ្មែរ",
     "Greetings"
@@ -6927,7 +6765,7 @@ export default [
     "Difficulty breathing?",
     "ពិបាកដកដង្ហើម",
     "Khmer / ភាសាខ្មែរ",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -7176,12 +7014,6 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
-    "សួស្តី",
-    "Khmer / ភាសាខ្មែរ",
-    "Greetings"
-  ],
-  [
     "I am the nurse",
     "ខ្ញុំជា​គិលានុបដ្ឋាយិកា",
     "Khmer / ភាសាខ្មែរ",
@@ -7266,7 +7098,7 @@ export default [
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Give me a big cough",
     "សូមក្អកអោយខ្លាំង",
     "Khmer / ភាសាខ្មែរ",
     "Medical Instructions"
@@ -7488,67 +7320,67 @@ export default [
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Eyes",
     "ភ្នែក",
     "Khmer / ភាសាខ្មែរ",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Ears",
     "ត្រចៀក",
     "Khmer / ភាសាខ្មែរ",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Nose",
     "ច្រមុះ",
     "Khmer / ភាសាខ្មែរ",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Mouth",
     "មាត់",
     "Khmer / ភាសាខ្មែរ",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Throat",
     "បំពង់ករ",
     "Khmer / ភាសាខ្មែរ",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Chest",
     "ដើមទ្រូង",
     "Khmer / ភាសាខ្មែរ",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Abdomen",
     "ពោះ",
     "Khmer / ភាសាខ្មែរ",
     "Basic Terms"
   ],
   [
-    "back",
+    "Back",
     "ខ្នង",
     "Khmer / ភាសាខ្មែរ",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Arms",
     "ដៃ",
     "Khmer / ភាសាខ្មែរ",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Legs",
     "ជើង",
     "Khmer / ភាសាខ្មែរ",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Feet",
     "បាតជើង",
     "Khmer / ភាសាខ្មែរ",
     "Basic Terms"
@@ -7626,7 +7458,7 @@ export default [
     "Basic Terms"
   ],
   [
-    "Feb",
+    "February",
     "កុម្ភៈ",
     "Khmer / ភាសាខ្មែរ",
     "Basic Terms"
@@ -7704,7 +7536,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "Bitte geben Sie mir Ihre Identitification Karte / Arbeitserlaubnis",
     "German / Deutsch",
     "Greetings"
@@ -7779,7 +7611,7 @@ export default [
     "Difficulty breathing?",
     "Schwierigkeiten beim Atmen?",
     "German / Deutsch",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -7921,7 +7753,7 @@ export default [
   ],
   [
     "Say \"99\" when I listen with my stethoscope.",
-    "Sagen Sie „99“, wenn ich mit meinem Stethoskop hören.",
+    "Sagen Sie „99\", wenn ich mit meinem Stethoskop hören.",
     "German / Deutsch",
     "Medical Instructions"
   ],
@@ -8028,12 +7860,6 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
-    "Guten Morgen / Tag / Abend",
-    "German / Deutsch",
-    "Greetings"
-  ],
-  [
     "I am the nurse",
     "Ich bin die Krankenschwester",
     "German / Deutsch",
@@ -8118,7 +7944,7 @@ export default [
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Give me a big cough",
     "Öffne deinen Mund",
     "German / Deutsch",
     "Medical Instructions"
@@ -8340,67 +8166,67 @@ export default [
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Eyes",
     "Augen",
     "German / Deutsch",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Ears",
     "Ohren",
     "German / Deutsch",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Nose",
     "Nase",
     "German / Deutsch",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Mouth",
     "Mund",
     "German / Deutsch",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Throat",
     "Kehle",
     "German / Deutsch",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Chest",
     "Truhe",
     "German / Deutsch",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Abdomen",
     "Abdomen",
     "German / Deutsch",
     "Basic Terms"
   ],
   [
-    "back",
+    "Back",
     "zurück",
     "German / Deutsch",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Arms",
     "Waffen",
     "German / Deutsch",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Legs",
     "Beine",
     "German / Deutsch",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Feet",
     "Füße",
     "German / Deutsch",
     "Basic Terms"
@@ -8478,7 +8304,7 @@ export default [
     "Basic Terms"
   ],
   [
-    "Feb",
+    "February",
     "Februar",
     "German / Deutsch",
     "Basic Terms"
@@ -8544,6 +8370,24 @@ export default [
     "Basic Terms"
   ],
   [
+    "In case of an emergency, who is the next-of-kin that I should contact? What is their contact number?",
+    "Guten Morgen",
+    "German / Deutsch",
+    "Greetings"
+  ],
+  [
+    "Good morning",
+    "Guten Tag",
+    "German / Deutsch",
+    "Greetings"
+  ],
+  [
+    "Good afternoon",
+    "Guten Abend",
+    "German / Deutsch",
+    "Greetings"
+  ],
+  [
     "I am a doctor. I do not speak your language. I will communicate with you using this website. Answer me in English as much as possible. Thank you.",
     "હું ડૉક્ટર છું. મને ગુજરાતી નથી આવડતી. હું આ વેબસાઈટ મારફતે તમારી સાથે વાત કરીશ. શક્ય હોઈ ત્યાં સુધી, તમે ઇંગલિશ માં જવાબ આપજો. આભાર",
     "Gujarati",
@@ -8556,7 +8400,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "તમારું ID કાર્ડ (ઓળખપત્ર) અથવા કામ નું પરમિટ દેખાડજો",
     "Gujarati",
     "Greetings"
@@ -8631,7 +8475,7 @@ export default [
     "Difficulty breathing?",
     "શ્વાસ લેવામાં તકલીફ થાય છે ?",
     "Gujarati",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -8880,12 +8724,6 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
-    "કેમ છો?",
-    "Gujarati",
-    "Greetings"
-  ],
-  [
     "I am the nurse",
     "હું નર્સ છું",
     "Gujarati",
@@ -8970,7 +8808,7 @@ export default [
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Give me a big cough",
     "જોરથી ખાસો/ઉધરસ ખાઓ",
     "Gujarati",
     "Medical Instructions"
@@ -9192,67 +9030,67 @@ export default [
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Eyes",
     "આંખો",
     "Gujarati",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Ears",
     "કાન",
     "Gujarati",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Nose",
     "નાક",
     "Gujarati",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Mouth",
     "મોઢું",
     "Gujarati",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Throat",
     "ગળું",
     "Gujarati",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Chest",
     "છાતી",
     "Gujarati",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Abdomen",
     "પેટ",
     "Gujarati",
     "Basic Terms"
   ],
   [
-    "back",
+    "Back",
     "વાંસો / પીઠ",
     "Gujarati",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Arms",
     "હાથ / બાવડાં",
     "Gujarati",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Legs",
     "પગ",
     "Gujarati",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Feet",
     "પગ નો પંજો",
     "Gujarati",
     "Basic Terms"
@@ -9330,7 +9168,7 @@ export default [
     "Basic Terms"
   ],
   [
-    "Feb",
+    "February",
     "ફેબ્રુઆરી",
     "Gujarati",
     "Basic Terms"
@@ -9408,7 +9246,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "אָנָּא תֵּן/תְּנִי לִי תְּעוּדָה מְזַהָה/אִישּׁוּר עֲבוֹדָה.",
     "Hebrew / עברית",
     "Greetings"
@@ -9483,7 +9321,7 @@ export default [
     "Difficulty breathing?",
     "יֵשׁ לְךָ/לָךְ קְשָׁיֵי נְשִׁימָה?",
     "Hebrew / עברית",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -9732,12 +9570,6 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
-    "בּוֹקֶר טוֹב / צָהֳרַיִים טוֹבִים / עֶרֶב טוֹב",
-    "Hebrew / עברית",
-    "Greetings"
-  ],
-  [
     "I am the nurse",
     "אֲנִי הָאָח",
     "Hebrew / עברית",
@@ -9822,7 +9654,7 @@ export default [
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Give me a big cough",
     "פְּתַח/פִּתְחִי אֶת הַפֶּה",
     "Hebrew / עברית",
     "Medical Instructions"
@@ -10044,67 +9876,67 @@ export default [
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Eyes",
     "עֵינַיִים",
     "Hebrew / עברית",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Ears",
     "אָזְנַיִים",
     "Hebrew / עברית",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Nose",
     "אַף",
     "Hebrew / עברית",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Mouth",
     "פֶּה",
     "Hebrew / עברית",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Throat",
     "גָּרוֹן",
     "Hebrew / עברית",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Chest",
     "חָזֶה",
     "Hebrew / עברית",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Abdomen",
     "בֶּטֶן",
     "Hebrew / עברית",
     "Basic Terms"
   ],
   [
-    "back",
+    "Back",
     "גַּב",
     "Hebrew / עברית",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Arms",
     "יָדַיִים",
     "Hebrew / עברית",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Legs",
     "רַגְלַיִים",
     "Hebrew / עברית",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Feet",
     "כַּפּוֹת רַגְלַיִים",
     "Hebrew / עברית",
     "Basic Terms"
@@ -10182,7 +10014,7 @@ export default [
     "Basic Terms"
   ],
   [
-    "Feb",
+    "February",
     "פֶבְּרוּאָר",
     "Hebrew / עברית",
     "Basic Terms"
@@ -10248,876 +10080,6 @@ export default [
     "Basic Terms"
   ],
   [
-    "Do you have any past medical history?",
-    "English",
-    "Hokkien / 福建",
-    "Medical Conditions"
-  ],
-  [
-    "Please point to which ones.",
-    "I am a doctor. I do not speak Chinese. I will communicate with you using this website. Answer me in English as much as possible. Thank you.",
-    "Hokkien / 福建",
-    "Medical Conditions"
-  ],
-  [
-    "Asthma",
-    "What's your name?",
-    "Hokkien / 福建",
-    "Medical Conditions"
-  ],
-  [
-    "Pneumonia",
-    "What is your NRIC",
-    "Hokkien / 福建",
-    "Medical Conditions"
-  ],
-  [
-    "Hypertension",
-    "Which company are you employed under?",
-    "Hokkien / 福建",
-    "Medical Conditions"
-  ],
-  [
-    "Hyperlipidemia",
-    "What is your supervisor’s name and contact number?",
-    "Hokkien / 福建",
-    "Medical Conditions"
-  ],
-  [
-    "Diabetes",
-    "Where do you live?",
-    "Hokkien / 福建",
-    "Medical Conditions"
-  ],
-  [
-    "Heart problems",
-    "Is anyone sick in your neighbourhood?",
-    "Hokkien / 福建",
-    "Medical Conditions"
-  ],
-  [
-    "Kidney problems",
-    "Who do you stay with?",
-    "Hokkien / 福建",
-    "Medical Conditions"
-  ],
-  [
-    "Loss of taste",
-    "In the last 14 days, did you travel out of Singapore? If yes, tell us the countries in English.",
-    "Hokkien / 福建",
-    "Symptoms"
-  ],
-  [
-    "Lost of Smell",
-    "Do you have a fever?",
-    "Hokkien / 福建",
-    "Symptoms"
-  ],
-  [
-    "Do you have a drug allergy?",
-    "How many days?",
-    "Hokkien / 福建",
-    "Medical Conditions"
-  ],
-  [
-    "Do you smoke? If yes, how many cigarettes a day?",
-    "Did you measure it with a thermometer? If you did, what was the highest reading?",
-    "Hokkien / 福建",
-    "Medical Conditions"
-  ],
-  [
-    "Do you drink? If yes, how much (number of bottles a week, type of alcohol)?",
-    "Runny nose",
-    "Hokkien / 福建",
-    "Medical Conditions"
-  ],
-  [
-    "If you have any other problems, you can tell me in English.",
-    "Cough",
-    "Hokkien / 福建",
-    "Medical Conditions"
-  ],
-  [
-    "I'm going to examine you. ",
-    "Sore throat",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Tell me if you feel more pain.",
-    "Shortness of breath",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Please remove your shirt.",
-    "anosmia (loss of smell)",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Keep taking deep breaths through your mouth.",
-    "ageusia (loss of taste): sense of taste deproved, the food you eat are tasteless?",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Say \"99\" when I listen with my stethoscope.",
-    "Do you have diarrhoea? How many times a day?",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "I'm going to put this cotton bud into your nostril. You will feel strange but it is not painful",
-    "Rash? Itchy?",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "This is to test for coronavirus",
-    "\"Any pain?\n Specifically, any chest pain or discomfort?\"",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Tilt your head back",
-    "Do you have any past medical history?",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "If coronavirus positive, we call your phone by tomorrow.",
-    "Point to which ones.",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "If coronavirus negative, we send you SMS (text) after 3 days",
-    "Asthma",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Later, you will do an X-ray",
-    "Pneumonia",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "There is no sign of infection on your X-ray",
-    "HTN",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "You can go back soon.",
-    "HLD",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Wait here, do not leave this area",
-    "DM",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "You have to stay in the hospital for a few days",
-    "Heart problem/failure",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "We need to transfer you to another location.",
-    "Kidney problem\n Do you go for dialysis",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "I'll give you medicine to make you feel better",
-    "Liver problem",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "You must not work for next 5 days.",
-    "Cancer",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "You must come back if you have problems with breathing.",
-    "Do you have drug allergy?",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "You must come back if you do not recover completely after 5 days",
-    "Do you smoke?\n How many sticks or packs/day",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Read the handout carefully",
-    "\"Do you drink alcohol\n What alcohol do you drink\n How many times a week? Everytime you drink, how many cups/bottles\"",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Thank you",
-    "How do you feel emotionally? (use thumbs up and down)",
-    "Hokkien / 福建",
-    "Greetings"
-  ],
-  [
-    "Good morning / afternoon / evening",
-    "Do you have suicidal thoughts?: do you feel that life is meaningless, that you have thought of hurting yourself/committing suicide/ending your life",
-    "Hokkien / 福建",
-    "Greetings"
-  ],
-  [
-    "I am the nurse",
-    "If you have any other problems, you can tell me in Chinese.",
-    "Hokkien / 福建",
-    "Greetings"
-  ],
-  [
-    "I am the doctor",
-    "Physical Examination",
-    "Hokkien / 福建",
-    "Greetings"
-  ],
-  [
-    "You are in the intensive care unit.",
-    "\"I am going to examine you now\n Tell me if you feel any pain\n please remove your shirt\"",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Today is Monday",
-    "Keep taking deep breaths through your mouth",
-    "Hokkien / 福建",
-    "Greetings"
-  ],
-  [
-    "Today is Tuesday",
-    "say eeee when i listen with my stethoscope",
-    "Hokkien / 福建",
-    "Greetings"
-  ],
-  [
-    "Today is Wednesday",
-    "Im going to put this cotton bud into your nostril. you will feel strange， please bear with me",
-    "Hokkien / 福建",
-    "Greetings"
-  ],
-  [
-    "Today is Thursday",
-    "this is to test for coronavirus (nasal swab)",
-    "Hokkien / 福建",
-    "Greetings"
-  ],
-  [
-    "Today is Friday",
-    "tilt your head back",
-    "Hokkien / 福建",
-    "Greetings"
-  ],
-  [
-    "Today is Saturday",
-    "Advice",
-    "Hokkien / 福建",
-    "Greetings"
-  ],
-  [
-    "Today is Sunday",
-    "\"If coronavirus positive, we call your phone by tomorrow. \n If coronavirus negative, we send you SMS after 3 days\"",
-    "Hokkien / 福建",
-    "Greetings"
-  ],
-  [
-    "You are getting better",
-    "Later, you will do an X-ray",
-    "Hokkien / 福建",
-    "Greetings"
-  ],
-  [
-    "We will remove the breathing tube when you are better",
-    "There is no sign of infection on your X-ray",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "You can talk after we remove the breathing tube",
-    "You can go back soon.",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Take a deep breath",
-    "Wait here, do not leave this area",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Open your mouth",
-    "You have to stay in the hospital for a few days",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Don't struggle",
-    "I'll give you medicine to make you feel better",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Don't move",
-    "You must not work for next 5 days.",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Lift up your arm",
-    "\"You must come back if you have problems with breathing.\n You must come back if you do not recover completely after 5 days\"",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Lift up your leg",
-    "Read the handout carefully",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Squeeze my hand",
-    "Thank you",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Show me two fingers",
-    "You have tested positive for coronavirus",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Open your mouth",
-    "We need to take you to the hospital.",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Stick out your tongue",
-    "We will transfer you to an isolation facility.",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Open your eyes",
-    "For ICU use",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "I'm going to shine a light into your eyes. It will be bright.",
-    "Good morning",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Your lungs are weak. We are going to insert a breathing tube to help you breathe",
-    "Good evening",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "You are going to sleep now",
-    "I am your nurse",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "We are turning you onto your belly to help your lungs expand",
-    "I am your doctor",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "We are inserting a tube to help you pass urine",
-    "You are in ICU",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "We are inserting a tube through your nose",
-    "What day is it today?",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "We are going to give you an injection in your neck to give you medications",
-    "Monday",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "We are going to give you an injection in your arm to measure your blood pressure",
-    "Tuesday",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "We will give you sleeping medications.",
-    "Wednesday",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "We will give you painkillers.",
-    "Thursday",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "We are giving you medication to keep your blood pressure up.",
-    "Friday",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "We are going to remove the breathing tube.",
-    "Saturday",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "We are going to suck out your phlegm",
-    "Sunday",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "We are going to clean you with a sponge",
-    "You are getting better",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Turn left",
-    "We will remove the breathing tube after sometime when you are better",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Turn right",
-    "You can talk after we remove the breathing tube",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "We will change your diapers",
-    "Take a deep breath",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Lift up your leg",
-    "Give me a big cough",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "We are going to sit you up",
-    "Don't move",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "We are going to shift you up the bed",
-    "Lift up your arm",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "We are going to clean your mouth",
-    "Lift up your leg",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Do not swallow the gargle",
-    "Squeeze my hand",
-    "Hokkien / 福建",
-    "Medical Instructions"
-  ],
-  [
-    "Are you in pain?",
-    "Show me two fingers",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "Where is the pain?",
-    "Open your mouth",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "Is it mild, moderate or severe?",
-    "Stick out your tongue",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "Can you point to the pain?",
-    "Open your eyes",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "Head",
-    "I'm going to shine a light into your eyes. It will be uncomfortable, please bear with me",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "eyes",
-    "Your lungs are weak. We are going to insert a breathing tube to help you breathe.",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "ears",
-    "You are going to sleep now",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "nose",
-    "We are inserting a tube to help you pass urine",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "mouth",
-    "We are inserting a tube through your nose to your stomach to allow us to feed you",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "throat ",
-    "We are going to give you an injection in your neck to give you medications",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "chest",
-    "We are also going to give you an injection in your arm to measure your blood pressure",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "abdomen",
-    "We will give you sleeping medications",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "back",
-    "We will give you painkillers",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "arms",
-    "We are giving you medications to keep your blood pressure up",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "legs",
-    "We are going to remove the breathing tube",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "feet",
-    "We are going to suck out your phlegm",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "1 - one",
-    "We are going to clean you with a sponge",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "2 - two",
-    "Turn left",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "3 - three",
-    "Turn right",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "4 - four",
-    "We are going to change your diapers",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "5 - five",
-    "We are going to sit you up",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "6 - six",
-    "When i count to 3, we will shift you up the bed",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "7 - seven",
-    "We are going to clean your mouth",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "8 - eight",
-    "Do not swallow the gargle",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "9 - nine",
-    "Are you in pain?",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "10 - ten",
-    "Where is the pain?",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "0 - zero",
-    "Is it mild, moderate or severe?",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "January",
-    "Can you point to the pain?",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "Feb",
-    "Head",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "March",
-    "eyes",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "April",
-    "ears",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "May",
-    "nose",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "June",
-    "mouth",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "July",
-    "throat",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "August",
-    "chest",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "September",
-    "abdomen",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "October",
-    "back",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "November",
-    "arms",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "December",
-    "legs",
-    "Hokkien / 福建",
-    "Basic Terms"
-  ],
-  [
-    "PART 2 ",
-    "I am going to take your blood pressure now, please relax",
-    "Hokkien / 福建",
-    ""
-  ],
-  [
-    "COVID-19 (more specifically, a coronavirus) is the disease identified as the cause of an outbreak of respiratory illness first detected in Wuhan, China",
-    "Numbers and dates",
-    "Hokkien / 福建",
-    "FAQ"
-  ],
-  [
-    "2. What are the symptoms of COVID-19?",
-    "1",
-    "Hokkien / 福建",
-    "FAQ"
-  ],
-  [
-    "The most common symptoms are fever, tiredness and dry cough. Some patients also have runny nose, sore throat or diarrhoea. These symptoms are usually mild and begin gradually.\nSome people become infected but remain asymptomatic.\nIt can however, also cause lung infection, or pneumonia.",
-    "2",
-    "Hokkien / 福建",
-    "FAQ"
-  ],
-  [
-    "3. How does COVID-19 spread?",
-    "3",
-    "Hokkien / 福建",
-    "FAQ"
-  ],
-  [
-    "People can catch COVID-19 from others who have the virus. The virus spreads via respiratory droplets (sharing saliva, utensils, being in close contact or through direct contact with droplets on surfaces and materials).",
-    "4",
-    "Hokkien / 福建",
-    "FAQ"
-  ],
-  [
-    "4. What is the test for COVID-19 like?",
-    "5",
-    "Hokkien / 福建",
-    "FAQ"
-  ],
-  [
-    "It is a swab test inserted in your nostril or at the back of your throat. It will last about 10 seconds. There might be a slight discomfort, however it is not significantly painful.",
-    "6",
-    "Hokkien / 福建",
-    "FAQ"
-  ],
-  [
-    "5. What happens if I am tested positive for COVID-19?",
-    "7",
-    "Hokkien / 福建",
-    "FAQ"
-  ],
-  [
-    "Arrangements will be made for you to be warded or sent to a community isolation facility, to be placed under observation. You will be observed for deterioration. You might require X-Rays and blood tests as well. Repeated testing of your respiratory samples (via nose or throat) will be done on a regular basis, usually 24 hours apart. If you test negative twice consecutively, you can be discharged back to your home/dorm to continue 2 weeks of isolation at home.",
-    "8",
-    "Hokkien / 福建",
-    "FAQ"
-  ],
-  [
-    "6. Will I die from COVID-19?",
-    "9",
-    "Hokkien / 福建",
-    "FAQ"
-  ],
-  [
-    "It is normal to worry about how COVID-19 might affect you or your loved ones. In 80% of cases, infections from COVID-19 are usually mild and do not even need any treatment. There is a chance of deterioration due to the virus, which happens more commonly in the elderly population or in those with significant pre-existing medical conditions. Only 5% of patients will require ICU care including breathing support or medications to support their blood pressure.",
-    "10",
-    "Hokkien / 福建",
-    "FAQ"
-  ],
-  [
-    "7. Is there a treatment for COVID-19?",
-    "0",
-    "Hokkien / 福建",
-    "FAQ"
-  ],
-  [
-    "Most cases of COVID-19 infections do not require any treatment, and only require medications to alleviate symptoms. There is currently no established treatment for the 5% of patients with severe disease, however there are many clinical trials ongoing which have shown variable success. Even though there is no established treatment, if you do develop severe disease, you will still receive breathing support and will be given medications to support your blood pressure.",
-    "January",
-    "Hokkien / 福建",
-    "FAQ"
-  ],
-  [
-    "8. How much do I have to pay for my treatment?",
-    "Feb",
-    "Hokkien / 福建",
-    "FAQ"
-  ],
-  [
-    "As of Singapore Government's announcement on 7 March 2020, if you are a Singapore Citizen, Singapore resident OR a long term pass holder, your hospital bill will be covered by the Government. This does not apply if you have left Singapore after 27 March 2020 and you are admitted as a suspected COVID-19 case within 14 days of returning.",
-    "March",
-    "Hokkien / 福建",
-    "FAQ"
-  ],
-  [
-    "9. I am worried about missing so much work. Will my boss fire me?",
-    "April",
-    "Hokkien / 福建",
-    "FAQ"
-  ],
-  [
-    "Your employer is legally mandated to allow your quarantine/treatment. Your employer is also legally bound to continue to pay your salaries even if you are not allowed to leave your dormitory during this Circuit Breaker period. If your employer does not pay your salary within 7 days of the end of the salary period, he can be prosecuted by the Singapore Government.",
-    "May",
-    "Hokkien / 福建",
-    "FAQ"
-  ],
-  [
-    "10. I am scared and I want to go home.",
-    "June",
-    "Hokkien / 福建",
-    "FAQ"
-  ],
-  [
-    "It is natural to be scared and anxious during this period. For the safety of your family, it is imperative that you follow the instructions given to you by your doctors and the Government. The Singapore Government has made arrangements for you so that we can safely treat you, if you test positive for COVID-19, while protecting others. Singapore has good hospitals and treatment here and will endeavour to give you the best medical care possible.",
-    "July",
-    "Hokkien / 福建",
-    "FAQ"
-  ],
-  [
-    "11. How can I make sure I do not get infected with COVID-19?",
-    "August",
-    "Hokkien / 福建",
-    "FAQ"
-  ],
-  [
-    "Fortunately, there are some preventive measures you can take to minimise the risk of infection. They are:\n1. Thoroughly washing your hands with soap and water for at least 20 seconds.\n2. Avoid touching eyes, nose and mouth.\n3. Covering your mouth and nose with your elbow or tissue when you cough or sneeze.\n4. Maintaining at least 1 metre distance between yourself and anyone else.\n5. Staying indoors if you feel unwell and keep isolated from others. If you develop fever, cough or breathlessness, please seek medical attention early.",
-    "September",
-    "Hokkien / 福建",
-    "FAQ"
-  ],
-  [
     "I am a doctor. I do not speak your language. I will communicate with you using this website. Answer me in English as much as possible. Thank you.",
     "मैं एक डॉक्टर हूँ | मुझे हिंदी नहीं आती हैं | मैं इस वेबसाइट के द्वारा आपसे बात करुंगा य करुंगी | जितना हो सके, आप अंग्रेजी में जवाब दीजियेगा | धन्यवाद  ",
     "Hindi / हिन्दी",
@@ -11130,7 +10092,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "मुझे आपका ID कार्ड या काम का permit दीजिये ",
     "Hindi / हिन्दी",
     "Greetings"
@@ -11205,7 +10167,7 @@ export default [
     "Difficulty breathing?",
     "सांस लेने मे तकलीफ?",
     "Hindi / हिन्दी",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -11454,12 +10416,6 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
-    "नमस्ते",
-    "Hindi / हिन्दी",
-    "Greetings"
-  ],
-  [
     "I am the nurse",
     "मैं नर्स हूँ",
     "Hindi / हिन्दी",
@@ -11544,7 +10500,7 @@ export default [
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Give me a big cough",
     "ज़ोर से ख़ासिये ",
     "Hindi / हिन्दी",
     "Medical Instructions"
@@ -11766,67 +10722,67 @@ export default [
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Eyes",
     "आंखें",
     "Hindi / हिन्दी",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Ears",
     "कान",
     "Hindi / हिन्दी",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Nose",
     "नाक",
     "Hindi / हिन्दी",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Mouth",
     "मुंह",
     "Hindi / हिन्दी",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Throat",
     "गला",
     "Hindi / हिन्दी",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Chest",
     "छाती",
     "Hindi / हिन्दी",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Abdomen",
     "पेट",
     "Hindi / हिन्दी",
     "Basic Terms"
   ],
   [
-    "back",
+    "Back",
     "पीठ",
     "Hindi / हिन्दी",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Arms",
     "हाथ, भुजाएं",
     "Hindi / हिन्दी",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Legs",
     "पैर",
     "Hindi / हिन्दी",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Feet",
     "पाँव",
     "Hindi / हिन्दी",
     "Basic Terms"
@@ -11904,7 +10860,7 @@ export default [
     "Basic Terms"
   ],
   [
-    "Feb",
+    "February",
     "फ़रवरी",
     "Hindi / हिन्दी",
     "Basic Terms"
@@ -11982,7 +10938,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "Si prega di darmi il tuo Identitification carta / permesso di lavoro",
     "Italian / Italiano",
     "Greetings"
@@ -12057,7 +11013,7 @@ export default [
     "Difficulty breathing?",
     "Respirazione difficoltosa?",
     "Italian / Italiano",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -12306,12 +11262,6 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
-    "Buon giorno / pomeriggio / sera",
-    "Italian / Italiano",
-    "Greetings"
-  ],
-  [
     "I am the nurse",
     "Io sono l'infermiera",
     "Italian / Italiano",
@@ -12396,7 +11346,7 @@ export default [
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Give me a big cough",
     "Datemi un grande colpo di tosse",
     "Italian / Italiano",
     "Medical Instructions"
@@ -12618,67 +11568,67 @@ export default [
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Eyes",
     "occhi",
     "Italian / Italiano",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Ears",
     "orecchie",
     "Italian / Italiano",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Nose",
     "naso",
     "Italian / Italiano",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Mouth",
     "bocca",
     "Italian / Italiano",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Throat",
     "gola",
     "Italian / Italiano",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Chest",
     "il petto",
     "Italian / Italiano",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Abdomen",
     "addome",
     "Italian / Italiano",
     "Basic Terms"
   ],
   [
-    "back",
+    "Back",
     "indietro",
     "Italian / Italiano",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Arms",
     "braccia",
     "Italian / Italiano",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Legs",
     "gambe",
     "Italian / Italiano",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Feet",
     "piedi",
     "Italian / Italiano",
     "Basic Terms"
@@ -12756,7 +11706,7 @@ export default [
     "Basic Terms"
   ],
   [
-    "Feb",
+    "February",
     "febbraio",
     "Italian / Italiano",
     "Basic Terms"
@@ -12834,590 +11784,536 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "신분증을 보여주십시오",
     "Korean / 한국어",
     "Greetings"
   ],
   [
     "In the last 14 days, did you meet anyone who has coronavirus?",
-    "회사이름 좀 알려주세요.",
-    "Korean / 한국어",
-    "Contact with Others"
-  ],
-  [
-    "Who? What is your relationship with them?",
-    "상사 이름과 연락처를 좀 알려주세요.",
-    "Korean / 한국어",
-    "Contact with Others"
-  ],
-  [
-    "How many days ago did you meet them? (There is a number chart in the sidebar if they cannot answer)",
     "최근 14일 동안 코로나 바이러스 확진자와 접촉한 적이 있으세요?",
     "Korean / 한국어",
     "Contact with Others"
   ],
   [
-    "How long were you with him/her?",
+    "Who? What is your relationship with them?",
     "누구를 만났어요? 그들과 어떤관계가 있으세요?",
     "Korean / 한국어",
     "Contact with Others"
   ],
   [
-    "In the last 14 days, did you travel out of this country? If yes, tell us the countries in English.",
+    "How many days ago did you meet them? (There is a number chart in the sidebar if they cannot answer)",
     "만난 사람들은 몇일전에 만나셨읍니까? 말을 하시기 불편하시면 손으로 가르키십시오",
     "Korean / 한국어",
     "Contact with Others"
   ],
   [
-    "Do you have a fever?",
+    "How long were you with him/her?",
     "저사람들과 얼마동안 같이 있었습니까?",
     "Korean / 한국어",
-    "Symptoms"
+    "Contact with Others"
   ],
   [
-    "How many days?\n(You may use this for multiple symptoms)",
+    "In the last 14 days, did you travel out of this country? If yes, tell us the countries in English.",
     "그분들과 얼마동안 같이 있어습니까?",
     "Korean / 한국어",
-    "Symptoms"
+    "Contact with Others"
   ],
   [
-    "Did you measure it with a thermometer? If you did, what was the highest reading?",
+    "Do you have a fever?",
     "최근 14일 동안 해외로 나가신적이 있나요? 해외로 나갔다면 국가이름을 영어로 말씀해주세요.",
     "Korean / 한국어",
     "Symptoms"
   ],
   [
-    "Runny nose?",
+    "How many days?\n(You may use this for multiple symptoms)",
     "열이 있습니까?",
     "Korean / 한국어",
     "Symptoms"
   ],
   [
-    "Cough?",
+    "Did you measure it with a thermometer? If you did, what was the highest reading?",
     "몇일 동안 증상이 있었나요?",
     "Korean / 한국어",
     "Symptoms"
   ],
   [
-    "Sore throat?",
+    "Runny nose?",
     "체온계로 측정하셨나요? 제일 높은 체온이 몇도였어요?",
     "Korean / 한국어",
     "Symptoms"
   ],
   [
-    "Difficulty breathing?",
+    "Cough?",
     "콧물이 있으세요?",
     "Korean / 한국어",
     "Symptoms"
   ],
   [
-    "Do you have diarrhoea? How many times a day?",
+    "Sore throat?",
     "기침을 하시나요?",
     "Korean / 한국어",
     "Symptoms"
   ],
   [
-    "Rash?",
+    "Difficulty breathing?",
     "인후염이나 후두염이 있나요?",
     "Korean / 한국어",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
-    "Any pain? Specifically, any chest pain?",
+    "Do you have diarrhoea? How many times a day?",
     "목이 아프십니까?",
     "Korean / 한국어",
     "Symptoms"
   ],
   [
-    "Point to the place.",
+    "Rash?",
     "호흡을 어려워요?",
     "Korean / 한국어",
     "Symptoms"
   ],
   [
-    "Do you have any past medical history?",
+    "Any pain? Specifically, any chest pain?",
     "설사를 하시나요? 하루에 몇번을 하시나요?",
     "Korean / 한국어",
-    "Medical Conditions"
+    "Symptoms"
   ],
   [
-    "Please point to which ones.",
+    "Point to the place.",
     "발진이 있나요?",
     "Korean / 한국어",
-    "Medical Conditions"
+    "Symptoms"
   ],
   [
-    "Asthma",
+    "Do you have any past medical history?",
     "통증이 있나요? 특히 가슴쪽에 통증이 있나요?",
     "Korean / 한국어",
     "Medical Conditions"
   ],
   [
-    "Pneumonia",
+    "Please point to which ones.",
     "어디에 아픈지 가리키세요",
     "Korean / 한국어",
     "Medical Conditions"
   ],
   [
-    "Hypertension",
+    "Asthma",
     "과거 병력이 있으세요?",
     "Korean / 한국어",
     "Medical Conditions"
   ],
   [
-    "Hyperlipidemia",
+    "Pneumonia",
     "어떤것을 있으신지 가리키세요",
     "Korean / 한국어",
     "Medical Conditions"
   ],
   [
-    "Diabetes",
+    "Hypertension",
     "천식",
     "Korean / 한국어",
     "Medical Conditions"
   ],
   [
-    "Heart problems",
+    "Hyperlipidemia",
     "폐렴",
     "Korean / 한국어",
     "Medical Conditions"
   ],
   [
-    "Kidney problems",
+    "Diabetes",
     "고혈압",
     "Korean / 한국어",
     "Medical Conditions"
   ],
   [
-    "Loss of taste",
+    "Heart problems",
     "고지질혈증",
+    "Korean / 한국어",
+    "Medical Conditions"
+  ],
+  [
+    "Kidney problems",
+    "당뇨병",
+    "Korean / 한국어",
+    "Medical Conditions"
+  ],
+  [
+    "Loss of taste",
+    "심장 질환",
     "Korean / 한국어",
     "Symptoms"
   ],
   [
     "Lost of Smell",
-    "당뇨병",
+    "신장 질환",
     "Korean / 한국어",
     "Symptoms"
   ],
   [
     "Do you have a drug allergy?",
-    "심장 질환",
-    "Korean / 한국어",
-    "Medical Conditions"
-  ],
-  [
-    "Do you smoke? If yes, how many cigarettes a day?",
-    "신장 질환",
-    "Korean / 한국어",
-    "Medical Conditions"
-  ],
-  [
-    "Do you drink? If yes, how much (number of bottles a week, type of alcohol)?",
     "약물 알레르기가 있나요?",
     "Korean / 한국어",
     "Medical Conditions"
   ],
   [
-    "If you have any other problems, you can tell me in English.",
+    "Do you smoke? If yes, how many cigarettes a day?",
     "담배를 피우시나요? 하루에 몇개비를 피우시나요?",
     "Korean / 한국어",
     "Medical Conditions"
   ],
   [
-    "I'm going to examine you. ",
+    "Do you drink? If yes, how much (number of bottles a week, type of alcohol)?",
     "술을 하시나요? 얼마나 하시나요? (일주일에 몇병을 마시나요? / 어떤 종류의 술을 마시나요?)",
     "Korean / 한국어",
-    "Medical Instructions"
+    "Medical Conditions"
   ],
   [
-    "Tell me if you feel more pain.",
+    "If you have any other problems, you can tell me in English.",
     "다른 문제가 있으시면 영어로 말해주세요",
     "Korean / 한국어",
-    "Medical Instructions"
+    "Medical Conditions"
   ],
   [
-    "Please remove your shirt.",
+    "I'm going to examine you. ",
     "검사를 실시 하겠습니다",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
-    "Keep taking deep breaths through your mouth.",
+    "Tell me if you feel more pain.",
     "통증이 심화되면 알려주세요",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
-    "Say \"99\" when I listen with my stethoscope.",
+    "Please remove your shirt.",
     "옷을 벗어주세요",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
-    "I'm going to put this cotton bud into your nostril. You will feel strange but it is not painful",
+    "Keep taking deep breaths through your mouth.",
     "입으로 깊은 숨을 들이 마시세요.",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
-    "This is to test for coronavirus",
+    "Say \"99\" when I listen with my stethoscope.",
     "저는 청진기를 들을때, 환자분 \"구십구\"를 말해주세요",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
-    "Tilt your head back",
+    "I'm going to put this cotton bud into your nostril. You will feel strange but it is not painful",
     "면봉을 콧구멍 안으로 넣을겁니다. 좀 불편 할수 있습니다",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
-    "If coronavirus positive, we call your phone by tomorrow.",
+    "This is to test for coronavirus",
     "코로나-19 검사용 입니다",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
-    "If coronavirus negative, we send you SMS (text) after 3 days",
+    "Tilt your head back",
     "목을 뒤로 젖혀보세요",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
-    "Later, you will do an X-ray",
+    "If coronavirus positive, we call your phone by tomorrow.",
     "만약 코로나바이러스 검사에서 양성이 나오면 병원은 내일까지 전화해 드리겠습니다",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
-    "There is no sign of infection on your X-ray",
+    "If coronavirus negative, we send you SMS (text) after 3 days",
     "만약 코로나바이러스  검사에서 음성이 나오면 병원은 3일 뒤에 문자를 보내드리겠습니다",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
-    "You can go back soon.",
+    "Later, you will do an X-ray",
     "이따가 엑스레이 찍을 거예요",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
-    "Wait here, do not leave this area",
+    "There is no sign of infection on your X-ray",
     "환자분 엑스레이에는 감염의 징후가 없습니다.",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
-    "You have to stay in the hospital for a few days",
+    "You can go back soon.",
     "환자분 집에 곧 돌아 갈수 있습니다",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
-    "We need to transfer you to another location.",
+    "Wait here, do not leave this area",
     "여기서 기다리고 나가지마세요.",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
-    "I'll give you medicine to make you feel better",
+    "You have to stay in the hospital for a few days",
     "병원에 몇일동안 입원 하셔야 합니다",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
-    "You must not work for next 5 days.",
+    "I'll give you medicine to make you feel better",
     "제가 환자분이 좀 견딜 수 있도록 약을 드리겠습니다.",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
-    "You must come back if you have problems with breathing.",
+    "You must not work for next 5 days.",
     "앞으로 5일간 일을 하시면 안됩니다",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
-    "You must come back if you do not recover completely after 5 days",
+    "You must come back if you have problems with breathing.",
     "호흡에 문제가 생기면 다시 돌아오세요",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
-    "Read the handout carefully",
+    "You must come back if you do not recover completely after 5 days",
     "5일 뒤에도 완전히 나아지지 않으면 다시 돌아오세요",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
-    "Thank you",
+    "Read the handout carefully",
     "인쇄물을 자세히 읽어주세요",
     "Korean / 한국어",
-    "Greetings"
+    "Medical Instructions"
   ],
   [
-    "Good morning / afternoon / evening",
+    "Thank you",
     "감사합니다",
     "Korean / 한국어",
     "Greetings"
   ],
   [
     "I am the nurse",
-    "좋은 아침입니다/좋은 오후 입니다",
-    "Korean / 한국어",
-    "Greetings"
-  ],
-  [
-    "I am the doctor",
     "제가 간호사 입니다",
     "Korean / 한국어",
     "Greetings"
   ],
   [
-    "You are in the intensive care unit.",
+    "I am the doctor",
     "제가 의사입니다",
+    "Korean / 한국어",
+    "Greetings"
+  ],
+  [
+    "You are in the intensive care unit.",
+    "지금 중환자실에 계십니다",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
-    "Today is Monday",
-    "지금 중환자실에 계십니다",
-    "Korean / 한국어",
-    "Greetings"
-  ],
-  [
-    "Today is Tuesday",
-    "오늘은 월요일/ 화요일/ 수요일/ 목요일/ 금요일/ 토요일/ 일요일/  입니다",
-    "Korean / 한국어",
-    "Greetings"
-  ],
-  [
-    "Today is Wednesday",
+    "You are getting better",
     "조금씩 나아지고 있습니다",
     "Korean / 한국어",
     "Greetings"
   ],
   [
-    "Today is Thursday",
-    "몸이 조금 나아지면 호흡용 관을 제거하겠습니다",
-    "Korean / 한국어",
-    "Greetings"
-  ],
-  [
-    "Today is Friday",
-    "호흡용 관을 제거한 후 말씀하세요",
-    "Korean / 한국어",
-    "Greetings"
-  ],
-  [
-    "Today is Saturday",
-    "숨을 깊게 쉬십시오",
-    "Korean / 한국어",
-    "Greetings"
-  ],
-  [
-    "Today is Sunday",
-    "큰 기침을 한번 해주세요",
-    "Korean / 한국어",
-    "Greetings"
-  ],
-  [
-    "You are getting better",
-    "몸부림 치지 마세요",
-    "Korean / 한국어",
-    "Greetings"
-  ],
-  [
     "We will remove the breathing tube when you are better",
-    "움직이지 마세요",
+    "몸이 조금 나아지면 호흡용 관을 제거하겠습니다",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
     "You can talk after we remove the breathing tube",
-    "팔을 올려보세요",
+    "호흡용 관을 제거한 후 말씀하세요",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
     "Take a deep breath",
-    "다리를 올려주세요",
+    "숨을 깊게 쉬십시오",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
-    "제 손을 움켜보세요",
+    "Give me a big cough",
+    "큰 기침을 한번 해주세요",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
     "Don't struggle",
-    "손가락 두개를 보여주세요",
+    "몸부림 치지 마세요",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
     "Don't move",
-    "입을 벌려보세요",
+    "움직이지 마세요",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
     "Lift up your arm",
-    "혀를 내밀어 보세요",
+    "팔을 올려보세요",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
     "Lift up your leg",
-    "눈을 떠보세요",
-    "Korean / 한국어",
-    "Medical Instructions"
-  ],
-  [
-    "Squeeze my hand",
-    "눈에 불을 비추겠습니다. 밝을 수 있습니다.",
-    "Korean / 한국어",
-    "Medical Instructions"
-  ],
-  [
-    "Show me two fingers",
-    "폐기능이 저하되어 있습니다. 원활한 호흡을 위해 호흡용 관을 삽입하겠습니다",
-    "Korean / 한국어",
-    "Medical Instructions"
-  ],
-  [
-    "Open your mouth",
-    "수면을 취하시겠습니다",
-    "Korean / 한국어",
-    "Medical Instructions"
-  ],
-  [
-    "Stick out your tongue",
-    "폐의 팽창을 위해서 배가 위를 향하도록 하겠습니다",
-    "Korean / 한국어",
-    "Medical Instructions"
-  ],
-  [
-    "Open your eyes",
-    "폐의 팽창을 위해서 배가 아래를 향하도록 하겠습니다",
-    "Korean / 한국어",
-    "Medical Instructions"
-  ],
-  [
-    "I'm going to shine a light into your eyes. It will be bright.",
-    "원활한 소변 활동을 위해서 관을 삽입하고 있습니다",
-    "Korean / 한국어",
-    "Medical Instructions"
-  ],
-  [
-    "Your lungs are weak. We are going to insert a breathing tube to help you breathe",
-    "코를 통해서 관을 삽입하고 있습니다",
-    "Korean / 한국어",
-    "Medical Instructions"
-  ],
-  [
-    "You are going to sleep now",
-    "약물 투여를 위해 목에 주사를 놓겠습니다",
-    "Korean / 한국어",
-    "Medical Instructions"
-  ],
-  [
-    "We are turning you onto your belly to help your lungs expand",
-    "혈압을 측정하기 위해 주사를 놓겠습니다",
-    "Korean / 한국어",
-    "Medical Instructions"
-  ],
-  [
-    "We are inserting a tube to help you pass urine",
-    "혈압을 측정하기 위해 피를 뽑겠습니다",
-    "Korean / 한국어",
-    "Medical Instructions"
-  ],
-  [
-    "We are inserting a tube through your nose",
-    "수면제를 드리겠습니다",
-    "Korean / 한국어",
-    "Medical Instructions"
-  ],
-  [
-    "We are going to give you an injection in your neck to give you medications",
-    "진통제를 드리겠습니다",
-    "Korean / 한국어",
-    "Medical Instructions"
-  ],
-  [
-    "We are going to give you an injection in your arm to measure your blood pressure",
-    "약물을 투여함으로써 혈압을 높이고 있습니다",
-    "Korean / 한국어",
-    "Medical Instructions"
-  ],
-  [
-    "We will give you sleeping medications.",
-    "호흡용 관을 제거하겠습니다",
-    "Korean / 한국어",
-    "Medical Instructions"
-  ],
-  [
-    "We will give you painkillers.",
-    "가래를 제거하겠습니다",
-    "Korean / 한국어",
-    "Medical Instructions"
-  ],
-  [
-    "We are giving you medication to keep your blood pressure up.",
-    "스폰지로 몸을 닦겠습니다",
-    "Korean / 한국어",
-    "Medical Instructions"
-  ],
-  [
-    "We are going to remove the breathing tube.",
-    "몸을 왼쪽으로 돌리세요",
-    "Korean / 한국어",
-    "Medical Instructions"
-  ],
-  [
-    "We are going to suck out your phlegm",
-    "왼쪽으로 돌아 누우세요",
-    "Korean / 한국어",
-    "Medical Instructions"
-  ],
-  [
-    "We are going to clean you with a sponge",
-    "몸을 오른쪽으로 돌리세요",
-    "Korean / 한국어",
-    "Medical Instructions"
-  ],
-  [
-    "Turn left",
-    "오르쪽으로 돌아 누우세요",
-    "Korean / 한국어",
-    "Medical Instructions"
-  ],
-  [
-    "Turn right",
-    "기저귀를 갈겠습니다",
-    "Korean / 한국어",
-    "Medical Instructions"
-  ],
-  [
-    "We will change your diapers",
     "다리를 올려주세요",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
+    "Squeeze my hand",
+    "제 손을 움켜보세요",
+    "Korean / 한국어",
+    "Medical Instructions"
+  ],
+  [
+    "Show me two fingers",
+    "손가락 두개를 보여주세요",
+    "Korean / 한국어",
+    "Medical Instructions"
+  ],
+  [
+    "Open your mouth",
+    "입을 벌려보세요",
+    "Korean / 한국어",
+    "Medical Instructions"
+  ],
+  [
+    "Stick out your tongue",
+    "혀를 내밀어 보세요",
+    "Korean / 한국어",
+    "Medical Instructions"
+  ],
+  [
+    "Open your eyes",
+    "눈을 떠보세요",
+    "Korean / 한국어",
+    "Medical Instructions"
+  ],
+  [
+    "I'm going to shine a light into your eyes. It will be bright.",
+    "눈에 불을 비추겠습니다. 밝을 수 있습니다.",
+    "Korean / 한국어",
+    "Medical Instructions"
+  ],
+  [
+    "Your lungs are weak. We are going to insert a breathing tube to help you breathe",
+    "폐기능이 저하되어 있습니다. 원활한 호흡을 위해 호흡용 관을 삽입하겠습니다",
+    "Korean / 한국어",
+    "Medical Instructions"
+  ],
+  [
+    "You are going to sleep now",
+    "수면을 취하시겠습니다",
+    "Korean / 한국어",
+    "Medical Instructions"
+  ],
+  [
+    "We are turning you onto your belly to help your lungs expand",
+    "폐의 팽창을 위해서 배가 위를 향하도록 하겠습니다",
+    "Korean / 한국어",
+    "Medical Instructions"
+  ],
+  [
+    "We are inserting a tube to help you pass urine",
+    "원활한 소변 활동을 위해서 관을 삽입하고 있습니다",
+    "Korean / 한국어",
+    "Medical Instructions"
+  ],
+  [
+    "We are inserting a tube through your nose",
+    "코를 통해서 관을 삽입하고 있습니다",
+    "Korean / 한국어",
+    "Medical Instructions"
+  ],
+  [
+    "We are going to give you an injection in your neck to give you medications",
+    "약물 투여를 위해 목에 주사를 놓겠습니다",
+    "Korean / 한국어",
+    "Medical Instructions"
+  ],
+  [
+    "We are going to give you an injection in your arm to measure your blood pressure",
+    "혈압을 측정하기 위해 주사를 놓겠습니다",
+    "Korean / 한국어",
+    "Medical Instructions"
+  ],
+  [
+    "We will give you sleeping medications.",
+    "수면제를 드리겠습니다",
+    "Korean / 한국어",
+    "Medical Instructions"
+  ],
+  [
+    "We will give you painkillers.",
+    "진통제를 드리겠습니다",
+    "Korean / 한국어",
+    "Medical Instructions"
+  ],
+  [
+    "We are giving you medication to keep your blood pressure up.",
+    "약물을 투여함으로써 혈압을 높이고 있습니다",
+    "Korean / 한국어",
+    "Medical Instructions"
+  ],
+  [
+    "We are going to remove the breathing tube.",
+    "호흡용 관을 제거하겠습니다",
+    "Korean / 한국어",
+    "Medical Instructions"
+  ],
+  [
+    "We are going to suck out your phlegm",
+    "가래를 제거하겠습니다",
+    "Korean / 한국어",
+    "Medical Instructions"
+  ],
+  [
+    "We are going to clean you with a sponge",
+    "스폰지로 몸을 닦겠습니다",
+    "Korean / 한국어",
+    "Medical Instructions"
+  ],
+  [
+    "Turn left",
+    "왼쪽으로 돌아 누우세요",
+    "Korean / 한국어",
+    "Medical Instructions"
+  ],
+  [
+    "Turn right",
+    "오르쪽으로 돌아 누우세요",
+    "Korean / 한국어",
+    "Medical Instructions"
+  ],
+  [
+    "We will change your diapers",
+    "기저귀를 갈겠습니다",
+    "Korean / 한국어",
+    "Medical Instructions"
+  ],
+  [
     "Lift up your leg",
-    "앉아주세요",
+    "다리를 올려주세요",
     "Korean / 한국어",
     "Medical Instructions"
   ],
   [
     "We are going to sit you up",
-    "침대를 올리겠습니다",
+    "앉아주세요",
     "Korean / 한국어",
     "Medical Instructions"
   ],
@@ -13470,67 +12366,67 @@ export default [
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Eyes",
     "눈",
     "Korean / 한국어",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Ears",
     "귀",
     "Korean / 한국어",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Nose",
     "코",
     "Korean / 한국어",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Mouth",
     "입",
     "Korean / 한국어",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Throat",
     "목",
     "Korean / 한국어",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Chest",
     "가슴",
     "Korean / 한국어",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Abdomen",
     "복부",
     "Korean / 한국어",
     "Basic Terms"
   ],
   [
-    "back",
+    "Back",
     "등",
     "Korean / 한국어",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Arms",
     "팔",
     "Korean / 한국어",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Legs",
     "다리",
     "Korean / 한국어",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Feet",
     "발",
     "Korean / 한국어",
     "Basic Terms"
@@ -13608,7 +12504,7 @@ export default [
     "Basic Terms"
   ],
   [
-    "Feb",
+    "February",
     "이월/2월",
     "Korean / 한국어",
     "Basic Terms"
@@ -13674,144 +12570,6 @@ export default [
     "Basic Terms"
   ],
   [
-    "PART 2 ",
-    "문의 후 예방 조치를 취하다",
-    "Korean / 한국어",
-    ""
-  ],
-  [
-    "1. What is COVID-19? ",
-    "대중교통을 이용하지마세요.",
-    "Korean / 한국어",
-    "FAQ"
-  ],
-  [
-    "COVID-19 (more specifically, a coronavirus) is the disease identified as the cause of an outbreak of respiratory illness first detected in Wuhan, China",
-    "자기차나 택시를 이용하세요.",
-    "Korean / 한국어",
-    "FAQ"
-  ],
-  [
-    "2. What are the symptoms of COVID-19?",
-    "차안에서, 마스크 쓰고 혼자서 뒤쪽에 앉으세요.",
-    "Korean / 한국어",
-    "FAQ"
-  ],
-  [
-    "The most common symptoms are fever, tiredness and dry cough. Some patients also have runny nose, sore throat or diarrhoea. These symptoms are usually mild and begin gradually.\nSome people become infected but remain asymptomatic.\nIt can however, also cause lung infection, or pneumonia.",
-    "차창문을 열고 에이어콘을 끄십시오.",
-    "Korean / 한국어",
-    "FAQ"
-  ],
-  [
-    "3. How does COVID-19 spread?",
-    "만약 면봉시험을 양성을 보이면, 택시나 개인 쓰던 차를 쓰시고 접촉자 추적 조사위해 영수증을 꼭 가지고 가세요.",
-    "Korean / 한국어",
-    "FAQ"
-  ],
-  [
-    "People can catch COVID-19 from others who have the virus. The virus spreads via respiratory droplets (sharing saliva, utensils, being in close contact or through direct contact with droplets on surfaces and materials).",
-    "집에서 격리하세요. 법적으로 의료관련 제외이상 집을 나가는 것을 금지합니다.",
-    "Korean / 한국어",
-    "FAQ"
-  ],
-  [
-    "4. What is the test for COVID-19 like?",
-    "예약이 필요한 경우, 예약 날짜 전에 의료진에게 최근 COVID-19 검사를 받았음을 통지하고 (있는 경우) 증상이 나타납니다. 예약 날짜 전에 63448222로 전화하여 인민회에 연락하여 그들에게 통지해야 합니다.",
-    "Korean / 한국어",
-    "FAQ"
-  ],
-  [
-    "It is a swab test inserted in your nostril or at the back of your throat. It will last about 10 seconds. There might be a slight discomfort, however it is not significantly painful.",
-    "당신의 가족들의 건강을 감독해 달라고 요청하세요. 만약 열이 나거나 호흡기 증상이 있다면, 예를 들어 기침, 목 통증이나 호흡이 짧은 경우 등은 그들에게 수술 마스크를 착용하고 어떤 일반의사 클리닉을 방문하도록 권유해야 한다. 가족들은 집업의들에게 그들의 여행 경력을 알리거나 당신에게 연락해야 합니다.",
-    "Korean / 한국어",
-    "FAQ"
-  ],
-  [
-    "5. What happens if I am tested positive for COVID-19?",
-    "격리할 때",
-    "Korean / 한국어",
-    "FAQ"
-  ],
-  [
-    "Arrangements will be made for you to be warded or sent to a community isolation facility, to be placed under observation. You will be observed for deterioration. You might require X-Rays and blood tests as well. Repeated testing of your respiratory samples (via nose or throat) will be done on a regular basis, usually 24 hours apart. If you test negative twice consecutively, you can be discharged back to your home/dorm to continue 2 weeks of isolation at home.",
-    "집에 별도의 방을 두는 것은 세입자와의 교감을 최소화할 수 있도록 화장실을 첨부하는 것이 좋습니다. 공용 화장실을 사용하면 만진 표면은 사용 전후에 지워야 합니다.",
-    "Korean / 한국어",
-    "FAQ"
-  ],
-  [
-    "6. Will I die from COVID-19?",
-    "음식, 물, 그리고 다른 용품들을 방 밖으로 모으고 가지고 들어갈 수 있도록 배치합니다.",
-    "Korean / 한국어",
-    "FAQ"
-  ],
-  [
-    "It is normal to worry about how COVID-19 might affect you or your loved ones. In 80% of cases, infections from COVID-19 are usually mild and do not even need any treatment. There is a chance of deterioration due to the virus, which happens more commonly in the elderly population or in those with significant pre-existing medical conditions. Only 5% of patients will require ICU care including breathing support or medications to support their blood pressure.",
-    "가족, 특히 집안 어른과의 접촉을 최소화하고 당신이 테스트 음성결과를 알아낼 때까지 기다리세요.",
-    "Korean / 한국어",
-    "FAQ"
-  ],
-  [
-    "7. Is there a treatment for COVID-19?",
-    "자기의 건강을 잘 관리하새요.",
-    "Korean / 한국어",
-    "FAQ"
-  ],
-  [
-    "Most cases of COVID-19 infections do not require any treatment, and only require medications to alleviate symptoms. There is currently no established treatment for the 5% of patients with severe disease, however there are many clinical trials ongoing which have shown variable success. Even though there is no established treatment, if you do develop severe disease, you will still receive breathing support and will be given medications to support your blood pressure.",
-    "좋은 개인위생 위해 특히 손을 슀을때 비누와 상수도를 쉬세요. 기침과 재채기 할 때 소매로 감고 눈, 코, 입을 손으로 만지마세요.",
-    "Korean / 한국어",
-    "FAQ"
-  ],
-  [
-    "8. How much do I have to pay for my treatment?",
-    "음식, 토기, 용구, 기타 개인 위생 물품을 함께 사용하지 마세요.",
-    "Korean / 한국어",
-    "FAQ"
-  ],
-  [
-    "As of Singapore Government's announcement on 7 March 2020, if you are a Singapore Citizen, Singapore resident OR a long term pass holder, your hospital bill will be covered by the Government. This does not apply if you have left Singapore after 27 March 2020 and you are admitted as a suspected COVID-19 case within 14 days of returning.",
-    "약을 계속 복용합니다(있는 경우).",
-    "Korean / 한국어",
-    "FAQ"
-  ],
-  [
-    "9. I am worried about missing so much work. Will my boss fire me?",
-    "물을 충분히 섭취하세요.",
-    "Korean / 한국어",
-    "FAQ"
-  ],
-  [
-    "Your employer is legally mandated to allow your quarantine/treatment. Your employer is also legally bound to continue to pay your salaries even if you are not allowed to leave your dormitory during this Circuit Breaker period. If your employer does not pay your salary within 7 days of the end of the salary period, he can be prosecuted by the Singapore Government.",
-    "집에서 자기의 증상을 계속 주시하세요.",
-    "Korean / 한국어",
-    "FAQ"
-  ],
-  [
-    "10. I am scared and I want to go home.",
-    "만약 증상을 심해지면",
-    "Korean / 한국어",
-    "FAQ"
-  ],
-  [
-    "It is natural to be scared and anxious during this period. For the safety of your family, it is imperative that you follow the instructions given to you by your doctors and the Government. The Singapore Government has made arrangements for you so that we can safely treat you, if you test positive for COVID-19, while protecting others. Singapore has good hospitals and treatment here and will endeavour to give you the best medical care possible.",
-    "만약 기침을 심각해지고 호흡을 어려움이나 열이 계속 38도 이상이면",
-    "Korean / 한국어",
-    "FAQ"
-  ],
-  [
-    "11. How can I make sure I do not get infected with COVID-19?",
-    "마스크를 쓰고 응급실로 오세요.",
-    "Korean / 한국어",
-    "FAQ"
-  ],
-  [
-    "Fortunately, there are some preventive measures you can take to minimise the risk of infection. They are:\n1. Thoroughly washing your hands with soap and water for at least 20 seconds.\n2. Avoid touching eyes, nose and mouth.\n3. Covering your mouth and nose with your elbow or tissue when you cough or sneeze.\n4. Maintaining at least 1 metre distance between yourself and anyone else.\n5. Staying indoors if you feel unwell and keep isolated from others. If you develop fever, cough or breathlessness, please seek medical attention early.",
-    "대중교통을 쓰지마시고 개인교통이나 택시를 이용하세요. 자기차나택시이용할 때 창문을 꼭 열고 에이어콘을 끄십시오.",
-    "Korean / 한국어",
-    "FAQ"
-  ],
-  [
     "I am a doctor. I do not speak your language. I will communicate with you using this website. Answer me in English as much as possible. Thank you.",
     "Saya doktor.\r\nSaya tak boleh cakap Melayu.\r\nSaya akan cakap menerusi laman web ini.\r\nTolong jawab dalam Inggeris sebanyak mungkin.\r\nTerima kasih.\r",
     "Malay / Bahasa Melayu",
@@ -13824,7 +12582,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "Tolong beri saya Kad Pengenalan / Permit Kerja anda.",
     "Malay / Bahasa Melayu",
     "Greetings"
@@ -13899,7 +12657,7 @@ export default [
     "Difficulty breathing?",
     "Sesak nafas?",
     "Malay / Bahasa Melayu",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -14041,7 +12799,7 @@ export default [
   ],
   [
     "Say \"99\" when I listen with my stethoscope.",
-    "Cakap “99” bila saya dengar dengan stetoskop.",
+    "Cakap \"99\" bila saya dengar dengan stetoskop.",
     "Malay / Bahasa Melayu",
     "Medical Instructions"
   ],
@@ -14148,12 +12906,6 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
-    "Selamat pagi / tengah hari / petang",
-    "Malay / Bahasa Melayu",
-    "Greetings"
-  ],
-  [
     "I am the nurse",
     "Saya jururawat",
     "Malay / Bahasa Melayu",
@@ -14238,7 +12990,7 @@ export default [
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Give me a big cough",
     "Tolong batuk sekuatnya",
     "Malay / Bahasa Melayu",
     "Medical Instructions"
@@ -14460,67 +13212,67 @@ export default [
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Eyes",
     "Mata",
     "Malay / Bahasa Melayu",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Ears",
     "Telinga",
     "Malay / Bahasa Melayu",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Nose",
     "Hidung",
     "Malay / Bahasa Melayu",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Mouth",
     "Mulut",
     "Malay / Bahasa Melayu",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Throat",
     "Tekak",
     "Malay / Bahasa Melayu",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Chest",
     "Dada",
     "Malay / Bahasa Melayu",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Abdomen",
     "Perut",
     "Malay / Bahasa Melayu",
     "Basic Terms"
   ],
   [
-    "back",
+    "Back",
     "Belakang",
     "Malay / Bahasa Melayu",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Arms",
     "Lengan",
     "Malay / Bahasa Melayu",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Legs",
     "Kaki",
     "Malay / Bahasa Melayu",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Feet",
     "Kaki",
     "Malay / Bahasa Melayu",
     "Basic Terms"
@@ -14598,7 +13350,7 @@ export default [
     "Basic Terms"
   ],
   [
-    "Feb",
+    "February",
     "Februari",
     "Malay / Bahasa Melayu",
     "Basic Terms"
@@ -14676,7 +13428,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "ກະລຸນາສະແດງບັດປະຈຳຕົວ ຫຼື ໃບອະນຸຍາດເຮັດວຽກຂອງທ່ານ",
     "Lao / ພາສາລາວ",
     "Greetings"
@@ -14751,7 +13503,7 @@ export default [
     "Difficulty breathing?",
     "ຫາຍໃຈບໍ່ສະດວກບໍ?",
     "Lao / ພາສາລາວ",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -15000,12 +13752,6 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
-    "ສະບາຍດີຕອນເຊົ້າ / ສະບາຍດີຕອນບ່າຍ / ສະບາຍດີຕອນແລງ",
-    "Lao / ພາສາລາວ",
-    "Greetings"
-  ],
-  [
     "I am the nurse",
     "ຂ້າພະເຈົ້າແມ່ນພະຍາບານ",
     "Lao / ພາສາລາວ",
@@ -15090,7 +13836,7 @@ export default [
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Give me a big cough",
     "ອ້າປາກຂອງທ່ານ",
     "Lao / ພາສາລາວ",
     "Medical Instructions"
@@ -15312,67 +14058,67 @@ export default [
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Eyes",
     "ຕາ",
     "Lao / ພາສາລາວ",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Ears",
     "ຫູ",
     "Lao / ພາສາລາວ",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Nose",
     "ດັງ",
     "Lao / ພາສາລາວ",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Mouth",
     "ປາກ",
     "Lao / ພາສາລາວ",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Throat",
     "ຄໍ",
     "Lao / ພາສາລາວ",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Chest",
     "ເອິກ/ໜ້າເອິກ",
     "Lao / ພາສາລາວ",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Abdomen",
     "ທ້ອງນ້ອຍ",
     "Lao / ພາສາລາວ",
     "Basic Terms"
   ],
   [
-    "back",
+    "Back",
     "ຫຼັງ",
     "Lao / ພາສາລາວ",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Arms",
     "ແຂນ",
     "Lao / ພາສາລາວ",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Legs",
     "ຂາ",
     "Lao / ພາສາລາວ",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Feet",
     "ຕີນ",
     "Lao / ພາສາລາວ",
     "Basic Terms"
@@ -15450,7 +14196,7 @@ export default [
     "Basic Terms"
   ],
   [
-    "Feb",
+    "February",
     "ກຸມພາ",
     "Lao / ພາສາລາວ",
     "Basic Terms"
@@ -15516,6 +14262,24 @@ export default [
     "Basic Terms"
   ],
   [
+    "In case of an emergency, who is the next-of-kin that I should contact? What is their contact number?",
+    "ສະບາຍດີຕອນເຊົ້າ",
+    "Lao / ພາສາລາວ",
+    "Greetings"
+  ],
+  [
+    "Good morning",
+    "ສະບາຍດີຕອນບ່າຍ",
+    "Lao / ພາສາລາວ",
+    "Greetings"
+  ],
+  [
+    "Good afternoon",
+    "ສະບາຍດີຕອນແລງ",
+    "Lao / ພາສາລາວ",
+    "Greetings"
+  ],
+  [
     "I am a doctor. I do not speak your language. I will communicate with you using this website. Answer me in English as much as possible. Thank you.",
     "मी एक डॉक्टर आहे. मला तुमच्या भाषेत बोलता येत नाही. मी हे संकेतस्थळ वापरून तुमच्याशी संवाद / संभाषण करीन.  शक्य असेल तर मला इंग्रजी भाषेतून उत्तरे द्या. धन्यवाद .",
     "Marathi / मराठी",
@@ -15528,7 +14292,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "कृपया तुमचे ओळखपत्र / कामाचा परवाना (परवानगी पत्र) दाखवा. ",
     "Marathi / मराठी",
     "Greetings"
@@ -15603,7 +14367,7 @@ export default [
     "Difficulty breathing?",
     "श्वास घेण्यास त्रास होतो का?. ",
     "Marathi / मराठी",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -15852,12 +14616,6 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
-    "सकाळी / दुपारी / संध्याकाळी चांगले",
-    "Marathi / मराठी",
-    "Greetings"
-  ],
-  [
     "I am the nurse",
     "मी परिचारिका आहे",
     "Marathi / मराठी",
@@ -15942,7 +14700,7 @@ export default [
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Give me a big cough",
     "तुमचे तोंड उघडा",
     "Marathi / मराठी",
     "Medical Instructions"
@@ -16164,67 +14922,67 @@ export default [
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Eyes",
     "डोळे",
     "Marathi / मराठी",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Ears",
     "कान",
     "Marathi / मराठी",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Nose",
     "नाक",
     "Marathi / मराठी",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Mouth",
     "तोंड",
     "Marathi / मराठी",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Throat",
     "घसा",
     "Marathi / मराठी",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Chest",
     "छाती",
     "Marathi / मराठी",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Abdomen",
     "उदर",
     "Marathi / मराठी",
     "Basic Terms"
   ],
   [
-    "back",
+    "Back",
     "पाठ",
     "Marathi / मराठी",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Arms",
     "हात",
     "Marathi / मराठी",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Legs",
     "पाय",
     "Marathi / मराठी",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Feet",
     "पाय",
     "Marathi / मराठी",
     "Basic Terms"
@@ -16302,7 +15060,7 @@ export default [
     "Basic Terms"
   ],
   [
-    "Feb",
+    "February",
     "फेब्रुवारी",
     "Marathi / मराठी",
     "Basic Terms"
@@ -16380,7 +15138,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "तपाइँ  को परिचय कार्ड / कामको परमिट दिनुस.",
     "Nepalese / नेपाली",
     "Greetings"
@@ -16455,7 +15213,7 @@ export default [
     "Difficulty breathing?",
     "सांस फेर्न गार्हो छ?",
     "Nepalese / नेपाली",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -16704,12 +15462,6 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
-    "शुभ  प्रभात / दिउसो / सांझ",
-    "Nepalese / नेपाली",
-    "Greetings"
-  ],
-  [
     "I am the nurse",
     "म  नर्स  हू",
     "Nepalese / नेपाली",
@@ -16794,7 +15546,7 @@ export default [
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Give me a big cough",
     "ठुलो  खोक्नुस ",
     "Nepalese / नेपाली",
     "Medical Instructions"
@@ -17016,67 +15768,67 @@ export default [
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Eyes",
     "आँखा",
     "Nepalese / नेपाली",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Ears",
     "कान",
     "Nepalese / नेपाली",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Nose",
     "नाक",
     "Nepalese / नेपाली",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Mouth",
     "मुख",
     "Nepalese / नेपाली",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Throat",
     "घाँटी",
     "Nepalese / नेपाली",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Chest",
     "छाती",
     "Nepalese / नेपाली",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Abdomen",
     "भुँडी",
     "Nepalese / नेपाली",
     "Basic Terms"
   ],
   [
-    "back",
+    "Back",
     "फिर्ता",
     "Nepalese / नेपाली",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Arms",
     "हतियार",
     "Nepalese / नेपाली",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Legs",
     "खुट्टा",
     "Nepalese / नेपाली",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Feet",
     "खुट्टा",
     "Nepalese / नेपाली",
     "Basic Terms"
@@ -17154,7 +15906,7 @@ export default [
     "Basic Terms"
   ],
   [
-    "Feb",
+    "February",
     "फरवरी",
     "Nepalese / नेपाली",
     "Basic Terms"
@@ -17232,7 +15984,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "ਕਿਰਪਾ ਕਰਕੇ ਮੈਨੂੰ ਆਪਣਾ ਸ਼ਨਾਖਤੀ ਕਾਰਡ / ਵਰਕ ਪਰਮਿਟ ਦਿਓ|",
     "Punjabi / ਪੰਜਾਬੀ ਦੇ",
     "Greetings"
@@ -17307,7 +16059,7 @@ export default [
     "Difficulty breathing?",
     "ਸਾਹ ਲੈਣ ਵਿੱਚ ਮੁਸ਼ਕਲ?",
     "Punjabi / ਪੰਜਾਬੀ ਦੇ",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -17556,12 +16308,6 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
-    "ਸਤਿ ਸ਼੍ਰੀ ਅਕਾਲ ਜੀ , ਸ਼ੁਭ ਸਵੇਰ / ਦੁਪਹਿਰ / ਸ਼ਾਮ",
-    "Punjabi / ਪੰਜਾਬੀ ਦੇ",
-    "Greetings"
-  ],
-  [
     "I am the nurse",
     "ਮੈਂ ਨਰਸ ਹਾਂ",
     "Punjabi / ਪੰਜਾਬੀ ਦੇ",
@@ -17646,7 +16392,7 @@ export default [
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Give me a big cough",
     "ਮੈਨੂੰ ਇੱਕ ਵੱਡੀ ਖੰਘ ਦਿਓ/ਜੌਰ ਨਾਲ ਖੰਘੌ",
     "Punjabi / ਪੰਜਾਬੀ ਦੇ",
     "Medical Instructions"
@@ -17868,67 +16614,67 @@ export default [
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Eyes",
     "ਅੱਖਾਂ",
     "Punjabi / ਪੰਜਾਬੀ ਦੇ",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Ears",
     "ਕੰਨ",
     "Punjabi / ਪੰਜਾਬੀ ਦੇ",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Nose",
     "ਕੰਨ",
     "Punjabi / ਪੰਜਾਬੀ ਦੇ",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Mouth",
     "ਮੂੰਹ",
     "Punjabi / ਪੰਜਾਬੀ ਦੇ",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Throat",
     "ਗਲਾ",
     "Punjabi / ਪੰਜਾਬੀ ਦੇ",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Chest",
     "ਛਾਤੀ",
     "Punjabi / ਪੰਜਾਬੀ ਦੇ",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Abdomen",
     "ਪੇਟ",
     "Punjabi / ਪੰਜਾਬੀ ਦੇ",
     "Basic Terms"
   ],
   [
-    "back",
+    "Back",
     "ਪਿਠ",
     "Punjabi / ਪੰਜਾਬੀ ਦੇ",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Arms",
     "ਬਾਂਹ",
     "Punjabi / ਪੰਜਾਬੀ ਦੇ",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Legs",
     "ਲੱਤਾਂ",
     "Punjabi / ਪੰਜਾਬੀ ਦੇ",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Feet",
     "ਪੈਰ",
     "Punjabi / ਪੰਜਾਬੀ ਦੇ",
     "Basic Terms"
@@ -18006,7 +16752,7 @@ export default [
     "Basic Terms"
   ],
   [
-    "Feb",
+    "February",
     "ਫਰਵਰੀ",
     "Punjabi / ਪੰਜਾਬੀ ਦੇ",
     "Basic Terms"
@@ -18084,7 +16830,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "Por favor, dê-me sua Autorização de Trabalho / Identitification cartão",
     "Portuguese / Português",
     "Greetings"
@@ -18159,7 +16905,7 @@ export default [
     "Difficulty breathing?",
     "Dificuldade ao respirar?",
     "Portuguese / Português",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -18408,12 +17154,6 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
-    "Bom dia / tarde / noite",
-    "Portuguese / Português",
-    "Greetings"
-  ],
-  [
     "I am the nurse",
     "Eu sou a enfermeira",
     "Portuguese / Português",
@@ -18498,7 +17238,7 @@ export default [
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Give me a big cough",
     "Dá-me um grande tosse",
     "Portuguese / Português",
     "Medical Instructions"
@@ -18720,67 +17460,67 @@ export default [
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Eyes",
     "olhos",
     "Portuguese / Português",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Ears",
     "orelhas",
     "Portuguese / Português",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Nose",
     "nariz",
     "Portuguese / Português",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Mouth",
     "boca",
     "Portuguese / Português",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Throat",
     "garganta",
     "Portuguese / Português",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Chest",
     "peito",
     "Portuguese / Português",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Abdomen",
     "abdômen",
     "Portuguese / Português",
     "Basic Terms"
   ],
   [
-    "back",
+    "Back",
     "de volta",
     "Portuguese / Português",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Arms",
     "braços",
     "Portuguese / Português",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Legs",
     "pernas",
     "Portuguese / Português",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Feet",
     "pés",
     "Portuguese / Português",
     "Basic Terms"
@@ -18858,7 +17598,7 @@ export default [
     "Basic Terms"
   ],
   [
-    "Feb",
+    "February",
     "fevereiro",
     "Portuguese / Português",
     "Basic Terms"
@@ -18936,7 +17676,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "Дайте мне своё удостоверение личности / разрешение на работу, пожалуйста.",
     "Russian / русский",
     "Greetings"
@@ -19011,7 +17751,7 @@ export default [
     "Difficulty breathing?",
     "Затрудненное дыхание?",
     "Russian / русский",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -19260,12 +18000,6 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
-    "Доброе утро / добрый день / добрый вечер",
-    "Russian / русский",
-    "Greetings"
-  ],
-  [
     "I am the nurse",
     "Я медсестра",
     "Russian / русский",
@@ -19350,7 +18084,7 @@ export default [
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Give me a big cough",
     "Покашляйте",
     "Russian / русский",
     "Medical Instructions"
@@ -19572,67 +18306,67 @@ export default [
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Eyes",
     "глаза",
     "Russian / русский",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Ears",
     "уши",
     "Russian / русский",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Nose",
     "нос",
     "Russian / русский",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Mouth",
     "рот",
     "Russian / русский",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Throat",
     "горло",
     "Russian / русский",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Chest",
     "грудь",
     "Russian / русский",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Abdomen",
     "живот",
     "Russian / русский",
     "Basic Terms"
   ],
   [
-    "back",
+    "Back",
     "спина",
     "Russian / русский",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Arms",
     "руки",
     "Russian / русский",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Legs",
     "ноги",
     "Russian / русский",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Feet",
     "ступни",
     "Russian / русский",
     "Basic Terms"
@@ -19710,7 +18444,7 @@ export default [
     "Basic Terms"
   ],
   [
-    "Feb",
+    "February",
     "февраль",
     "Russian / русский",
     "Basic Terms"
@@ -19776,10 +18510,10 @@ export default [
     "Basic Terms"
   ],
   [
-    "PART 2 ",
+    "You have tested positive for coronavirus.",
     "Русский",
     "Russian / русский",
-    ""
+    "Medical Instructions"
   ],
   [
     "I am a doctor. I do not speak your language. I will communicate with you using this website. Answer me in English as much as possible. Thank you.",
@@ -19794,7 +18528,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "Permíteme ver tu identificación/permiso de trabajo, por favor.",
     "Spanish / Español",
     "Greetings"
@@ -19869,7 +18603,7 @@ export default [
     "Difficulty breathing?",
     "Dificultades para respirar?",
     "Spanish / Español",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -20118,12 +18852,6 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
-    "Buenos dias / Buenas tardes / Buenas noches",
-    "Spanish / Español",
-    "Greetings"
-  ],
-  [
     "I am the nurse",
     "Soy la enfermera",
     "Spanish / Español",
@@ -20208,7 +18936,7 @@ export default [
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Give me a big cough",
     "Tosa con fuerza",
     "Spanish / Español",
     "Medical Instructions"
@@ -20430,67 +19158,67 @@ export default [
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Eyes",
     "ojos",
     "Spanish / Español",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Ears",
     "orejas",
     "Spanish / Español",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Nose",
     "nariz",
     "Spanish / Español",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Mouth",
     "boca",
     "Spanish / Español",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Throat",
     "garganta",
     "Spanish / Español",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Chest",
     "pecho",
     "Spanish / Español",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Abdomen",
     "abdomen",
     "Spanish / Español",
     "Basic Terms"
   ],
   [
-    "back",
+    "Back",
     "espalda",
     "Spanish / Español",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Arms",
     "brazos",
     "Spanish / Español",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Legs",
     "piernas",
     "Spanish / Español",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Feet",
     "pies",
     "Spanish / Español",
     "Basic Terms"
@@ -20568,7 +19296,7 @@ export default [
     "Basic Terms"
   ],
   [
-    "Feb",
+    "February",
     "febrero",
     "Spanish / Español",
     "Basic Terms"
@@ -20646,7 +19374,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "உங்களுடைய பெயர் என்ன?",
     "Tamil / தமிழ்",
     "Greetings"
@@ -20721,7 +19449,7 @@ export default [
     "Difficulty breathing?",
     "கடந்த 14 நாட்களில், சிங்கப்பூரை விட்டு வெளிநாட்டிற்கு ஏதேனும் பயணம் செய்தீர்களா? அப்படி பயணம் செய்திருந்தால், நீங்கள் சென்றுவந்த நாடுகளின் பெயர்களை ஆங்கிலத்தில் குறிப்பிடவும்.",
     "Tamil / தமிழ்",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -20917,7 +19645,7 @@ export default [
   ],
   [
     "Wait here, do not leave this area",
-    "நான் இந்த ஸ்டெதஸ்கோப்-ஐ உங்கள் மீது வைக்கும்போது ”99” (நைன் நைன்) என்று மீண்டும் மீண்டும் சொல்லவும்.",
+    "நான் இந்த ஸ்டெதஸ்கோப்-ஐ உங்கள் மீது வைக்கும்போது \"99\" (நைன் நைன்) என்று மீண்டும் மீண்டும் சொல்லவும்.",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
@@ -20970,586 +19698,586 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
+    "I am the nurse",
     "இங்கேயே காத்திருங்கள். இந்த இடத்தை விட்டு எங்கும் செல்லாதீர்கள்.",
     "Tamil / தமிழ்",
     "Greetings"
   ],
   [
-    "I am the nurse",
+    "I am the doctor",
     "நீங்கள் மருத்துவமனையில் சில நாட்கள் தங்கியிருக்க வேண்டும்.",
     "Tamil / தமிழ்",
     "Greetings"
   ],
   [
-    "I am the doctor",
-    "நாங்கள் உங்களை வேறொரு இடத்திற்கு இடமாற்றம் செய்ய வேண்டும்",
-    "Tamil / தமிழ்",
-    "Greetings"
-  ],
-  [
     "You are in the intensive care unit.",
-    "உடல் நிலை சீராக நான் சில மருந்துகளை தரப்போகிறேன்",
+    "நாங்கள் உங்களை வேறொரு இடத்திற்கு இடமாற்றம் செய்ய வேண்டும்",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
     "Today is Monday",
-    "நீஙகள் அடுத்த ஐந்து (5) நாட்களுக்கு வேலைக்கு செல்ல கூடாது  ",
+    "உடல் நிலை சீராக நான் சில மருந்துகளை தரப்போகிறேன்",
     "Tamil / தமிழ்",
     "Greetings"
   ],
   [
     "Today is Tuesday",
-    "உங்களுக்கு சுவாசிப்பதில் ஏதேனும் பிரச்சனை ஏற்பட்டால், எங்களிடம் திரும்பி வரவும் ",
+    "நீஙகள் அடுத்த ஐந்து (5) நாட்களுக்கு வேலைக்கு செல்ல கூடாது  ",
     "Tamil / தமிழ்",
     "Greetings"
   ],
   [
     "Today is Wednesday",
-    "நீங்கள் 5 நாட்களுக்குப் பிறகு முழுமையாக குணமடையவில்லை என்றால் நீங்கள் திரும்பி வர வேண்டும்",
+    "உங்களுக்கு சுவாசிப்பதில் ஏதேனும் பிரச்சனை ஏற்பட்டால், எங்களிடம் திரும்பி வரவும் ",
     "Tamil / தமிழ்",
     "Greetings"
   ],
   [
     "Today is Thursday",
-    "\nதகவல் கையேட்டை கவனமாகப் படியுங்கள்",
+    "நீங்கள் 5 நாட்களுக்குப் பிறகு முழுமையாக குணமடையவில்லை என்றால் நீங்கள் திரும்பி வர வேண்டும்",
     "Tamil / தமிழ்",
     "Greetings"
   ],
   [
     "Today is Friday",
-    "நன்றி, nandri",
+    "\nதகவல் கையேட்டை கவனமாகப் படியுங்கள்",
     "Tamil / தமிழ்",
     "Greetings"
   ],
   [
     "Today is Saturday",
-    "காலை வணக்கம் / மதிய வணக்கம் / மாலை வணக்கம்",
+    "நன்றி, nandri",
     "Tamil / தமிழ்",
     "Greetings"
   ],
   [
     "Today is Sunday",
-    "நான் ஒரு தாதி.",
+    "காலை வணக்கம் / மதிய வணக்கம் / மாலை வணக்கம்",
     "Tamil / தமிழ்",
     "Greetings"
   ],
   [
     "You are getting better",
-    "நான் ஒரு மருத்துவர்",
+    "நான் ஒரு தாதி.",
     "Tamil / தமிழ்",
     "Greetings"
   ],
   [
     "We will remove the breathing tube when you are better",
-    "நீங்கள் தீவிர சிகிச்சை பிரிவில் இருக்கிறீர்கள்",
+    "நான் ஒரு மருத்துவர்",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
     "You can talk after we remove the breathing tube",
-    "உங்களுக்கு கொரோனா வைரஸ் இருப்பதாக உறுதி செய்யப்பட்டுள்ளது. ",
+    "நீங்கள் தீவிர சிகிச்சை பிரிவில் இருக்கிறீர்கள்",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
     "Take a deep breath",
+    "உங்களுக்கு கொரோனா வைரஸ் இருப்பதாக உறுதி செய்யப்பட்டுள்ளது. ",
+    "Tamil / தமிழ்",
+    "Medical Instructions"
+  ],
+  [
+    "Give me a big cough",
     "நாங்கள் உங்களை தனிமைப் படுத்தும் வசதிக்கு இடமாற்றம் செய்ய போகின்றோம் ",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Don't struggle",
     "இன்று திங்கட்கிழமை",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "Don't struggle",
+    "Don't move",
     "இன்று செவ்வாய்க்கிழமை",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "Don't move",
+    "Lift up your arm",
     "இன்று புதன்கிழமை",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "Lift up your arm",
+    "Lift up your leg",
     "\nஇன்று வியாழக்கிழமை",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "Lift up your leg",
+    "Squeeze my hand",
     "\nஇன்று வெள்ளிக்கிழமை",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "Squeeze my hand",
+    "Show me two fingers",
     "\nஇன்று சனிக்கிழமை",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "Show me two fingers",
+    "Open your mouth",
     " இன்று ஞாயிற்றுகிழமை",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Stick out your tongue",
     "நீங்கள் குணமடைந்து வருகிறீர்கள்",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "Stick out your tongue",
+    "Open your eyes",
     "நீங்கள் குணம் அடைந்தப்பின் சுவாசக் குழாயை அகற்றுவோம்",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "Open your eyes",
+    "I'm going to shine a light into your eyes. It will be bright.",
     "சுவாசக் குழாயை அகற்றியப்பின் நீங்கள் பேசலாம்",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "I'm going to shine a light into your eyes. It will be bright.",
+    "Your lungs are weak. We are going to insert a breathing tube to help you breathe",
     "ஆழமாக மூச்சை இழுத்துவிடுங்கள்",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "Your lungs are weak. We are going to insert a breathing tube to help you breathe",
+    "You are going to sleep now",
     "பெரிதாக இருமல் விடுங்கள்",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "You are going to sleep now",
+    "We are turning you onto your belly to help your lungs expand",
     "முரண்டுபிடிக்காதீர்கள்",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "We are turning you onto your belly to help your lungs expand",
+    "We are inserting a tube to help you pass urine",
     "அசையாமல் இருங்கள்",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "We are inserting a tube to help you pass urine",
+    "We are inserting a tube through your nose",
     "உங்களது கையை உயர்த்தவும்",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "We are inserting a tube through your nose",
+    "We are going to give you an injection in your neck to give you medications",
     "உங்களது காலை உயர்த்தவும்",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "We are going to give you an injection in your neck to give you medications",
+    "We are going to give you an injection in your arm to measure your blood pressure",
     "என் கையை இறுக்கமாக பிடியுங்கள்",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "We are going to give you an injection in your arm to measure your blood pressure",
+    "We will give you sleeping medications.",
     "இரண்டு விரல்களை காட்டவும்",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "We will give you sleeping medications.",
+    "We will give you painkillers.",
     "வாயைத் திறக்கவும் ",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "We will give you painkillers.",
+    "We are giving you medication to keep your blood pressure up.",
     "நாக்கை வெளியே நீட்டவும் ",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "We are giving you medication to keep your blood pressure up.",
+    "We are going to remove the breathing tube.",
     "கண்களை திறக்கவும்",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "We are going to remove the breathing tube.",
+    "We are going to suck out your phlegm",
     "உங்களின் கண்களில் நான் ஒளியை காட்டப்போகின்றேன். அது சற்று வெளிச்சமாக இருக்கும். ",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "We are going to suck out your phlegm",
+    "We are going to clean you with a sponge",
     "உங்களது நுரையீரல் பாதிக்கப்பட்டிருக்கிறது. நீங்கள் சுலபமாக மூச்சு விட நாங்கள் ஒரு சுவாசக் குழாயை பொறுத்தப்போகின்றோம்",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "We are going to clean you with a sponge",
+    "Turn left",
     "நீங்கள் இப்போது தூங்கப் போகிறீர்கள்.",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "Turn left",
+    "Turn right",
     "நீங்கள் சுலபமாக மூச்சு விட (உங்களின் நுரையீரலை விரிவாக்க) உங்களை குப்புற படுக்க வைக்கின்றோம் ",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "Turn right",
+    "We will change your diapers",
     "நீங்கள் சிறுநீர் கழிக்க ஒரு குழாயை நாங்கள் பொறுத்தபோகின்றோம்",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "We will change your diapers",
+    "Lift up your leg",
     "நாங்கள் உங்களது மூக்கின் வாயிலாக ஒரு குழாயை நுழைக்க போகின்றோம் ",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "Lift up your leg",
+    "We are going to sit you up",
     "உங்களுக்கு மருந்தளிக்க உங்களது கழுத்து பகுதியில் நாங்கள் ஒரு ஊசியை பொறுத்தப்போகின்றோம் ",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "We are going to sit you up",
+    "We are going to shift you up the bed",
     "உங்களுடைய இரத்த அழுத்தத்தை உறுதிசெய்ய உங்களது கையில் நாங்கள் ஒரு ஊசியை பொறுத்தப்போகின்றோம் ",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "We are going to shift you up the bed",
+    "We are going to clean your mouth",
     "நீங்கள் தூங்குவதற்கு  நாங்கள் உங்களுக்கு தூக்க மருந்தை கொடுக்க போகிறோம்",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "We are going to clean your mouth",
+    "Do not swallow the gargle",
     "நாங்கள் உங்களின் வலியை  நீக்க மருந்து கொடுக்க போகிறோம். ",
     "Tamil / தமிழ்",
     "Medical Instructions"
   ],
   [
-    "Do not swallow the gargle",
-    "உங்களின் இரத்த அழுத்தத்தை நிலைக்காக்க நாங்கள் இந்த மருந்தை கொடுக்கிறோம் ",
-    "Tamil / தமிழ்",
-    "Medical Instructions"
-  ],
-  [
     "Are you in pain?",
-    "நாங்கள் உங்களுக்கு பொருத்தப்பட்டுள்ள சுவாசக்குழாயை அகற்றப் போகிறோம் ",
+    "உங்களின் இரத்த அழுத்தத்தை நிலைக்காக்க நாங்கள் இந்த மருந்தை கொடுக்கிறோம் ",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
     "Where is the pain?",
-    "\nநாங்கள் உங்களின் சலியை நீக்க போகிறோம்",
+    "நாங்கள் உங்களுக்கு பொருத்தப்பட்டுள்ள சுவாசக்குழாயை அகற்றப் போகிறோம் ",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
     "Is it mild, moderate or severe?",
-    "நாங்கள் உங்களது உடலை ஒரு ஸ்பான்ஜ்-ஆல் துடைக்கப்போகிறோம் ",
+    "\nநாங்கள் உங்களின் சலியை நீக்க போகிறோம்",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
     "Can you point to the pain?",
-    "இடது பக்கம் திரும்பவும்",
+    "நாங்கள் உங்களது உடலை ஒரு ஸ்பான்ஜ்-ஆல் துடைக்கப்போகிறோம் ",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
     "Head",
+    "இடது பக்கம் திரும்பவும்",
+    "Tamil / தமிழ்",
+    "Basic Terms"
+  ],
+  [
+    "Eyes",
     "வலது பக்கம் திரும்பவும்",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Ears",
     "நாங்கள் உங்களுடைய டயப்பரை இப்போது மாற்றப்போகிறோம்",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Nose",
     "உங்களது காலை தூக்கவும்",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Mouth",
     "நாங்கள் உங்களை உட்கார வைக்கப்போகின்றோம். ",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Throat",
     "நாங்கள் உங்களது படுக்கையை உயர்த்தப்போகின்றோம்.",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Chest",
     "நாங்கள் உங்களது வாயை சுத்தம் செய்யப்போகின்றோம்.",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Abdomen",
     "நீங்கள் கொப்பிளித்ததை முழுங்க வேண்டாம்.",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Back",
     "உடலில் ஏதேனும் வலியுண்டா?",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "back",
+    "Arms",
     "உடலில் எங்கு வலிக்கின்றது?",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Legs",
     "எவ்வளவு வலிக்கின்றது? கொஞ்சமாகவா? மிதமாகவா? இல்லை அதிகமாகவா?",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Feet",
     "வலிக்கின்ற இடத்தை சுட்டிக்காட்ட முடியுமா?",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "feet",
+    "1 - one",
     "தலை",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "1 - one",
+    "2 - two",
     "கண்கள்",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "2 - two",
+    "3 - three",
     "காதுகள்",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "3 - three",
+    "4 - four",
     "மூக்கு",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "4 - four",
+    "5 - five",
     "வாய்",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "5 - five",
+    "6 - six",
     "தொண்டை",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "6 - six",
+    "7 - seven",
     "மார்பு",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "7 - seven",
+    "8 - eight",
     "வயிற்றுப்பகுதி",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "8 - eight",
+    "9 - nine",
     "முதுகு",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "9 - nine",
+    "10 - ten",
     "கைகள் ",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "10 - ten",
+    "0 - zero",
     "கால்கள்",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "0 - zero",
+    "January",
     "பாதங்கள்",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "January",
+    "February",
     "1 - ஒன்று",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "Feb",
+    "March",
     "2 - இரண்டு",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "March",
+    "April",
     "3 - மூன்று",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "April",
+    "May",
     "4 - நான்கு",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "May",
+    "June",
     "5 - ஐந்து",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "June",
+    "July",
     "6 - ஆறு",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "July",
+    "August",
     "7 - ஏழு",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "August",
+    "September",
     "8 - எட்டு",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "September",
+    "October",
     "9 - ஒன்பது",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "October",
+    "November",
     "10 - பத்து",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "November",
+    "December",
     "0 - பூஜ்யம்",
     "Tamil / தமிழ்",
     "Basic Terms"
   ],
   [
-    "December",
+    "You have tested positive for coronavirus.",
     "ஜனவரி",
     "Tamil / தமிழ்",
-    "Basic Terms"
+    "Medical Instructions"
   ],
   [
-    "PART 2 ",
+    "We will take you to the hospital.",
     "பிப்ரவரி",
     "Tamil / தமிழ்",
-    ""
+    "Medical Instructions"
   ],
   [
-    "1. What is COVID-19? ",
+    "We will transfer to you an isolation facility.",
     "மார்ச்",
     "Tamil / தமிழ்",
-    "FAQ"
+    "Medical Instructions"
   ],
   [
-    "COVID-19 (more specifically, a coronavirus) is the disease identified as the cause of an outbreak of respiratory illness first detected in Wuhan, China",
+    "How do you feel emotionally? (Use thumbs up and down)",
     "ஏப்ரல்",
     "Tamil / தமிழ்",
-    "FAQ"
+    "Medical Conditions"
   ],
   [
-    "2. What are the symptoms of COVID-19?",
+    "In case of an emergency, who is the next-of-kin that I should contact? What is their contact number?",
     "மே",
     "Tamil / தமிழ்",
-    "FAQ"
+    "Greetings"
   ],
   [
-    "The most common symptoms are fever, tiredness and dry cough. Some patients also have runny nose, sore throat or diarrhoea. These symptoms are usually mild and begin gradually.\nSome people become infected but remain asymptomatic.\nIt can however, also cause lung infection, or pneumonia.",
+    "Good morning",
     "ஜூன்",
     "Tamil / தமிழ்",
-    "FAQ"
+    "Greetings"
   ],
   [
-    "3. How does COVID-19 spread?",
+    "Good afternoon",
     "ஜூலை",
     "Tamil / தமிழ்",
-    "FAQ"
+    "Greetings"
   ],
   [
-    "People can catch COVID-19 from others who have the virus. The virus spreads via respiratory droplets (sharing saliva, utensils, being in close contact or through direct contact with droplets on surfaces and materials).",
+    "Good evening",
     "ஆகஸ்ட்",
     "Tamil / தமிழ்",
-    "FAQ"
+    "Greetings"
   ],
   [
-    "4. What is the test for COVID-19 like?",
+    "You are in ICU",
     "செப்டம்பர்",
     "Tamil / தமிழ்",
-    "FAQ"
+    "Greetings"
   ],
   [
-    "It is a swab test inserted in your nostril or at the back of your throat. It will last about 10 seconds. There might be a slight discomfort, however it is not significantly painful.",
+    "You are getting better",
     "அக்டோபர்",
     "Tamil / தமிழ்",
-    "FAQ"
+    "Greetings"
   ],
   [
-    "5. What happens if I am tested positive for COVID-19?",
+    "Any shivering?",
     "நவம்பர்",
     "Tamil / தமிழ்",
-    "FAQ"
+    "Symptoms"
   ],
   [
-    "Arrangements will be made for you to be warded or sent to a community isolation facility, to be placed under observation. You will be observed for deterioration. You might require X-Rays and blood tests as well. Repeated testing of your respiratory samples (via nose or throat) will be done on a regular basis, usually 24 hours apart. If you test negative twice consecutively, you can be discharged back to your home/dorm to continue 2 weeks of isolation at home.",
+    "Any muscle pain? ",
     "டிசம்பர்",
     "Tamil / தமிழ்",
-    "FAQ"
+    "Symptoms"
   ],
   [
     "I am a doctor. I do not speak your language. I will communicate with you using this website. Answer me in English as much as possible. Thank you.",
@@ -21564,7 +20292,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "దయచేసి మీ FIN లేదా IC నంబర్ ఇవ్వండి",
     "Telugu / తెలుగు",
     "Greetings"
@@ -21639,7 +20367,7 @@ export default [
     "Difficulty breathing?",
     "మీకు శ్వాస తీసుకోవడంలో ఇబ్బంది ఉందా?",
     "Telugu / తెలుగు",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -21888,12 +20616,6 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
-    "శుభోదయం / శుభ మద్యాహ్నం / శుభ సాయంత్రం",
-    "Telugu / తెలుగు",
-    "Greetings"
-  ],
-  [
     "I am the nurse",
     "నేను నర్సుని",
     "Telugu / తెలుగు",
@@ -21978,7 +20700,7 @@ export default [
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Give me a big cough",
     "గట్టిగా దగ్గంది",
     "Telugu / తెలుగు",
     "Medical Instructions"
@@ -22171,363 +20893,237 @@ export default [
   ],
   [
     "Are you in pain?",
-    "ఏ కంపెనీ కింద మీరు పనిచేస్తారు?",
-    "Telugu / తెలుగు",
-    "Basic Terms"
-  ],
-  [
-    "Where is the pain?",
-    "మీ సూపర్వైజర్ పేరు ఇంకా ఫోన్ నెంబర్ ఏమిటి?",
-    "Telugu / తెలుగు",
-    "Basic Terms"
-  ],
-  [
-    "Is it mild, moderate or severe?",
-    "మీరు వుంటున్న డోర్మ్ పేరు ఏంటి?",
-    "Telugu / తెలుగు",
-    "Basic Terms"
-  ],
-  [
-    "Can you point to the pain?",
-    "ఈ డోర్మ్ క్లస్టర్ లో వుందా?",
-    "Telugu / తెలుగు",
-    "Basic Terms"
-  ],
-  [
-    "Head",
-    "మీ రూములో ఎంతమంది వున్నారు?",
-    "Telugu / తెలుగు",
-    "Basic Terms"
-  ],
-  [
-    "eyes",
-    "liver సమస్య",
-    "Telugu / తెలుగు",
-    "Basic Terms"
-  ],
-  [
-    "ears",
-    "క్యాన్సర్",
-    "Telugu / తెలుగు",
-    "Basic Terms"
-  ],
-  [
-    "nose",
-    "మీరు మానసికంగా ఎలా వున్నారు? (👍🏽👎🏽)",
-    "Telugu / తెలుగు",
-    "Basic Terms"
-  ],
-  [
-    "mouth",
-    "మీకు ఆత్మహత్య చేసుకోవాలన్న ఆలోచన వస్తోOదా?: జీవితంలో అర్ధంలేదనిపిస్తోOదా? మిమ్మల్ని మీరు దండిoచుకోవాలని, చనిపోవాలని అనిపిస్తోOదా?",
-    "Telugu / తెలుగు",
-    "Basic Terms"
-  ],
-  [
-    "throat ",
-    "మీ కరోనా  వయిరస్ టెస్ట్ పాజిటివ్ గా వచ్చింది.",
-    "Telugu / తెలుగు",
-    "Basic Terms"
-  ],
-  [
-    "chest",
-    "మిమ్మల్ని హాస్పిటల్కు తీసుకు వెళ్ళాలి.",
-    "Telugu / తెలుగు",
-    "Basic Terms"
-  ],
-  [
-    "abdomen",
-    "మిమ్మల్ని విడిగా ఉంచడానికి ఒక ఏర్పాటు చేసిన వార్డ్\nలో మారుస్తాము.",
-    "Telugu / తెలుగు",
-    "Basic Terms"
-  ],
-  [
-    "back",
-    "మీకు తినిపించడము కోసం మీ ముక్కులోను ఒక ట్యూబ్ కడుపు వరకు పెడుతున్నాము",
-    "Telugu / తెలుగు",
-    "Basic Terms"
-  ],
-  [
-    "arms",
-    "ఒకటి నుOచి మూడు వరకు లెక్కపెట్టి మిమల్ని బెడ్ మీదకి మారుస్తాము. ఒకటి..రెOడు..మూడు..",
-    "Telugu / తెలుగు",
-    "Basic Terms"
-  ],
-  [
-    "legs",
     "మీకు ఎక్కడైనా నొప్పి ఉందా?",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Where is the pain?",
     "నొప్పి ఎక్కడ ఉంది?",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "1 - one",
+    "Is it mild, moderate or severe?",
     "కొOచెమా, మధ్యస్తమా, చాలా ఎక్కువగా వుOదా?",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "2 - two",
+    "Can you point to the pain?",
     "నొప్పి ఎక్కడ ఉందో చూపించండి",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "3 - three",
+    "Head",
     "తల",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "4 - four",
+    "Eyes",
     "కళ్ళు",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "5 - five",
+    "Ears",
     "చెవులు",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "6 - six",
+    "Nose",
     "ముక్కు",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "7 - seven",
+    "Mouth",
     "నోటి",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "8 - eight",
+    "Throat",
     "గొంతు",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "9 - nine",
+    "Chest",
     "ఛాతి ",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "10 - ten",
+    "Abdomen",
     "కడుపు",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "0 - zero",
+    "Back",
     "వీపు",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "January",
+    "Arms",
     "చేతులు",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "Feb",
+    "Legs",
     "కాళ్ళు",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "March",
+    "Feet",
     "పాదములు",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "April",
+    "1 - one",
     "1 - ఒకటి",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "May",
+    "2 - two",
     "2 - రెండు",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "June",
+    "3 - three",
     "3- మూడు",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "July",
+    "4 - four",
     "4 - నాలుగు",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "August",
+    "5 - five",
     "5 - ఐదు",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "September",
+    "6 - six",
     "6 - ఆరు",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "October",
+    "7 - seven",
     "7 - ఏడు",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "November",
+    "8 - eight",
     "8 - ఎనిమిది",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "December",
+    "9 - nine",
     "9 - తొమ్మిది",
     "Telugu / తెలుగు",
     "Basic Terms"
   ],
   [
-    "PART 2 ",
+    "10 - ten",
     "10 - పది",
     "Telugu / తెలుగు",
-    ""
+    "Basic Terms"
   ],
   [
-    "1. What is COVID-19? ",
+    "0 - zero",
     "0 - సున్నా",
     "Telugu / తెలుగు",
-    "FAQ"
+    "Basic Terms"
   ],
   [
-    "COVID-19 (more specifically, a coronavirus) is the disease identified as the cause of an outbreak of respiratory illness first detected in Wuhan, China",
+    "January",
     "జనవరి",
     "Telugu / తెలుగు",
-    "FAQ"
+    "Basic Terms"
   ],
   [
-    "2. What are the symptoms of COVID-19?",
+    "February",
     "ఫిబ్రవరి",
     "Telugu / తెలుగు",
-    "FAQ"
+    "Basic Terms"
   ],
   [
-    "The most common symptoms are fever, tiredness and dry cough. Some patients also have runny nose, sore throat or diarrhoea. These symptoms are usually mild and begin gradually.\nSome people become infected but remain asymptomatic.\nIt can however, also cause lung infection, or pneumonia.",
+    "March",
     "మార్చి",
     "Telugu / తెలుగు",
-    "FAQ"
+    "Basic Terms"
   ],
   [
-    "3. How does COVID-19 spread?",
+    "April",
     "ఏప్రిల్",
     "Telugu / తెలుగు",
-    "FAQ"
+    "Basic Terms"
   ],
   [
-    "People can catch COVID-19 from others who have the virus. The virus spreads via respiratory droplets (sharing saliva, utensils, being in close contact or through direct contact with droplets on surfaces and materials).",
+    "May",
     "మే",
     "Telugu / తెలుగు",
-    "FAQ"
+    "Basic Terms"
   ],
   [
-    "4. What is the test for COVID-19 like?",
+    "June",
     "జూన్",
     "Telugu / తెలుగు",
-    "FAQ"
+    "Basic Terms"
   ],
   [
-    "It is a swab test inserted in your nostril or at the back of your throat. It will last about 10 seconds. There might be a slight discomfort, however it is not significantly painful.",
+    "July",
     "జూలై",
     "Telugu / తెలుగు",
-    "FAQ"
+    "Basic Terms"
   ],
   [
-    "5. What happens if I am tested positive for COVID-19?",
+    "August",
     "ఆగస్టు",
     "Telugu / తెలుగు",
-    "FAQ"
+    "Basic Terms"
   ],
   [
-    "Arrangements will be made for you to be warded or sent to a community isolation facility, to be placed under observation. You will be observed for deterioration. You might require X-Rays and blood tests as well. Repeated testing of your respiratory samples (via nose or throat) will be done on a regular basis, usually 24 hours apart. If you test negative twice consecutively, you can be discharged back to your home/dorm to continue 2 weeks of isolation at home.",
+    "September",
     "సెప్టెంబర్",
     "Telugu / తెలుగు",
-    "FAQ"
+    "Basic Terms"
   ],
   [
-    "6. Will I die from COVID-19?",
+    "October",
     "అక్టోబర్",
     "Telugu / తెలుగు",
-    "FAQ"
+    "Basic Terms"
   ],
   [
-    "It is normal to worry about how COVID-19 might affect you or your loved ones. In 80% of cases, infections from COVID-19 are usually mild and do not even need any treatment. There is a chance of deterioration due to the virus, which happens more commonly in the elderly population or in those with significant pre-existing medical conditions. Only 5% of patients will require ICU care including breathing support or medications to support their blood pressure.",
+    "November",
     "నవంబర్",
     "Telugu / తెలుగు",
-    "FAQ"
+    "Basic Terms"
   ],
   [
-    "7. Is there a treatment for COVID-19?",
+    "December",
     "డిసెంబర్",
     "Telugu / తెలుగు",
-    "FAQ"
-  ],
-  [
-    "As of Singapore Government's announcement on 7 March 2020, if you are a Singapore Citizen, Singapore resident OR a long term pass holder, your hospital bill will be covered by the Government. This does not apply if you have left Singapore after 27 March 2020 and you are admitted as a suspected COVID-19 case within 14 days of returning.",
-    "బస్సు, మెట్రో, లాంటి పబ్లిక్ ట్రాన్స్ పోర్ట్ లో వెళ్ళవద్దు",
-    "Telugu / తెలుగు",
-    "FAQ"
-  ],
-  [
-    "9. I am worried about missing so much work. Will my boss fire me?",
-    "మీసొ0త బండి లో గాని టాక్సీలో గాని గ్రాబ్లో గాని ప్రయాణి0చగలరు.",
-    "Telugu / తెలుగు",
-    "FAQ"
-  ],
-  [
-    "Your employer is legally mandated to allow your quarantine/treatment. Your employer is also legally bound to continue to pay your salaries even if you are not allowed to leave your dormitory during this Circuit Breaker period. If your employer does not pay your salary within 7 days of the end of the salary period, he can be prosecuted by the Singapore Government.",
-    "కార్లో వెనక సీటులో ఒంటరిగా మాస్కు వేసుకుని కూర్చోడి.",
-    "Telugu / తెలుగు",
-    "FAQ"
-  ],
-  [
-    "10. I am scared and I want to go home.",
-    "కారు కిటికీలు కి0దకి ది0చి AC ఆపివేయండి",
-    "Telugu / తెలుగు",
-    "FAQ"
-  ],
-  [
-    "It is natural to be scared and anxious during this period. For the safety of your family, it is imperative that you follow the instructions given to you by your doctors and the Government. The Singapore Government has made arrangements for you so that we can safely treat you, if you test positive for COVID-19, while protecting others. Singapore has good hospitals and treatment here and will endeavour to give you the best medical care possible.",
-    "మీ టెస్ట్ పాజిటివ్ అయితే , contact tracing కోసం మీరు వెళ్ళిన ప్రతి టాక్సీ లేదా గ్రాబ్ ట్రిప్ కి రసీదు/బిల్లు జాగ్రత్త చెయ్యండి.",
-    "Telugu / తెలుగు",
-    "FAQ"
-  ],
-  [
-    "11. How can I make sure I do not get infected with COVID-19?",
-    "ఇంట్లో విడిగా వుoడండి. మీ medical leave అన్ని రోజులూ చట్ట ప్రకారం వైద్యానికి తప్ప బయటికి వెళ్ళరాదు.",
-    "Telugu / తెలుగు",
-    "FAQ"
-  ],
-  [
-    "Fortunately, there are some preventive measures you can take to minimise the risk of infection. They are:\n1. Thoroughly washing your hands with soap and water for at least 20 seconds.\n2. Avoid touching eyes, nose and mouth.\n3. Covering your mouth and nose with your elbow or tissue when you cough or sneeze.\n4. Maintaining at least 1 metre distance between yourself and anyone else.\n5. Staying indoors if you feel unwell and keep isolated from others. If you develop fever, cough or breathlessness, please seek medical attention early.",
-    "మీరు మెడికల్ అప్పోయింట్మెంట్  కి వెళ్లాల్సిన అవసరం ఉంటే, మీ  స్వాబ్ టెస్ట్ రిసల్టు తెలిసిన ముందు, అక్కడ ఉన్న మెడికల్ సిబ్బందికి తెలియజేయండి, మీ కోవిడ్ 19 టెస్ట్ ఇంకా మీ లక్షణాలు గురించి. మీ అప్పోయింట్మెంట్ కి ముదుగా పీపుల్స్ అసోసియేషన్ కి ఈ ఫోన్ చేసి చెప్పండి. Tel: 6344 8222",
-    "Telugu / తెలుగు",
-    "FAQ"
+    "Basic Terms"
   ],
   [
     "I am a doctor. I do not speak your language. I will communicate with you using this website. Answer me in English as much as possible. Thank you.",
@@ -22542,7 +21138,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "กรุณาแสดงบัตรประชาชน/ ใบอนุญาตทำงาน",
     "Thai / ไทย",
     "Greetings"
@@ -22617,7 +21213,7 @@ export default [
     "Difficulty breathing?",
     "หายใจไม่สะดวกหรือไม่",
     "Thai / ไทย",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -22759,7 +21355,7 @@ export default [
   ],
   [
     "Say \"99\" when I listen with my stethoscope.",
-    "พูดคำว่า ’99’ ตอนที่หมอตรวจฟังเสียงหัวใจ",
+    "พูดคำว่า '99' ตอนที่หมอตรวจฟังเสียงหัวใจ",
     "Thai / ไทย",
     "Medical Instructions"
   ],
@@ -22866,12 +21462,6 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
-    "อรุณสวัสดิ์ / สวัสดีตอนบ่าย / สวัสดีตอนเย็น",
-    "Thai / ไทย",
-    "Greetings"
-  ],
-  [
     "I am the nurse",
     "ฉันเป็นพยาบาล",
     "Thai / ไทย",
@@ -22956,7 +21546,7 @@ export default [
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Give me a big cough",
     "ลองไอดังๆได้ไหม",
     "Thai / ไทย",
     "Medical Instructions"
@@ -23178,67 +21768,67 @@ export default [
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Eyes",
     "ตา",
     "Thai / ไทย",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Ears",
     "หู",
     "Thai / ไทย",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Nose",
     "จมูก",
     "Thai / ไทย",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Mouth",
     "ปาก",
     "Thai / ไทย",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Throat",
     "ลำคอ",
     "Thai / ไทย",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Chest",
     "หน้าอก",
     "Thai / ไทย",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Abdomen",
     "ท้อง",
     "Thai / ไทย",
     "Basic Terms"
   ],
   [
-    "back",
+    "Back",
     "หลัง",
     "Thai / ไทย",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Arms",
     "แขน",
     "Thai / ไทย",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Legs",
     "ขา",
     "Thai / ไทย",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Feet",
     "เท้า",
     "Thai / ไทย",
     "Basic Terms"
@@ -23316,7 +21906,7 @@ export default [
     "Basic Terms"
   ],
   [
-    "Feb",
+    "February",
     "กุมภาพันธ์",
     "Thai / ไทย",
     "Basic Terms"
@@ -23394,7 +21984,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "Bana Identitification Kart / Çalışma İzni verin",
     "Turkish / Türk",
     "Greetings"
@@ -23469,7 +22059,7 @@ export default [
     "Difficulty breathing?",
     "Zorluk nefes?",
     "Turkish / Türk",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -23718,12 +22308,6 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
-    "sabah / öğleden sonra / İyi akşamlar",
-    "Turkish / Türk",
-    "Greetings"
-  ],
-  [
     "I am the nurse",
     "Ben hemşireyim",
     "Turkish / Türk",
@@ -23808,7 +22392,7 @@ export default [
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Give me a big cough",
     "Bana kocaman öksürük ver",
     "Turkish / Türk",
     "Medical Instructions"
@@ -24001,234 +22585,222 @@ export default [
   ],
   [
     "Are you in pain?",
-    "Biz ağzını temizlemek için gidiyoruz",
-    "Turkish / Türk",
-    "Basic Terms"
-  ],
-  [
-    "Where is the pain?",
-    "gargara yutmayın",
-    "Turkish / Türk",
-    "Basic Terms"
-  ],
-  [
-    "Is it mild, moderate or severe?",
     "Acın var mı?",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "Can you point to the pain?",
+    "Where is the pain?",
     "Ağrı nerede?",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "Head",
+    "Is it mild, moderate or severe?",
     "hafif, orta veya şiddetli mı?",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Can you point to the pain?",
     "Acıya işaret edebilir?",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Head",
     "baş",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Eyes",
     "gözler",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Ears",
     "kulaklar",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Nose",
     "burun",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Mouth",
     "ağız",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Throat",
     "boğaz",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "back",
+    "Chest",
     "göğüs",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Abdomen",
     "karın",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Back",
     "geri",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Arms",
     "silâh",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "1 - one",
+    "Legs",
     "bacaklar",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "2 - two",
+    "Feet",
     "ayaklar",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "3 - three",
+    "1 - one",
     "1 bir",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "4 - four",
+    "2 - two",
     "2 - İki",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "5 - five",
+    "3 - three",
     "3 - Üç",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "6 - six",
+    "4 - four",
     "4 - Dört",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "7 - seven",
+    "5 - five",
     "5 - Beş",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "8 - eight",
+    "6 - six",
     "6 - altı",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "9 - nine",
+    "7 - seven",
     "7 - yedi",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "10 - ten",
+    "8 - eight",
     "8 - Sekiz",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "0 - zero",
+    "9 - nine",
     "9 - Dokuz",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "January",
+    "10 - ten",
     "10 - on",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "Feb",
+    "0 - zero",
     "0 - sıfır",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "March",
+    "January",
     "Ocak",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "April",
+    "February",
     "Şubat",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "May",
+    "March",
     "Mart",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "June",
+    "April",
     "Nisan",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "July",
+    "May",
     "Mayıs",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "August",
+    "June",
     "Haziran",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "September",
+    "July",
     "Temmuz",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "October",
+    "August",
     "Ağustos",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "November",
+    "September",
     "Eylül",
     "Turkish / Türk",
     "Basic Terms"
   ],
   [
-    "December",
+    "October",
     "Ekim",
     "Turkish / Türk",
     "Basic Terms"
@@ -24246,7 +22818,7 @@ export default [
     "Greetings"
   ],
   [
-    "Please give me your Identitification Card / Work Permit",
+    "Please give me your Identification Card / Work Permit",
     "Làm ơn cho tôi xem giấy chứng từ, thẻ căn cước, giấy phép lao động.",
     "Vietnamese / Tiếng Việt",
     "Greetings"
@@ -24321,7 +22893,7 @@ export default [
     "Difficulty breathing?",
     "Có khó thở không?",
     "Vietnamese / Tiếng Việt",
-    "Symptoms"
+    "Pharmacist Phrases"
   ],
   [
     "Do you have diarrhoea? How many times a day?",
@@ -24570,12 +23142,6 @@ export default [
     "Greetings"
   ],
   [
-    "Good morning / afternoon / evening",
-    "Chào buổi sáng/ buổi chiều/ buổi tối",
-    "Vietnamese / Tiếng Việt",
-    "Greetings"
-  ],
-  [
     "I am the nurse",
     "Tôi là y tá ",
     "Vietnamese / Tiếng Việt",
@@ -24660,7 +23226,7 @@ export default [
     "Medical Instructions"
   ],
   [
-    "Open your mouth",
+    "Give me a big cough",
     "\bHãy ho một cái thật to",
     "Vietnamese / Tiếng Việt",
     "Medical Instructions"
@@ -24882,67 +23448,67 @@ export default [
     "Basic Terms"
   ],
   [
-    "eyes",
+    "Eyes",
     "Mắt",
     "Vietnamese / Tiếng Việt",
     "Basic Terms"
   ],
   [
-    "ears",
+    "Ears",
     "Tai",
     "Vietnamese / Tiếng Việt",
     "Basic Terms"
   ],
   [
-    "nose",
+    "Nose",
     "Mũi",
     "Vietnamese / Tiếng Việt",
     "Basic Terms"
   ],
   [
-    "mouth",
+    "Mouth",
     "Miệng",
     "Vietnamese / Tiếng Việt",
     "Basic Terms"
   ],
   [
-    "throat ",
+    "Throat",
     "Cổ họng",
     "Vietnamese / Tiếng Việt",
     "Basic Terms"
   ],
   [
-    "chest",
+    "Chest",
     "Ngực",
     "Vietnamese / Tiếng Việt",
     "Basic Terms"
   ],
   [
-    "abdomen",
+    "Abdomen",
     "Bụng",
     "Vietnamese / Tiếng Việt",
     "Basic Terms"
   ],
   [
-    "back",
+    "Back",
     "Lưng",
     "Vietnamese / Tiếng Việt",
     "Basic Terms"
   ],
   [
-    "arms",
+    "Arms",
     "Cánh tay",
     "Vietnamese / Tiếng Việt",
     "Basic Terms"
   ],
   [
-    "legs",
+    "Legs",
     "Chân",
     "Vietnamese / Tiếng Việt",
     "Basic Terms"
   ],
   [
-    "feet",
+    "Feet",
     "Đôi chân",
     "Vietnamese / Tiếng Việt",
     "Basic Terms"
@@ -25020,7 +23586,7 @@ export default [
     "Basic Terms"
   ],
   [
-    "Feb",
+    "February",
     "Tháng Hai",
     "Vietnamese / Tiếng Việt",
     "Basic Terms"
