@@ -39,6 +39,11 @@ fs.createReadStream(srcFilePath)
       return;
     }
 
+    // This row is audio link, not processing them for now.
+    if (rowIndex === 3) {
+      return;
+    }
+
     const [category, ...data] = row;
     const translationKey = data[0];
 
