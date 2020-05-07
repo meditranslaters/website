@@ -2,7 +2,7 @@ import React from 'react';
 import categories from '../data/categories'
 
 const CategoryList = ({ selectedCategory = '', onClickCategory }) => {
-  const buttons = categories.map(item => {
+  const buttons = ['All', ...categories].map(item => {
     const classNames = ['category-button'];
 
     if (item === selectedCategory) {
