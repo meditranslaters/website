@@ -1,16 +1,13 @@
 import React from 'react';
 
-const NoResult = () => {
+const NoResult = ({ text = "No Results found" }) => {
   return (
     <div className="card" style={{
-      width: 228,
-      height: 100,
       background: "#fff",
-      marginTop: "1em",
-      marginLeft: "1vh"
+      margin: '16px auto',
     }}>
       <div className="card-body" style={{ textAlign: "left" }}>
-        <span style={{ fontSize: 16 }}>No Results Found</span>
+        <span style={{ fontSize: 16 }}>{ text }</span>
       </div>
     </div>
   )

@@ -1,5 +1,5 @@
 //react
-import React, { useMemo, useState } from 'react';
+import React, { useCallback, useMemo, useState } from 'react';
 
 //import css
 import './Roboto-Black.ttf'
@@ -18,6 +18,7 @@ import TabButtonList from './components/TabButtonList'
 import {
   getLanguageData,
 } from './Methods/readSheet'
+import useLocalStorage from './Methods/useLocalStorage'
 
 const initialLanguageCodeFrom = 'en';
 const initialLanguageCodeTo = 'bn';
@@ -35,9 +36,13 @@ const App = () => {
   const [searchInput, setSearchInput] = useState("");
   // selectedCategory is the currently selected category
   const [selectedCategory, setSelectedCategory] = useState("All");
+  // Stores array of ids of the bookmarked translation data.
+  const [bookmarkList, setBookmarkList] = useLocalStorage("bookmarkList", []);
+  // Track whether to show bookmarked translation data only.
+  const [showBookmarkList, setShowBookmarkList] = useState(false);
 
-  const languageData = useMemo(() => getLanguageData(languageFrom, languageTo, selectedCategory), [
-    languageFrom, languageTo, selectedCategory
+  const languageData = useMemo(() => getLanguageData(languageFrom, languageTo, selectedCategory, bookmarkList), [
+    languageFrom, languageTo, selectedCategory, bookmarkList
   ]) || [];
 
   const filteredLanguageData = useMemo(() => {
@@ -45,11 +50,25 @@ const App = () => {
     return languageData
       // filter data based on search input
       .filter(item =>
-        (searchInput === item.id)
+        (showBookmarkList ? item.isBookmarked : true) &&
+        ((searchInput === item.id)
         || (item.from && item.from.toLowerCase().indexOf(lowerCaseSearchInput) > -1)
-        || (item.to && item.to.toLowerCase().indexOf(lowerCaseSearchInput) > -1)
+        || (item.to && item.to.toLowerCase().indexOf(lowerCaseSearchInput) > -1))
       )
-  }, [searchInput, languageData])
+  }, [searchInput, languageData, showBookmarkList])
+
+  const toggleBookmarkItem = useCallback((id) => {
+    if (bookmarkList.includes(id)) {
+      setBookmarkList(bookmarkList.filter(a => a !== id));
+    }
+    else {
+      setBookmarkList([...bookmarkList, id]);
+    }
+  }, [bookmarkList]);
+
+  const toggleShowBookmarkList = useCallback(() => {
+    setShowBookmarkList(!showBookmarkList);
+  }, [showBookmarkList]);
 
   const renderTabContent = () => {
     if (pageNumber === 1) {
@@ -60,6 +79,10 @@ const App = () => {
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
           filteredLanguageData={filteredLanguageData}
+          showBookmarkList={showBookmarkList}
+          toggleShowBookmarkList={toggleShowBookmarkList}
+          toggleBookmarkItem={toggleBookmarkItem}
+          hasBookmarkList={bookmarkList.length}
         />
       )
     }

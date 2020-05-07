@@ -3,9 +3,13 @@ import CategoryList from './CategoryList'
 import NoResult from './NoResult'
 import TranslationCard from './TranslationCard'
 
-const MasterListTab = ({ searchInput, setSearchInput, selectedCategory, setSelectedCategory, filteredLanguageData = [] }) => {
+const MasterListTab = ({ searchInput, setSearchInput, selectedCategory, setSelectedCategory, filteredLanguageData = [], showBookmarkList, toggleShowBookmarkList, toggleBookmarkItem, hasBookmarkList }) => {
   // prepare the content for the translations
   const renderCards = () => {
+    if (!searchInput && hasBookmarkList && showBookmarkList && !filteredLanguageData.length) {
+      return <NoResult text="You have not bookmarked anything yet! Start bookmark frequently used translation by clicking on the star icon and you will be able to access them here :)" />
+    }
+
     // Display no result if applicable
     if (searchInput !== "" && !filteredLanguageData.length) {
       return <NoResult />
@@ -15,9 +19,11 @@ const MasterListTab = ({ searchInput, setSearchInput, selectedCategory, setSelec
       .map(item =>
         <TranslationCard
           key={item.id}
-          number={item.id}
+          id={item.id}
           textLanguageFrom={item.from}
           textLanguageTo={item.to}
+          toggleBookmarkItem={toggleBookmarkItem}
+          isBookmarked={item.isBookmarked}
         />
       )
   }
@@ -25,7 +31,7 @@ const MasterListTab = ({ searchInput, setSearchInput, selectedCategory, setSelec
   return (
     <div className="container-fluid">
       <div className="row">
-        <div className="col">
+        <div className="col" style={{ display: 'flex' }}>
           <div className="input-group my-3">
             <input
               type="search"
@@ -46,6 +52,20 @@ const MasterListTab = ({ searchInput, setSearchInput, selectedCategory, setSelec
                 <i className="fa fa-search"></i>
               </button>
             </div>
+          </div>
+          <div onClick={toggleShowBookmarkList} style={{
+            display: 'flex',
+            marginLeft: 12,
+            alignItems: 'center',
+          }}>
+            <i
+              className={showBookmarkList ? "fa fa-star" : "fa fa-star-o"}
+              style={{
+                fontSize: 32,
+                color: showBookmarkList ? '#b1bb23' : '#aaa',
+                cursor: 'pointer',
+              }}
+            ></i>
           </div>
         </div>
       </div>
