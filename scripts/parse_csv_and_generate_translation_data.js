@@ -5,10 +5,9 @@ const srcFilePath = './meditranslate_consolidated.csv';
 const languageNameInEnglishList = [];
 const languageNameInNativeList = [];
 const languageCodeList = [];
-const translationKeyCategoryMap = {};
+const translationKeyMetadata = {};
 const translationKeyGroupByCategory = {};
 const translationKeyList = [];
-const categoryList = [];
 const translationData = [];
 
 // Keep track of the current row index.
@@ -44,8 +43,18 @@ fs.createReadStream(srcFilePath)
       return;
     }
 
-    const [category, ...data] = row;
+    const [rawCategory, ...data] = row;
+    const category = rawCategory || "Uncategorised";
     const translationKey = data[0];
+
+    if (!translationKey) {
+      return;
+    }
+
+    if (translationKeyMetadata[translationKey]) {
+      console.warn('Duplicate translationKey:',  translationKey);
+      return;
+    }
 
     if (!translationKeyGroupByCategory[category]) {
       translationKeyGroupByCategory[category] = [];
@@ -53,13 +62,15 @@ fs.createReadStream(srcFilePath)
 
     translationKeyGroupByCategory[category].push(translationKey);
     translationKeyList.push(translationKey);
-    translationKeyCategoryMap[translationKey] = category;
+    translationKeyMetadata[translationKey] = {
+      id: rowIndex - 3,
+      category,
+    };
     translationData.push(data);
   })
   .on('end',() => {
-    const categories = Object.keys(translationKeyGroupByCategory);
-    // make the category list unique
-    categoryList.push([...new Set(categories)]);
+    // make categories unique.
+    const categories = [...new Set(Object.keys(translationKeyGroupByCategory))];
 
     // @TODO: generate necessary data file in js so that application can access
     // e.g. category list, language list.
@@ -67,9 +78,9 @@ fs.createReadStream(srcFilePath)
     console.log("languageNativeNameList:", languageNameInNativeList);
     console.log("languageCodeList:", languageCodeList);
     console.log("translationKeyList:", translationKeyList);
-    console.log("translationKeyCategoryMap:", translationKeyCategoryMap);
+    console.log("translationKeyMetadata:", translationKeyMetadata);
     console.log("translationKeyGroupByCategory:", translationKeyGroupByCategory);
-    console.log("categoryList:", categoryList);
+    console.log("categories:", categories);
     console.log("translationData:", translationData);
 
     const translationDataByLanguage = transpose(translationData);
@@ -79,14 +90,101 @@ fs.createReadStream(srcFilePath)
       return;
     }
 
+    generateCategories(categories);
+    generateSupportedLanguages(languageNameInEnglishList, languageNameInNativeList, languageCodeList);
+    generateTranslationKeyMetadata(translationKeyMetadata);
+    generateTranslationKeyGroupByCategory(translationKeyGroupByCategory);
     generateTranslationFiles(languageCodeList, translationKeyList, translationDataByLanguage);
-    generateSingleTranslatedData(translationKeyList, translationDataByLanguage, languageNameInEnglishList, languageNameInNativeList, translationKeyCategoryMap);
+    // generateSingleTranslatedData(translationKeyList, translationDataByLanguage, languageNameInEnglishList, languageNameInNativeList, translationKeyMetadata);
   })
   .on('error', error => {
     console.log("Error:", error);
   });
 
+const generateCategories = (categories) => {
+  const destFilePath = `../src/data/categories.js`;
+  fs.writeFile(destFilePath,
+    'export default ' + JSON.stringify(categories, null, 2),
+    error => {
+      if (error) {
+        console.error(error);
+        return;
+      }
+
+      console.log(`Successfully written to ${destFilePath}`);
+    });
+}
+
+const generateSupportedLanguages = (languageNameInEnglishList, languageNameInNativeList, languageCodeList) => {
+  // languageNameInEnglishList, languageNameInNativeList, languageCodeList
+  if (languageNameInEnglishList.length !== languageNameInNativeList.length
+    || languageNameInEnglishList.length !== languageCodeList.length) {
+    console.warn('Expected languageNameInEnglishList, languageNameInNativeList and languageCodeList to have the same length but is not, abort. languageNameInEnglishList.length:',
+      languageNameInEnglishList.length, 'languageNameInNativeList.length:', languageNameInNativeList.length, 'languageCodeList.length:', languageCodeList);
+    return;
+  }
+
+  const output = [];
+  for (let i = 0; i < languageNameInEnglishList.length; i++) {
+    const languageNameInEnglish = languageNameInEnglishList[i];
+    const languageNameInNative = languageNameInNativeList[i];
+    const displayName = languageNameInEnglish && languageNameInNative &&
+    languageNameInEnglish !== languageNameInNative
+      ? `${languageNameInEnglish} / ${languageNameInNative}`
+      : languageNameInEnglish;
+
+    output.push({
+      name: languageNameInEnglish,
+      nativeName: languageNameInNative,
+      displayName,
+      code: languageCodeList[i],
+    })
+  }
+
+  const destFilePath = `../src/data/supportedLanguages.js`;
+  fs.writeFile(destFilePath,
+    'export default ' + JSON.stringify(output, null, 2),
+    error => {
+      if (error) {
+        console.error(error);
+        return;
+      }
+
+      console.log(`Successfully written to ${destFilePath}`);
+    });
+}
+
+const generateTranslationKeyMetadata = (translationKeyMetadata) => {
+  const destFilePath = `../src/data/translationKeyMetadata.js`;
+  fs.writeFile(destFilePath,
+    'export default ' + JSON.stringify(translationKeyMetadata, null, 2),
+    error => {
+      if (error) {
+        console.error(error);
+        return;
+      }
+
+      console.log(`Successfully written to ${destFilePath}`);
+    });
+}
+
+const generateTranslationKeyGroupByCategory = (translationKeyGroupByCategory) => {
+  const destFilePath = `../src/data/translationKeyGroupByCategory.js`;
+  fs.writeFile(destFilePath,
+    'export default ' + JSON.stringify(translationKeyGroupByCategory, null, 2),
+    error => {
+      if (error) {
+        console.error(error);
+        return;
+      }
+
+      console.log(`Successfully written to ${destFilePath}`);
+    });
+}
+
 const generateTranslationFiles = (languageCodeList, translationKeyList, translationDataByLanguage) => {
+  const indexFileLines = []
+
   translationDataByLanguage.forEach((translationData, translationDataIndex) => {
     const langCode = languageCodeList[translationDataIndex];
     const output = {};
@@ -115,18 +213,25 @@ const generateTranslationFiles = (languageCodeList, translationKeyList, translat
 
       console.log(`Successfully written to ${destFilePath}`);
     });
+
+    indexFileLines.push(`export { default as ${langCode.replace('-', '')} } from './${langCode}';`);
   });
+
+  const destIndexFilePath = `../src/data/lang/index.js`;
+  fs.writeFile(destIndexFilePath,
+    indexFileLines.join('\r\n'),
+    error => {
+      if (error) {
+        console.error(error);
+        return;
+      }
+
+      console.log(`Successfully written to ${destIndexFilePath}`);
+    });
 }
 
-const generateSingleTranslatedData = (translationKeyList, translationDataByLanguage, languageNameInEnglishList, languageNameInNativeList, translationKeyCategoryMap) => {
-  const output = [
-    [
-      "Text",
-      "Translation",
-      "Language",
-      "Category"
-    ],
-  ];
+const generateSingleTranslatedData = (translationKeyList, translationDataByLanguage, languageNameInEnglishList, languageNameInNativeList, translationKeyMetadata) => {
+  const output = [];
 
   translationDataByLanguage.forEach((translationData, translationDataIndex) => {
     const languageNameInEnglish = languageNameInEnglishList[translationDataIndex];
@@ -158,7 +263,7 @@ const generateSingleTranslatedData = (translationKeyList, translationDataByLangu
         translationKey,
         translatedText,
         languageDisplay,
-        translationKeyCategoryMap[translationKey]
+        translationKeyMetadata[translationKey].category
       ]);
     });
   });
