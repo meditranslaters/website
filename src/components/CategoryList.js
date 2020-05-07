@@ -1,6 +1,7 @@
 import React from 'react';
+import categories from '../data/categories'
 
-const CategoryList = ({ categories = [], selectedCategory = '', onClickCategory }) => {
+const CategoryList = ({ selectedCategory = '', onClickCategory }) => {
   return categories.map(item => {
     const backgroundColor = item === selectedCategory ? "#4B6261" : "lightgray";
     const color = item === selectedCategory ? "#fff" : "#373737";
