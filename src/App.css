@@ -9,18 +9,48 @@ body {
 #banner {
   overflow: hidden;
   position: relative;
-  background: linear-gradient(to bottom, #717171);
-  background: linear-gradient(217deg, rgba(54,59,56,.8), rgba(54,59,56,0.4) 70.71%),
-        linear-gradient(336deg, rgba(113,113,113,.5), rgba(113,113,113,0.3) 70.71%);
+  background-color: #313131;
 }
 
 .dropdown-language-selection {
   width: 43%;
-  height: 35px;
-  font-size: 1.1em;
-  color: #000;
+  max-height: 46px;
+  height: 46px;
+  display: inline-block;
+  padding: 6px 0;
+  vertical-align: middle;
+  border: 6px double black;
+  border-radius: 0;
   background-color: #fff;
-  border: 2px solid black;
+  color: #000;
+}
+
+.tab-button-list {
+  background-color: #313131;
+  padding: 6px 0;
+}
+
+.tab-button {
+  padding: 6px 0;
+  flex: 1 1 auto;
+  background-color: #ACACAC;
+  color: #fff;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+.tab-button:hover {
+  background-color: rgba(83, 97, 88, .7);
+}
+
+.tab-button.active {
+  background-color: #536158;
+}
+
+.tab-button + .tab-button {
+  margin-left: 6px;
 }
 
 .translation-cards {

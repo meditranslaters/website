@@ -24,13 +24,11 @@ const Banner = ({ languageFrom, languageTo, setLanguageFrom, setLanguageTo }) =>
         <div
           className="col-md-5"
           style={{
-            color: "white",
-            fontSize: "14",
+            color: "#fff",
+            fontSize: 14,
             fontFamily: "Roboto",
             marginTop: 12,
             marginBottom: 12,
-            marginLeft: "3vh",
-            marginRight: "3vh"
           }}>
           A Free Resource for Front-Line Health Workers and Patients to communicate with one
           another, regardless of languages spoken
@@ -52,10 +50,10 @@ const Banner = ({ languageFrom, languageTo, setLanguageFrom, setLanguageTo }) =>
           />
 
           <span style={{
-            width: "5%",
-            marginLeft: "1vh",
-            marginRight: '1vh',
-            color: 'white'
+            marginLeft: 10,
+            marginRight: 10,
+            fontSize: 14,
+            color: "#fff",
           }}>TO</span>
 
           <LanguageSelect
