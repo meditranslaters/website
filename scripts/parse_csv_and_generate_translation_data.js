@@ -7,7 +7,6 @@ const languageNameInNativeList = [];
 const languageCodeList = [];
 const translationKeyMetadata = {};
 const translationKeyGroupByCategory = {};
-const translationKeyList = [];
 const translationData = [];
 
 // Keep track of the current row index.
@@ -61,7 +60,6 @@ fs.createReadStream(srcFilePath)
     }
 
     translationKeyGroupByCategory[category].push(translationKey);
-    translationKeyList.push(translationKey);
     translationKeyMetadata[translationKey] = {
       id: rowIndex - 3,
       category,
@@ -69,11 +67,22 @@ fs.createReadStream(srcFilePath)
     translationData.push(data);
   })
   .on('end',() => {
-    // make categories unique.
+    // Separate FAQs from translation data.
+    const faqsKeys = translationKeyGroupByCategory['FAQ'];
+    delete translationKeyGroupByCategory['FAQ'];
+
+    const translationKeyList = [...new Set(Object.keys(translationKeyMetadata))];
+
+    const faqKeyMetaData = {};
+    for (let key in translationKeyMetadata) {
+      if (translationKeyMetadata.hasOwnProperty(key) && translationKeyMetadata[key] && translationKeyMetadata[key].category === 'FAQ') {
+        faqKeyMetaData[key] = translationKeyMetadata[key];
+        delete translationKeyMetadata[key];
+      }
+    }
+
     const categories = [...new Set(Object.keys(translationKeyGroupByCategory))];
 
-    // @TODO: generate necessary data file in js so that application can access
-    // e.g. category list, language list.
     console.log("languageEnglishNameList:", languageNameInEnglishList);
     console.log("languageNativeNameList:", languageNameInNativeList);
     console.log("languageCodeList:", languageCodeList);
@@ -82,6 +91,8 @@ fs.createReadStream(srcFilePath)
     console.log("translationKeyGroupByCategory:", translationKeyGroupByCategory);
     console.log("categories:", categories);
     console.log("translationData:", translationData);
+    console.log("faqsKeys:", faqsKeys);
+    console.log("faqKeyMetaData:", faqKeyMetaData);
 
     const translationDataByLanguage = transpose(translationData);
 
@@ -95,6 +106,7 @@ fs.createReadStream(srcFilePath)
     generateTranslationKeyMetadata(translationKeyMetadata);
     generateTranslationKeyGroupByCategory(translationKeyGroupByCategory);
     generateTranslationFiles(languageCodeList, translationKeyList, translationDataByLanguage);
+    generateFaqs(faqsKeys, faqKeyMetaData);
     // generateSingleTranslatedData(translationKeyList, translationDataByLanguage, languageNameInEnglishList, languageNameInNativeList, translationKeyMetadata);
   })
   .on('error', error => {
@@ -220,6 +232,20 @@ const generateTranslationFiles = (languageCodeList, translationKeyList, translat
   const destIndexFilePath = `../src/data/lang/index.js`;
   fs.writeFile(destIndexFilePath,
     indexFileLines.join('\r\n'),
+    error => {
+      if (error) {
+        console.error(error);
+        return;
+      }
+
+      console.log(`Successfully written to ${destIndexFilePath}`);
+    });
+}
+
+const generateFaqs = (faqsKeys, faqKeyMetaData) => {
+  const destIndexFilePath = `../src/data/faqs.js`;
+  fs.writeFile(destIndexFilePath,
+    'export default ' + JSON.stringify(faqKeyMetaData, null, 2),
     error => {
       if (error) {
         console.error(error);
