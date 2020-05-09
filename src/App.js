@@ -84,7 +84,14 @@ const App = () => {
     }
 
     if (pageNumber === 2) {
-      return <FaqTab />
+      return (
+        <FaqTab
+          searchInput={searchInput}
+          setSearchInput={setSearchInput}
+          languageFrom={languageFrom}
+          languageTo={languageTo}
+        />
+      )
     }
 
     if (pageNumber === 3) {
