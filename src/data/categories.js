@@ -5,7 +5,6 @@ export default [
   "Medical Conditions",
   "Medical Instructions",
   "Basic Terms",
-  "FAQ",
   "Pharmacist Phrases",
   "Drug Labels",
   "URTI Medication",
