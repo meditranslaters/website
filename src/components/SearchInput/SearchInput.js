@@ -1,7 +1,7 @@
 import React from 'react';
 import './SearchInput.css';
 
-const SearchInput = ({ setSearchInput, id }) => {
+const SearchInput = ({ searchInput, setSearchInput, id }) => {
   return (
     <div className="input-group" style={{ margin: '16px 0' }}>
       <input
@@ -11,6 +11,7 @@ const SearchInput = ({ setSearchInput, id }) => {
         aria-label="Search"
         aria-describedby={id}
         onChange={(e) => setSearchInput(e.target.value)}
+        value={searchInput}
         x-webkit-speech={"true"}
         style={{
           borderWidth: 3,

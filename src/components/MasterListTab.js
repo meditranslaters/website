@@ -32,7 +32,12 @@ const MasterListTab = ({ searchInput, setSearchInput, selectedCategory, setSelec
     <div className="container-fluid">
       <div className="row">
         <div className="col" style={{ display: 'flex' }}>
-          <SearchInput id="search-masterlist" setSearchInput={setSearchInput} />
+          <SearchInput
+            id="search-masterlist"
+            searchInput={searchInput}
+            setSearchInput={setSearchInput}
+          />
+
           <div onClick={toggleShowBookmarkList} style={{
             display: 'flex',
             marginLeft: 12,
