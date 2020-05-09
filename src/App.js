@@ -13,12 +13,8 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import MasterListTab from './components/MasterListTab'
 import TabButtonList from './components/TabButtonList'
-
-//import methods from readSheet.js
-import {
-  getLanguageData,
-} from './Methods/readSheet'
-import useLocalStorage from './Methods/useLocalStorage'
+import getLanguageData from './utils/getLanguageData'
+import useLocalStorage from './utils/useLocalStorage'
 
 const initialLanguageCodeFrom = 'en';
 const initialLanguageCodeTo = 'bn';

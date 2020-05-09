@@ -2,7 +2,7 @@ import translationKeyGroupByCategory from '../data/translationKeyGroupByCategory
 import translationKeyMetadata from '../data/translationKeyMetadata';
 import * as translations from '../data/lang/';
 
-export function getLanguageData(languageCodeFrom, languageCodeTo, category, bookmarkList = []) {
+function getLanguageData(languageCodeFrom, languageCodeTo, category, bookmarkList = []) {
   const languageFromData =  translations[languageCodeFrom.replace('-', '')];
   const languageToData =  translations[languageCodeTo.replace('-', '')];
 
@@ -34,3 +34,5 @@ export function getLanguageData(languageCodeFrom, languageCodeTo, category, book
 
   return output;
 }
+
+export default getLanguageData
