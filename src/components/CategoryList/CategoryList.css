@@ -1,0 +1,18 @@
+.category-button {
+  flex: 0 0 auto;
+  padding: 4px 6px;
+  margin-left: 6px;
+  border: 0;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: lightgrey;
+  color: #373737;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.category-button.active {
+  background-color: #4B6261;
+  color: #fff;
+}

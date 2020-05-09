@@ -1,4 +1,5 @@
 import React from 'react';
+import './TabButton.css';
 
 const TabButton = ({ isActive, label, onClick }) => {
   const className = ["tab-button"];

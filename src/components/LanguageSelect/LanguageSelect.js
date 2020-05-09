@@ -1,4 +1,5 @@
 import React from 'react';
+import './LanguageSelect.css';
 
 const LanguageSelect = ({ id, name, onChange, value, options }) => {
   return (

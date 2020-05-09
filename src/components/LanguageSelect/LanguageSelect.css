@@ -1,0 +1,12 @@
+.dropdown-language-selection {
+  width: 43%;
+  max-height: 46px;
+  height: 46px;
+  display: inline-block;
+  padding: 6px 0;
+  vertical-align: middle;
+  border: 6px double black;
+  border-radius: 0;
+  background-color: #fff;
+  color: #000;
+}

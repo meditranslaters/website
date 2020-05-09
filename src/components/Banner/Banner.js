@@ -1,6 +1,7 @@
 import React from 'react';
-import LanguageSelect from './LanguageSelect'
-import supportedLanguages from '../data/supportedLanguages'
+import LanguageSelect from '../LanguageSelect';
+import supportedLanguages from '../../data/supportedLanguages';
+import './Banner.css';
 
 const Banner = ({ languageFrom, languageTo, setLanguageFrom, setLanguageTo }) => {
   const onChangeLanguageFrom = (e) => {
@@ -13,12 +14,14 @@ const Banner = ({ languageFrom, languageTo, setLanguageFrom, setLanguageTo }) =>
 
   return (
     <div
-      id="banner"
+      className="container-fluid banner"
       style={{
         width: '100%',
+        position: 'relative',
         paddingBottom: 16,
+        overflow: 'hidden',
+        backgroundColor: '#313131',
       }}
-      className="container-fluid"
     >
       <div className="row justify-content-center">
         <div

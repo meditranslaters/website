@@ -90,7 +90,7 @@ const MasterListTab = ({ searchInput, setSearchInput, selectedCategory, setSelec
           onClickCategory={setSelectedCategory}
         />
 
-        <div className="col" id="translation-cards" style={{
+        <div className="col translation-cards" style={{
           display: 'flex',
           flexWrap: 'wrap',
         }}>

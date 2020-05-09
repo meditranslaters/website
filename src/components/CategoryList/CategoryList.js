@@ -1,5 +1,6 @@
 import React from 'react';
-import categories from '../data/categories'
+import categories from '../../data/categories';
+import './CategoryList.css';
 
 const CategoryList = ({ selectedCategory = '', onClickCategory }) => {
   const buttons = ['All', ...categories].map(item => {
@@ -10,14 +11,13 @@ const CategoryList = ({ selectedCategory = '', onClickCategory }) => {
     }
 
     return (
-      <button
+      <div
         key={item}
-        type="button"
         className={classNames.join(' ')}
         onClick={() => onClickCategory(item)}
       >
         {item}
-      </button>
+      </div>
     )
   });
 

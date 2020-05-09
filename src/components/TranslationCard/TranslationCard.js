@@ -1,4 +1,5 @@
 import React from 'react';
+import './TranslationCard.css';
 
 const TranslationCard = ({ id, textLanguageFrom, textLanguageTo, toggleBookmarkItem, isBookmarked = false }) => {
   return (
