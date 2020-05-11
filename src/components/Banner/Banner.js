@@ -29,7 +29,6 @@ const Banner = ({ languageFrom, languageTo, setLanguageFrom, setLanguageTo }) =>
           style={{
             color: "#fff",
             fontSize: 14,
-            fontFamily: "Roboto",
             marginTop: 12,
             marginBottom: 12,
           }}>

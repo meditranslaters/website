@@ -2,7 +2,6 @@
 import React, { useCallback, useMemo, useState } from 'react';
 
 //import css
-import './Roboto-Black.ttf'
 import './App.css';
 
 //import components
@@ -60,7 +59,7 @@ const App = () => {
     else {
       setBookmarkList([...bookmarkList, id]);
     }
-  }, [bookmarkList]);
+  }, [bookmarkList, setBookmarkList]);
 
   const toggleShowBookmarkList = useCallback(() => {
     setShowBookmarkList(!showBookmarkList);

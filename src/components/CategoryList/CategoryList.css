@@ -1,9 +1,9 @@
 .category-button {
   flex: 0 0 auto;
-  padding: 4px 6px;
+  padding: 8px 10px;
   margin-left: 6px;
   border: 0;
-  border-radius: 20px;
+  border-radius: 8px;
   font-size: 12px;
   font-weight: 400;
   background-color: lightgrey;

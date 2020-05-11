@@ -8,7 +8,7 @@ const DownloadTab = () => {
         <tbody>
           <tr>
             <td>
-              <div style={{ padding: '80px 0', fontFamily: "Roboto Light", fontSize: "25px" }}>Coming Soon</div>
+              <div style={{ padding: '80px 0', fontFamily: "Montserrat", fontWeight: 300, fontSize: "25px" }}>Coming Soon</div>
             </td>
           </tr>
         </tbody>

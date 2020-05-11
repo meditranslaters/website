@@ -21,12 +21,12 @@ const Header = () => {
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
             <a className="nav-link disabled" href="/">
-              <span style={{ fontFamily: "Roboto", color: "black" }}>COVID-19 Phrasebook</span>
+              <span style={{ color: "black" }}>COVID-19 Phrasebook</span>
             </a>
           </li>
         </ul>
           <a className="nav-link" href="mailto:hello@meditranslate.co">
-            <span style={{ fontFamily: "Roboto", color: "black" }}>Contact Us</span>
+            <span style={{ color: "black" }}>Contact Us</span>
           </a>
       </div>
     </nav>
