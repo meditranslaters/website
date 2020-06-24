@@ -1,8 +1,7 @@
 import React from 'react';
-import categories from '../../data/categories';
 import './CategoryList.css';
 
-const CategoryList = ({ selectedCategory = '', onClickCategory }) => {
+const CategoryList = ({ categories, selectedCategory = '', onClickCategory }) => {
   const buttons = ['All', ...categories].map(item => {
     const classNames = ['category-button'];
 

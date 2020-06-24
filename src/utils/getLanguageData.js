@@ -28,7 +28,7 @@ function getLanguageData(languageCodeFrom, languageCodeTo, category, bookmarkLis
         ...translationKeyMetadata[key],
         isBookmarked: bookmarkList.includes(translationKeyMetadata[key].id),
       })
-    );
+    ).filter(a => a.to);
 
   // console.log("output:", output);
 

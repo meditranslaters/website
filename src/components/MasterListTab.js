@@ -4,12 +4,24 @@ import NoResult from './NoResult'
 import SearchInput from './SearchInput'
 import TranslationCard from './TranslationCard'
 
-const MasterListTab = ({ searchInput, setSearchInput, selectedCategory, setSelectedCategory, filteredLanguageData = [], showBookmarkList, toggleShowBookmarkList, toggleBookmarkItem, hasBookmarkList }) => {
+const MasterListTab = ({
+  searchInput,
+  setSearchInput,
+  selectedCategory,
+  setSelectedCategory,
+  filteredLanguageData = [],
+  showBookmarkList,
+  toggleShowBookmarkList,
+  toggleBookmarkItem,
+  hasBookmarkList,
+  categories,
+}) => {
   // prepare the content for the translations
   const renderCards = () => {
     if (!filteredLanguageData.length) {
       if (!hasBookmarkList && showBookmarkList) {
-        return <NoResult text="You have not bookmarked anything yet! Start bookmark frequently-used phrases by clicking on the star icon and you will be able to access your bookmarked list here :)" />
+        return <NoResult
+          text="You have not bookmarked anything yet! Start bookmark frequently-used phrases by clicking on the star icon and you will be able to access your bookmarked list here :)" />
       }
 
       return <NoResult />
@@ -55,10 +67,13 @@ const MasterListTab = ({ searchInput, setSearchInput, selectedCategory, setSelec
         </div>
       </div>
       <div className="row">
-        <CategoryList
-          selectedCategory={selectedCategory}
-          onClickCategory={setSelectedCategory}
-        />
+        <div className="col col-12">
+          <CategoryList
+            categories={categories}
+            selectedCategory={selectedCategory}
+            onClickCategory={setSelectedCategory}
+          />
+        </div>
 
         <div className="col translation-cards" style={{
           display: 'flex',
