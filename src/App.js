@@ -1,5 +1,5 @@
 //react
-import React, { useCallback, useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 
 //import css
 import './App.css';
@@ -14,6 +14,8 @@ import MasterListTab from './components/MasterListTab'
 import TabButtonList from './components/TabButtonList'
 import getLanguageData from './utils/getLanguageData'
 import useLocalStorage from './utils/useLocalStorage'
+import categories from './data/categories'
+import getAvailableCategoriesByLanguageTo from './utils/getAvailableCategoriesByLanguageTo'
 
 const initialLanguageCodeFrom = 'en';
 const initialLanguageCodeTo = 'bn';
@@ -40,6 +42,10 @@ const App = () => {
     languageFrom, languageTo, selectedCategory, bookmarkList
   ]) || [];
 
+  const categories = useMemo(() => getAvailableCategoriesByLanguageTo(languageFrom, languageTo), [
+    languageFrom, languageTo
+  ]);
+
   const filteredLanguageData = useMemo(() => {
     const lowerCaseSearchInput = searchInput && searchInput.toLowerCase();
     return languageData
@@ -65,6 +71,12 @@ const App = () => {
     setShowBookmarkList(!showBookmarkList);
   }, [showBookmarkList]);
 
+  useEffect(() => {
+    if (selectedCategory && selectedCategory !== 'All' && !categories.includes(selectedCategory)) {
+      setSelectedCategory('All');
+    }
+  }, [categories, selectedCategory]);
+
   const renderTabContent = () => {
     if (pageNumber === 1) {
       return (
@@ -78,6 +90,7 @@ const App = () => {
           toggleShowBookmarkList={toggleShowBookmarkList}
           toggleBookmarkItem={toggleBookmarkItem}
           hasBookmarkList={bookmarkList.length}
+          categories={categories}
         />
       )
     }
